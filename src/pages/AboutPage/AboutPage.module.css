@@ -1,0 +1,213 @@
+.mainContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 2.3rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.3rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow: auto;
+  min-height: 100vh;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.placeholder {
+  height: 5rem;
+}
+
+.aboutBackground {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border: 3px solid #3747d6;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.spokenLan {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.foreignList {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.boldLang {
+  font-weight: 600;
+}
+
+.lanTitle{
+  text-align: center;
+}
+
+.skills,
+.hey,
+.paragraf {
+  width: auto;
+  padding: 8px;
+  margin: 6px;
+}
+
+.certificationsContainer {
+  margin-top: 5rem;
+  padding: 1rem;
+  background: #ffffff33;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #3747d6;
+}
+
+.ulist {
+  list-style-type: none;
+  font-size: 1.2rem;
+  padding: 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.listItem {
+  width: 60%;
+  padding: 0.7rem;
+  margin: 0.3rem 0;
+  background: var(--text-night-mode);
+  border-radius: 1rem;
+  text-align: left;
+  color: #3747d6;
+  font-weight: 600;
+  border-top: 3px solid #3747d6;
+  border-bottom: 3px solid #3747d6;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.listItem:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.listItem:nth-child(even) {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.listItem a,
+.listItem a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.listItem:hover {
+  background: #3747d6;
+  color: var(--text-night-mode);
+  transform: scale(1.1);
+  border-top: 3px solid var(--text-night-mode);
+  border-bottom: 3px solid var(--text-night-mode);
+}
+
+.paragraf {
+  font-size: 1.2rem;
+}
+
+hr {
+  border-top: 2px solid #3747d6;
+  width: 10rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.nameIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .aboutBackground {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .placeholder {
+    height: 4rem;
+  }
+
+  .paragraf {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .ulist {
+    justify-content: center;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .mainContainer {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .main2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aside {
+    margin-top: 3rem;
+  }
+
+  .certificationsContainer {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0.3rem;
+  }
+ 
+  .spokenLan{
+    gap: 3rem;
+  }
+}

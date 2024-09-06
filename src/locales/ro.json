@@ -1,0 +1,163 @@
+{
+  "header": {
+    "home": "Acasă",
+    "about": "Despre mine",
+    "projects": "Proiecte",
+    "services": "Servicii",
+    "contact": "Contact"
+  },
+  "homePage": {
+    "greeting": "Salut! Sunt Cristina,",
+    "introduction": "dezvoltatoare frontend dedicată, localizată în Germania, concentrată pe crearea de soluții web elegante și ușor de utilizat.",
+     "readMore" : "Citește mai mult..."
+  },
+  "aboutPage": {
+    "skillsHeader": "Limbaje de programare:",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "name": "CSS3",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "name": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      { "name": "React.js", "url": "https://reactjs.org/" },
+      { "name": "TailwindCSS", "url": "https://tailwindcss.com/" },
+      { "name": "Typescript", "url": "https://www.typescriptlang.org/" },
+      { "name": "Git și GitHub", "url": "https://github.com/" },
+      { "name": "Next.js", "url": "https://nextjs.org/" }
+    ],
+    "languagesHeader": "Putem comunica și în:",
+    "languages": [
+      { "language": "Română", "level": "nativ" },
+      { "language": "Engleză", "level": "C1" },
+      { "language": "Greacă", "level": "B2" },
+      { "language": "Germană", "level": "B1" }
+    ],
+    "certificationsHeader": "Certificările Mele",
+    "hello": "Cine este Cristina?",
+    "introText": [
+      "Sunt Cristina Stoian, dezvoltatoare frontend pasionată și motivată, cu un entuziasm puternic pentru crearea de experiențe web atractive și ușor de utilizat. Având o bază în multiple programe de formare acreditate, cursuri online și studiu intensiv individual, sunt dornică să contribui la proiecte inovative și să colaborez cu profesioniști cu gândire similară.",
+      "Am avut ocazia să lucrez la o varietate de proiecte, incluzând crearea de site-uri web responsive, dezvoltarea de interfețe utilizator și implementarea de caracteristici interactive.",
+      "În acest portofoliu, veți găsi o colecție de proiecte care îmi ilustrează expertiza și creativitatea. Fiecare proiect reprezintă o călătorie de rezolvare a problemelor și explorare, demonstrând angajamentul meu de a livra soluții de calitate înaltă, centrate pe utilizator. Cred în puterea tehnologiei de a avea un impact pozitiv asupra lumii, și sunt entuziasmată să împărtășesc contribuțiile mele cu voi.",
+      "Vă mulțumesc pentru vizită și sper să vă bucurați explorând lucrările mele!"
+    ]
+  },
+  "projectsPage": {
+    "projects": [
+      { "name": "Sfaturi practice", "path": "/advice-slip" },
+      { "name": "Mini Robot", "path": "/joke-teller" },
+      { "name": "Manager de Activități", "path": "/to-do" },
+      { "name": "Restaurant Figo", "path": "/figo-restaurant" },
+      { "name": "Internship Jogga", "path": "/jogga-inter" }
+    ]
+  },
+  "contactPage": {
+    "contactMe": "Conectare la un Click",
+    "mobile": "Mobil: +49 15731871996",
+    "hireMe": "Colaborează cu mine",
+    "email": "cristina.stoian@yahoo.com",
+    "linkedInAlt": "link linkedIn",
+    "githubAlt": "link gitHub",
+    "instagramAlt": "link instagram"
+  },
+  "form": {
+    "namePlaceholder": "Nume",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Mesaj",
+    "submitButtonText": "Trimite",
+    "successMessage": "Formularul a fost trimis cu succes!",
+    "errorMessage": "Trimiterea formularului a eșuat. Vă rugăm să încercați din nou.",
+    "networkErrorMessage": "A apărut o eroare. Vă rugăm să încercați din nou."
+  },
+  "weatherMini": {
+    "checkWeather": "Este vreme de umbrelă sau de ochelari de soare în orașul tău? Să aflăm:",
+    "temperature": "Temperatură: ",
+    "feelsLike": "Se simte ca: ",
+    "wind": "Vânt: ",
+    "weather": "Vremea: ",
+    "loading": "Se încarcă vremea...",
+    "fetchError": "A apărut o problemă la obținerea datelor meteo.",
+    "validCityError": "Vă rugăm să introduceți un nume de oraș valid."
+  },
+  "advicePage": {
+    "pageTitle": "Sfaturi practice",
+    "adviceDescription": "Această aplicație are un layout HTML curat cu un antet pentru numerele de sfaturi și un paragraf pentru afișarea textelor de sfaturi, completat de două imagini - una decorativă și una cu un zar ce servește ca buton pentru a obține sfaturi noi. Folosind JavaScript, selectează elementele DOM necesare pentru a afișa dinamic sfaturile, obținute asincron de la https://api.adviceslip.com/advice. Un buton cu zar declanșează actualizări, aducând sfaturi noi la un clic, în timp ce CSS și Google Fonts asigură o interfață stilată și lizibilă. Această configurație ilustrează o aplicație web interactivă și responsivă.",
+    "githubLink": "https://github.com/CristinaSt86/Advice_Slip",
+    "imageAlt": "Imagine Sfaturi rapide"
+  },
+  "jokeTellerPage": {
+    "pageTitle": "Povestitorul de glume",
+    "jokeDescription": "Acest fișier HTML, împreună cu fișierele CSS și JavaScript însoțitoare, creează o aplicație web simplă numită 'Povestitorul de glume.' Aplicația constă într-un container cu două butoane: unul pentru a solicita o glumă și altul pentru a naviga către o pagină 'Despre.' Când utilizatorul apasă pe butonul 'Spune-mi o glumă!', o funcție JavaScript asincronă obține o glumă de la JokeAPI, asigurând că este sigură pentru toate audiențele prin excluderea conținutului NSFW, rasist, sexist și explicit. Gluma obținută este apoi redată în div-ul HTML cu id-ul 'speech' și citită cu voce tare folosind API-ul VoiceRSS. În plus, apăsând pe butonul 'Despre aplicație' redirecționează utilizatorul către o pagină despre.",
+    "githubLink": "https://github.com/CristinaSt86/Robot-Mini-App",
+    "imageAlt": "Mini Robot - Povestitor de glume",
+    "buttons": {
+      "tellJoke": "Spune-mi o glumă!",
+      "stopJoke": "Liniste!"
+    },
+    "noJoke": "Apasă butonul pentru a auzi o glumă!",
+    "errorFetchingJoke": "Obținerea glumei a eșuat"
+  },
+  "todoPage": {
+    "pageTitle": "Manager de Activități",
+    "todoDescription": "Această aplicație React gestionează o listă de sarcini cu validare a formularului. Funcționalitatea principală include afișarea sarcinilor, permițând utilizatorilor să adauge, să editeze și să șteargă sarcini, și să marcheze sarcinile ca fiind completate. Aplicația utilizează hooks React, cum ar fi useState, pentru a gestiona datele sarcinilor și vizibilitatea modalului. Ea constă în componente precum MyTodos, Modal și CreateTaskForm, care gestionează diferite aspecte ale managementului sarcinilor. Componenta MyTodos redă lista de sarcini, permițând utilizatorilor să interacționeze cu ele. Componenta Modal gestionează afișarea unui modal pentru adăugarea sau editarea sarcinilor. În final, componenta CreateTaskForm oferă un formular pentru adăugarea sau editarea sarcinilor, cu validare a formularului care asigură că utilizatorii introduc date în câmpurile formularului înainte ca trimiterea sau editările să poată continua. Această validare îmbunătățește experiența utilizatorului prin solicitarea acestora de a furniza informații esențiale, cum ar fi titlul sarcinii, înainte de a continua. Componenta App integrează aceste componente și gestionează starea și manipularea evenimentelor pentru funcționalitatea sarcinilor.",
+    "githubLink": "https://github.com/CristinaSt86/TodoApp",
+    "imageAlt": "Captură de ecran a Aplicației de sarcini"
+  },
+  "figoRestPage": {
+    "pageTitle": "Restaurantul Figo",
+    "description": "Acest cod HTML reprezintă un website de restaurant modern și vizual atractiv. El incorporează diverse caracteristici și elemente pentru a crea o experiență de utilizator captivantă. Designul este responsiv, asigurând compatibilitatea pe diferite dispozitive. Caracteristicile cheie includ un meniu de navigare responsiv care permite utilizatorilor să navigheze ușor către diferite secțiuni, cum ar fi Despre noi, Meniu, Serviciu și Galerie. Secțiunea eroilor prezintă o imagine captivantă cu un titlu proeminent și un buton de apel la acțiune, invitând utilizatorii să exploreze mai departe. Secțiunea de întâmpinare îi întâmpină pe vizitatori la restaurant și oferă o prezentare generală succintă a ofertelor sale. Ea include o imagine invitatoare cu un bucătar și încurajează utilizatorii să afle mai multe despre povestea restaurantului. Evidențiind diverse motive pentru a alege restaurantul, secțiunea Motive pentru a alege prezintă beneficii cheie, cum ar fi un meniu divers, livrare convenabilă la prețuri accesibile și cele mai bune oferte. Caruselul Meniului prezintă articolele de meniu folosind un carusel interactiv, permițând utilizatorilor să navigheze prin diferite categorii, cum ar fi micul dejun, prânzul, cina, deserturile, supele și băuturile. Vizitatorii pot citi testimoniale de la clienți mulțumiți, adăugând credibilitate reputației restaurantului. Secțiunea Ultimele știri ține utilizatorii informați despre cele mai recente știri și actualizări legate de restaurant, prezentând articole pe teme cum ar fi aperitivele spaniole, vinul și brânza, și ceștile de cafea. Secțiunea de footer include informații importante, cum ar fi detaliile de contact, linkurile de social media, opțiunile de meniu și linkurile către pagini esențiale, cum ar fi Despre noi, Termenii de utilizare și Politica de confidențialitate. Biblioteci utilizate: jQuery, folosit pentru manipularea DOM-ului și gestionarea evenimentelor; Owl Carousel, utilizat pentru a crea caruselul interactiv pentru afișarea articolelor de meniu. În general, acest cod HTML demonstrează un website de restaurant bine proiectat care promovează eficient marca și ofertele restaurantului către potențialii clienți.",
+    "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
+    "imageAlt": "Imagine Galerie Restaurant Figo"
+  },
+  "joggaPage": {
+    "pageTitle": "Tranziția Jogga.ro de la React.js la Next.js",
+    "description": "În timpul internshipului meu la Jogga, am jucat un rol cheie în migrarea site-ului companiei de la React la Next.js, scopul fiind reducerea timpilor de încărcare și îmbunătățirea optimizării pentru motoarele de căutare. Responsabilitățile mele au inclus implementarea randării pe partea de server, optimizarea proceselor de încărcare a imaginilor și îmbunătățirea accesibilității și interactivității prin încărcarea dinamică a conținutului. Aceste îmbunătățiri tehnice au îmbunătățit semnificativ experiența utilizatorilor și au pregătit platforma pentru creșterea viitoare.",
+    "githubLink": "https://github.com/SkillBrain-com/europa-jogga-internship",
+    "imageAlt": "Hartă interactivă din proiectul Jogga.ro",
+    "keyContributions": [
+      "Am utilizat proprietăți API pentru a prelua și afișa date, îmbunătățind interacțiunea utilizatorilor.",
+      "Am actualizat și implementat componente ale interfeței utilizatorilor pentru a îmbunătăți experiența utilizatorilor.",
+      "Am implementat lazy loading pentru imagini pentru a reduce timpurile de încărcare.",
+      "Am creat o hartă interactivă cu marcaje pentru o navigare ușoară."
+    ],
+    "outcome": "Proiectul nu numai că a îmbunătățit semnificativ performanța Jogga.ro, dar mi-a și extins substanțial expertiza în Next.js și React, oferindu-mi experiență valoroasă în tehnologiile de dezvoltare web de ultimă oră. Aceasta m-a echipat pentru provocări mai complexe în proiectele viitoare."
+  },
+  "goToGithub": {
+    "linkText": "Catre GitHub"
+  },
+  "loadingMessage": "Portofoliul Cristinei este în curs de încărcare. Vă invităm să-l explorați!",
+  "footerText": "© 2024 CS Development  Toate drepturile rezervate ",
+  "servicesTitle": "Soluții personalizate",
+  "customWebDevTitle": "Dezvoltare de site-uri web personalizate",
+  "customWebDevDescription": "Crearea de site-uri web responsive, interactive și vizual atractive folosind React. Asigurarea compatibilității pe diverse dispozitive și browsere.",
+  "uiUxDesignTitle": "Implementare Design UI/UX",
+  "uiUxDesignDescription": "Traducerea prototipurilor de design (Figma, Adobe XD) în interfețe web funcționale. Prioritizarea experienței utilizatorului și accesibilitatea.",
+  "spaTitle": "Aplicații de o singură pagină (SPA)",
+  "spaDescription": "Construirea de SPA-uri dinamice și cu încărcare rapidă cu React. Utilizarea librăriilor și cadrelor de lucru JavaScript moderne.",
+  "apiIntegrationTitle": "Integrare API",
+  "apiIntegrationDescription": "Conectarea aplicațiilor frontend cu API-uri terțe pentru funcționalitate îmbunătățită. Gestionarea eficientă a preluării datelor, gestionarea stării și randarea.",
+  "formHandlingTitle": "Manipulare și validare formulare",
+  "formHandlingDescription": "Implementarea formularelor complexe cu validare pe partea clientului. Utilizarea serviciilor terțe precum Formspree sau Google Forms pentru gestionarea formularelor backend.",
+  "performanceOptTitle": "Optimizare performanță",
+  "performanceOptDescription": "Optimizarea site-urilor web pentru viteză și performanță. Implementarea celor mai bune practici pentru divizarea codului, încărcarea leneșă și memorarea în cache.",
+  "versionControlTitle": "Controlul versiunilor și colaborarea",
+  "versionControlDescription": "Utilizarea Git pentru controlul versiunilor. Colaborarea cu echipe folosind GitHub.",
+  "additionalServicesTitle": "Servicii suplimentare",
+  "thirdPartyIntegrationTitle": "Integrări cu terțe părți",
+  "thirdPartyIntegrationDescription": "Integrarea serviciilor externe, cum ar fi sistemele de gestionare a conținutului (CMS), uneltele de analiză și widgeturile rețelelor sociale. Încorporarea hărților interactive, chatbot-urilor și altor widgeturi terțe.",
+  "maintenanceTitle": "Mentenanță și suport",
+  "maintenanceDescription": "Oferirea de mentenanță și actualizări continue ale site-ului web. Depanarea și remedierea erorilor.",
+  "limitationsTitle": "Limitări",
+  "limitationsDescription": "Deși mă concentrez pe soluții de front-end și inca nu gestionez dezvoltarea de back-end sau integrările de plăți, pot colabora cu experți de back-end sau vă pot conecta cu servicii terțe după necesități.",
+
+  "tinyTips": {
+    "TinyTipsTitle": "Sfat #",
+    "rollForNewAdvice": "Clic pentru un sfat nou!"
+  }
+}

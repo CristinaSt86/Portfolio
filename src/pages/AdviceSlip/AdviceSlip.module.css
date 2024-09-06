@@ -1,0 +1,49 @@
+.mainContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 2.3rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff33;
+  border-radius: 0 5rem 5rem 0;
+  font-size: 1.2rem;
+  margin: 3rem 3rem 3rem 0;
+}
+
+.placeholder {
+  height: 7rem;
+}
+
+.imagine {
+  width: 18rem;
+  height: 18rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.aboutApp {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .mainContainer {
+    flex-direction: column;
+    padding: 1rem;
+    margin: 2rem 2rem 2rem 0;
+  }
+
+  .placeholder {
+    height: 4rem;
+  }
+
+  .aboutApp {
+    padding: 0;
+  }
+
+  .imagine {
+    width: 100%;
+    height: auto;
+  }
+}

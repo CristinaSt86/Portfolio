@@ -1,0 +1,97 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 4rem;
+  padding: 2rem 2.3rem;
+  margin: 1rem 0;
+}
+
+.placeholder {
+  height: 5rem;
+}
+
+ hr{
+  display: none;
+} 
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding: 0.7rem;
+  margin: 0.3rem;
+  background: var(--text-night-mode);
+  border-radius: 0.5rem;
+  color: #3747d6;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #3747d6;
+  transition: transform 0.3s ease;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.links:hover {
+  background: #3747d6;
+  color: var(--text-night-mode);
+  transform:  translateY(-3px); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow for hover state */
+  border-color: #3747d6;
+}
+.ulLinks {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem 0;
+  }
+
+  .placeholder {
+    height: 4rem;
+  }
+
+  .ulLinks {
+    padding: 0;
+  }
+
+  hr {
+    display: block;
+    border-top: 2px solid #3747d6;
+    width: 15rem;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+  .mainContainer {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    padding: 2.5rem;
+  }
+
+  hr {
+    display: block;
+    border-top: 2px solid #3747d6;
+    width: 15rem;
+  }
+
+  .links,
+  .ulLinks {
+    flex: 1 0 auto; /* Adjust flex-grow, flex-shrink and flex-basis */
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,139 @@
+.display {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 2.3rem;
+  margin: 1rem 0;
+}
+
+.placeholder {
+  height: 5rem;
+}
+
+.contactBackground {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 2rem 2.3rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contactBackgroundNight {
+  box-shadow: 0 0 10px 5px #fff;
+  box-shadow: 0 0 10px 5px #fff;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%; /* Ensure this container fits the parent width */
+}
+
+.contactContainer {
+  position: absolute;
+  top: 15%;
+  left: 27%;
+}
+
+.imagine {
+  width: 100%;
+  height: 45vh;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.socialMediaImg {
+  width: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.socialMediaImg:hover {
+  transform: scale(1.3);
+}
+
+.mail,
+.mobile {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-night-mode);
+  border-radius: 0.5rem;
+  background: #3747d6;
+  padding: 0.5rem 0.5rem;
+  transition: transform 0.3s ease;
+  font-size: 1.3rem;
+}
+
+.mail:hover {
+  background: var(--text-night-mode);
+  color: #3747d6;
+}
+
+.contactLinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.contactMe {
+  text-align: center;
+  padding:0 0.5rem;
+}
+
+.msgHireMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.msgHireMe:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1020px) {
+  .contactContainer {
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .contactLinks {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .imagine {
+    height: auto;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1044px) {
+  .contactBackground {
+    width: 50%;
+  }
+
+  .display {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1045px) {
+  .display {
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+  }
+  .contactBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

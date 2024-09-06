@@ -1,0 +1,164 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "homePage": {
+    "greeting": "Hello! I'm Cristina,",
+    "introduction": "dedicated frontend developer based in Germany, focused on creating elegant and user-friendly web solutions.",
+    "readMore" : "Read more..."
+  },
+
+  "aboutPage": {
+    "skillsHeader": "Languages:",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "name": "CSS3",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "name": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      { "name": "React.js", "url": "https://reactjs.org/" },
+      { "name": "TailwindCSS", "url": "https://tailwindcss.com/" },
+      { "name": "Typescript", "url": "https://www.typescriptlang.org/" },
+      { "name": "Git and GitHub", "url": "https://github.com/" },
+      { "name": "Next.js", "url": "https://nextjs.org/" }
+    ],
+    "languagesHeader": "We can also talk in:",
+    "languages": [
+      { "language": "Romanian", "level": "native" },
+      { "language": "English", "level": "C1" },
+      { "language": "Greek", "level": "B2" },
+      { "language": "German", "level": "B1" }
+    ],
+    "certificationsHeader": "My Certifications",
+    "hello": "Who is Cristina?",
+    "introText": [
+      "I'm Cristina Stoian, a passionate and driven frontend developer with a strong enthusiasm for creating engaging and user-friendly web experiences. With a background in multiple accredited training programs, online courses and intensive self-study, I am eager to contribute to innovative projects and collaborate with like-minded professionals.",
+      "I've had the opportunity to work on a variety of projects, including building responsive websites, developing user interfaces, and implementing interactive features.",
+      "In this portfolio, you'll find a collection of projects that showcase my expertise and creativity. Each project represents a journey of problem-solving and exploration, demonstrating my commitment to delivering high-quality, user-centric solutions. I believe in the power of technology to make a positive impact on the world, and I'm excited to share my contributions with you.",
+      "Thank you for visiting, and I hope you enjoy exploring my work!"
+    ]
+  },
+  "projectsPage": {
+    "projects": [
+      { "name": "Tiny Tips", "path": "/advice-slip" },
+      { "name": "Mini Robot", "path": "/joke-teller" },
+      { "name": "To Do App", "path": "/to-do" },
+      { "name": "Figo Restaurant", "path": "/figo-restaurant" },
+      { "name": "Jogga Internship", "path": "/jogga-inter" }
+    ]
+  },
+  "contactPage": {
+    "contactMe": "Let's Connect",
+    "mobile": "Mobile: +49 15731871996",
+    "hireMe": "Hire me",
+    "email": "cristina.stoian@yahoo.com",
+    "linkedInAlt": "linkedIn link",
+    "githubAlt": "gitHub link",
+    "instagramAlt": "instagram link"
+  },
+  "form": {
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "submitButtonText": "Submit",
+    "successMessage": "Form submitted successfully!",
+    "errorMessage": "Failed to submit form. Please try again.",
+    "networkErrorMessage": "An error occurred. Please try again."
+  },
+  "weatherMini": {
+    "checkWeather": "Is it umbrella or sunglasses weather in your town? Let's find out:",
+    "temperature": "Temperature: ",
+    "feelsLike": "Feels like: ",
+    "wind": "Wind: ",
+    "weather": "Weather: ",
+    "loading": "Loading weather...",
+    "fetchError": "There was a problem fetching the weather data.",
+    "validCityError": "Please enter a valid city name."
+  },
+  "advicePage": {
+    "pageTitle": "Tiny Tips",
+    "adviceDescription": "This app features a clean HTML layout with a heading for advice numbers and a paragraph for displaying advice texts, complemented by two images—one decorative and one a dice icon that serves as a button to fetch new advice. Using JavaScript, it selects necessary DOM elements to dynamically display advice, fetched asynchronously from the https://api.adviceslip.com/advice API. A dice button triggers updates, bringing fresh advice on click, while CSS and Google Fonts ensure a stylish and readable interface. This setup illustrates a responsive, user-interactive web application.",
+    "githubLink": "https://github.com/CristinaSt86/Advice_Slip",
+    "imageAlt": "Tiny Tips Image"
+  },
+  "jokeTellerPage": {
+    "pageTitle": "Joke Teller",
+    "jokeDescription": "This HTML file, along with accompanying CSS and JavaScript files, creates a simple web application called 'Joke Teller.' The app consists of a container with two buttons: one to request a joke and another to navigate to an 'About' page. When the user clicks the 'Tell me a joke!' button, an asynchronous JavaScript function fetches a joke from the JokeAPI, ensuring it's safe for all audiences by excluding NSFW, racist, sexist, and explicit content. The fetched joke is then rendered in the HTML div with the id 'speech' and read aloud using the VoiceRSS API. Additionally, clicking the 'About app' button redirects the user to an about page.",
+    "githubLink": "https://github.com/CristinaSt86/Robot-Mini-App",
+    "imageAlt": "Mini Robot - Joke Teller",
+    "buttons": {
+      "tellJoke": "Tell me a joke!",
+      "stopJoke": "Quiet!"
+    },
+    "noJoke": "Click the button to hear a joke!",
+    "errorFetchingJoke": "Fetching joke failed"
+  },
+  "todoPage": {
+    "pageTitle": "To Do App",
+    "todoDescription": "This React application manages a list of todos with form validation. The main functionality includes displaying todos, allowing users to add, edit, and delete todos, and marking todos as completed. The app utilizes React state hooks such as useState to manage todo data and modal visibility. It consists of components like MyTodos, Modal, and CreateTaskForm, which handle different aspects of the todo management. The MyTodos component renders the list of todos, allowing users to interact with them. The Modal component handles the display of a modal for adding or editing todos. Finally, the CreateTaskForm component provides a form for adding or editing todos, with form validation ensuring that users input data into form fields before submissions or edits can proceed. This validation enhances user experience by prompting them to provide essential information, such as the title of the todo, before proceeding. The App component integrates these components and manages state and event handling for the todo functionality.",
+    "githubLink": "https://github.com/CristinaSt86/TodoApp",
+    "imageAlt": "Screenshot of To Do App"
+  },
+  "figoRestPage": {
+    "pageTitle": "Figo Restaurant",
+    "description": "This HTML code represents a modern and visually appealing restaurant website. It incorporates various features and elements to create an engaging user experience. The design is responsive, ensuring compatibility across different devices. Key Features include a responsive navigation menu that allows users to easily navigate to different sections such as About Us, Menu, Service, and Gallery. The hero section features a captivating image with a prominent headline and a call-to-action button, inviting users to explore further. The welcome section welcomes visitors to the restaurant and provides a brief overview of its offerings. It includes an inviting image of a chef and encourages users to learn more about the restaurant's story. Highlighting various reasons to choose the restaurant, the Reasons to Choose section presents key benefits such as a diverse menu, pocket-friendly delivery, and best offers. The Menu Carousel showcases menu items using an interactive carousel, allowing users to browse through different categories such as breakfast, lunch, dinner, desserts, soups, and drinks. Visitors can read testimonials from satisfied customers, adding credibility to the restaurant's reputation. The Latest News section keeps users informed about the latest news and updates related to the restaurant, featuring articles on topics such as Spanish appetizers, wine and cheese, and cups of coffee. The footer section includes important information such as contact details, social media links, menu options, and links to essential pages like About Us, Terms of Use, and Privacy Policy. Used Libraries: jQuery, used for DOM manipulation and event handling; Owl Carousel, utilized to create the interactive carousel for displaying menu items. Overall, this HTML code demonstrates a well-designed restaurant website that effectively promotes the restaurant's brand and offerings to potential customers.",
+    "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
+    "imageAlt": "Figo Restaurant Gallery Image"
+  },
+  "joggaPage": {
+    "pageTitle": "Transition of Jogga.ro from React.js to Next.js",
+    "description": "During my internship at Jogga, I played a key role in migrating the company's website from React to Next.js, aimed at reducing load times and enhancing search engine optimization. My responsibilities included implementing server-side rendering, optimizing image loading processes, and improving accessibility and interactivity through dynamic content loading. These technical enhancements significantly improved the user experience and prepared the platform for future growth.",
+    "githubLink": "https://github.com/SkillBrain-com/europa-jogga-internship",
+    "imageAlt": "Interactive map from Jogga.ro project",
+    "keyContributions": [
+      "Used API properties to fetch and display data, improving user interaction.",
+      "Updated and implemented user interface components to enhance user experience.",
+      "Implemented lazy loading for images to reduce loading times.",
+      "Created an interactive map with markers for easy navigation."
+    ],
+    "outcome": "The project not only significantly boosted Jogga.ro's performance, but it also substantially expanded my expertise in Next.js and React, providing me with valuable experience in cutting-edge web development technologies. This has equipped me for more complex challenges in future projects."
+  },
+  "goToGithub": {
+    "linkText": "To GitHub"
+  },
+  "loadingMessage": "Cristina's portfolio is loading, enjoy it!",
+  "footerText": "© 2024 CS Development  All rights reserved ",
+  "servicesTitle": "Customized Solutions",
+  "customWebDevTitle": "Custom Website Development",
+  "customWebDevDescription": "Crafting responsive, interactive, and visually appealing websites using React. Ensuring compatibility across various devices and browsers.",
+  "uiUxDesignTitle": "UI/UX Design Implementation",
+  "uiUxDesignDescription": "Translating design prototypes (Figma, Adobe XD) into functional web interfaces. Prioritizing user experience and accessibility.",
+  "spaTitle": "Single Page Applications (SPA)",
+  "spaDescription": "Building dynamic and fast-loading SPAs with React. Leveraging modern JavaScript libraries and frameworks.",
+  "apiIntegrationTitle": "API Integration",
+  "apiIntegrationDescription": "Connecting frontend applications with third-party APIs for enhanced functionality. Handling data fetching, state management, and rendering efficiently.",
+  "formHandlingTitle": "Form Handling and Validation",
+  "formHandlingDescription": "Implementing complex forms with client-side validation. Using third-party services like Formspree or Google Forms for backend form handling.",
+  "performanceOptTitle": "Performance Optimization",
+  "performanceOptDescription": "Optimizing websites for speed and performance. Implementing best practices for code splitting, lazy loading, and caching.",
+  "versionControlTitle": "Version Control and Collaboration",
+  "versionControlDescription": "Using Git for version control. Collaborating with teams using GitHub.",
+  "additionalServicesTitle": "Additional Services",
+  "thirdPartyIntegrationTitle": "Third-Party Integrations",
+  "thirdPartyIntegrationDescription": "Integrating external services such as content management systems (CMS), analytics tools, and social media widgets. Embedding interactive maps, chatbots, and other third-party widgets.",
+  "maintenanceTitle": "Maintenance and Support",
+  "maintenanceDescription": "Offering ongoing website maintenance and updates. Troubleshooting and fixing bugs.",
+  "limitationsTitle": "Limitations",
+  "limitationsDescription": "While I focus on front-end solutions and do not handle back-end development or payment integrations, I can collaborate with back-end experts or connect you with third-party services as needed.",
+
+  "tinyTips": {
+    "TinyTipsTitle": "ADVICE #",
+    "rollForNewAdvice": "Roll for new advice!"
+  }
+}

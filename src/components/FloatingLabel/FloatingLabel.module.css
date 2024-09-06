@@ -1,0 +1,33 @@
+.floatingLabelGroup {
+  position: relative;
+  padding-top: 0.4rem;
+}
+
+.floatingLabelGroup input,
+.floatingLabelGroup textarea {
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.6rem;
+  width: 100%; 
+  outline: none;
+}
+
+.floatingLabelGroup label {
+  position: absolute;
+  left: 0.7rem;
+  top: 0.7rem;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+  color: #999;
+}
+
+.floatingLabelGroup input:focus + label,
+.floatingLabelGroup textarea:focus + label,
+.floatingLabelGroup input:not(:placeholder-shown) + label,
+.floatingLabelGroup textarea:not(:placeholder-shown) + label {
+  top: -1rem;
+  left: 0.7rem;
+  font-size: 1rem;
+  color: var(--text-day-mode);
+}

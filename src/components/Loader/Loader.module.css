@@ -1,0 +1,18 @@
+.mesajContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .mesaj {
+    padding: 0.7rem;
+    margin: 0.5rem;
+    background-color: #3747d6;
+    color: var(--text-night-mode);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
