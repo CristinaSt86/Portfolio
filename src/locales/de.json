@@ -9,7 +9,7 @@
   "homePage": {
     "greeting": "Hallo! Ich bin Cristina,",
     "introduction": "engagierte Frontend-Entwicklerin in Deutschland, spezialisiert auf die Erstellung eleganter und benutzerfreundlicher Web-Lösungen.",
-    "readMore" : "Lesen Sie mehr..."
+    "readMore": "Lesen Sie mehr..."
   },
   "aboutPage": {
     "skillsHeader": "Fähigkeiten:",
@@ -136,8 +136,8 @@
   },
   "loadingMessage": "Cristinas Portfolio wird geladen, viel Spaß dabei!",
   "footerText": "© 2024 CS Development.  Alle Rechte vorbehalten.",
-  "servicesTitle": "Maßgeschneiderte Lösungen",
-  "customWebDevTitle": "Individuelle Webseitenentwicklung",
+  "servicesTitle": "Individuelle Lösungen",
+  "customWebDevTitle": "Maßgeschneiderte Webentwicklung",
   "customWebDevDescription": "Erstellung von responsiven, interaktiven und visuell ansprechenden Webseiten mit React. Gewährleistung der Kompatibilität über verschiedene Geräte und Browser hinweg.",
   "uiUxDesignTitle": "UI/UX Design Implementierung",
   "uiUxDesignDescription": "Umsetzung von Designprototypen (Figma, Adobe XD) in funktionale Webinterfaces. Priorisierung von Benutzererfahrung und Zugänglichkeit.",
@@ -153,11 +153,11 @@
   "versionControlDescription": "Verwendung von Git für die Versionskontrolle. Zusammenarbeit mit Teams über GitHub.",
   "additionalServicesTitle": "Zusätzliche Dienstleistungen",
   "thirdPartyIntegrationTitle": "Integration von Drittanbieter-Diensten",
-  "thirdPartyIntegrationDescription": "Integration externer Dienste wie Content-Management-Systeme (CMS), Analysewerkzeuge und Social-Media-Widgets. Einbindung von interaktiven Karten, Chatbots und anderen Widgets von Drittanbietern.",
+  "thirdPartyIntegrationDescription": "Integration externer Dienste wie CMS, Analyse-Tools, Social-Media-Widgets sowie interaktive Karten, Chatbots und andere Drittanbieter-Widgets für eine nahtlose Funktionalität.",
   "maintenanceTitle": "Wartung und Unterstützung",
   "maintenanceDescription": "Angebot von fortlaufender Wartung und Aktualisierungen der Webseite. Fehlerbehebung und Bugfixing.",
   "limitationsTitle": "Einschränkungen",
-  "limitationsDescription": "Ich habe mich auf Front-End-Lösungen spezialisiert und biete daher keine Back-End-Entwicklung oder Zahlungsintegrationen an. Bei Bedarf vermittle ich gerne den Kontakt zu Back-End-Experten oder Drittanbietern.",
+  "limitationsDescription": "Ich spezialisiere mich auf Front-End-Lösungen und biete keine Back-End-Entwicklung oder Zahlungsintegration an. Bei Bedarf stelle ich gerne den Kontakt zu Back-End-Experten her.",
   "tinyTips": {
     "TinyTipsTitle": "RAT #",
     "rollForNewAdvice": "Für neuen Rat würfeln!"

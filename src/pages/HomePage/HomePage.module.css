@@ -115,7 +115,7 @@
 }
 
 .placeholder {
-  height: 9rem;
+  height: 6rem;
 }
 
 .titlu {
@@ -165,7 +165,7 @@
 @media only screen and (max-width: 767px) {
   .mainContainer {
     flex-direction: column;
-    padding: 1rem 1rem;
+    padding: 0.5rem;
     margin: 0 0 3rem 0;
   }
 
@@ -180,15 +180,15 @@
     padding: 1rem;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    /* gap: 4rem; */
   }
 
   .imagine {
     margin-bottom: 1rem;
   }
 
-  .introMore{
+  /* .introMore{
     gap: 3rem;
-  }
+  } */
 
 }
