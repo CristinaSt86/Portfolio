@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import css from "./Footer.module.css";
 import { useTranslation } from "react-i18next";
 import eml from "../../images/eml.svg";
 import inst from "../../images/inst.svg";
 import lnkdn from "../../images/lnkdn.svg";
 import gth from "../../images/gth.svg";
-import logo from "../../images/l3.svg";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -27,14 +25,11 @@ const Footer = () => {
 
   return (
     <footer className={css.footer}>
-      <Link to="/">
-        <img src={logo} alt="logo" className={css.logo} />
-      </Link>
-      <div className={css.placeholder}></div>
-      <div className={css.container}>
-        <p>{t("footerText")}</p>
+      <div className={css.left}>
+        <p className={css.textFoot}>{t("footerText")}</p>
+        <p className={css.textFoot}>{t("footerText2")}</p>
       </div>
-      <div>
+      <div className={css.right}>
         {socialMedia.map((media) => (
           <a
             href={media.url}

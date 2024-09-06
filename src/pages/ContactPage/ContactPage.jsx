@@ -20,7 +20,7 @@ const ContactPage = () => {
 
   return (
     <>
-      <div className={css.placeholder}></div>
+      {/* <div className={css.placeholder}></div> */}
       <h1 className={css.contactMe}>{t("contactPage.contactMe")}</h1>
       <div className={css.display}>
         <div className={contactBgDarkMode}>

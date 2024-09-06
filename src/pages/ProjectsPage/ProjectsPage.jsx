@@ -26,7 +26,7 @@ const ProjectsPage = () => {
 
   return (
     <>
-      <div className={css.placeholder}></div>
+      {/* <div className={css.placeholder}></div> */}
       <div className={css.mainContainer}>
         <div>
           <WeatherMini />

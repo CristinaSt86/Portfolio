@@ -133,7 +133,8 @@
     "linkText": "To GitHub"
   },
   "loadingMessage": "Cristina's portfolio is loading, enjoy it!",
-  "footerText": "© 2024 CS Development.  All rights reserved. ",
+  "footerText": "© 2024 CS Development.",
+  "footerText2": "  All rights reserved. ",
   "servicesTitle": "Customized Solutions",
   "customWebDevTitle": "Custom Website Development",
   "customWebDevDescription": "Crafting responsive, interactive, and visually appealing websites using React. Ensuring compatibility across various devices and browsers.",

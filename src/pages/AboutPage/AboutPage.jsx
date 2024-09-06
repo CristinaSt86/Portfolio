@@ -91,7 +91,7 @@ const AboutPage = () => {
 
   return (
     <>
-      <div className={css.placeholder}></div>
+      {/* <div className={css.placeholder}></div> */}
       <div className={css.mainContainer}>
         <aside className={css.aside}>
           <div>
