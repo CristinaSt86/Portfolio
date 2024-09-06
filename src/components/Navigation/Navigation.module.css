@@ -20,7 +20,6 @@
   transition: transform 0.3s ease;
   color: #627580;
   margin-top: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .links:hover {
