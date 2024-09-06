@@ -20,7 +20,7 @@ const WeatherMini = () => {
       try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         if (!response || data.error) {
           throw new Error(
             data.message || "There was a problem fetching the weather data."
@@ -34,7 +34,6 @@ const WeatherMini = () => {
       } catch (error) {
         setError(`${error.message.replace("Error: ", "")}`);
         setWeather(null);
-        console.log("There was a problem with the fetch operation", error);
       }
     };
 

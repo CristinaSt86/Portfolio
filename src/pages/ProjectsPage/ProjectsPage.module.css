@@ -35,7 +35,7 @@
   background: #3747d6;
   color: var(--text-night-mode);
   transform:  translateY(-3px); 
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow for hover state */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
   border-color: #3747d6;
 }
 .ulLinks {
@@ -89,7 +89,7 @@
 
   .links,
   .ulLinks {
-    flex: 1 0 auto; /* Adjust flex-grow, flex-shrink and flex-basis */
+    flex: 1 0 auto; 
     padding: 1rem;
     margin: 0.5rem;
     flex-wrap: wrap;

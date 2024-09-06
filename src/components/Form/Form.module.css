@@ -7,7 +7,7 @@
   padding: 2rem 2.5rem;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(255, 255, 255, 0.4); */
+  box-sizing: border-box;
 }
 
 .formNight {
@@ -28,13 +28,11 @@
   border: none;
   cursor: pointer;
   transition: transform 0.3s ease;
+  box-sizing:border-box;
 }
 
-.submitButton:hover {
+.submitButton:hover{
   background-color: var(--text-night-mode);
-  color: #3747d6;
+  color: #3747d6; 
   transform: scale(1.1);
-  border: 2px solid #3747d6;
 }
-
-

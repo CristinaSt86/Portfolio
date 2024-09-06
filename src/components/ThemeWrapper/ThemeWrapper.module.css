@@ -11,12 +11,13 @@ body {
   font-size: 1.3rem;
   color: #374957;
   font-weight: 500;
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .darkTheme {
-  background: url("../../images/bg1.jpg");
-  color: var(--text-night-mode);
+  /* background: url("../../images/bg1.jpg"); */
+  background-color: #000;
+ color: var(--text-night-mode);
   background-size: cover;
   background-position: center;
   width: 100%;

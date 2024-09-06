@@ -6,6 +6,8 @@
   transform-style: preserve-3d;
   transform-origin: center;
   position: relative;
+  /* perspective: 1000px;  */
+  box-sizing: border-box;
 }
 
 .flipped {
@@ -25,6 +27,7 @@
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  /* box-sizing: border-box; */
 }
 
 .front {
@@ -33,18 +36,13 @@
   color: #374957;
   font-weight: 600;
   transition: transform 0.3s ease;
+  text-align: center;
 }
 
 .back {
   background-color: #3747d6;
   color: #fff;
   transform: rotateY(180deg);
-}
-
-.front:hover {
-  transform: scale(1.1);
-  text-decoration: underline;
-  color: #3747d6;
 }
 
 .icon {
@@ -60,6 +58,12 @@
   transform-origin: center;
 }
 
+.front:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: #3747d6;
+}
+
 .card:hover .flip {
   transform: rotateY(180deg);
 }
@@ -72,3 +76,12 @@
     margin: 1rem;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1368px) {
+  .front,
+  .back {
+    box-sizing: border-box;
+  }
+}
+
+
