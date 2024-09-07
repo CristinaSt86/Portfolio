@@ -13,10 +13,6 @@
   margin-top: 3rem;
 }
 
-/* .placeholder {
-  height: 5rem;
-} */
-
 .aboutBackground {
   width: 100%;
   background: rgba(255, 255, 255, 0.2);
@@ -104,12 +100,12 @@
   padding: 0.7rem;
   margin: 0.3rem 0;
   background: var(--text-night-mode);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   text-align: left;
   color: #3747d6;
   font-weight: 600;
-  border-top: 3px solid #3747d6;
-  border-bottom: 3px solid #3747d6;
+  font-size: 1rem;
+  border: 2px solid #3747d6;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -133,8 +129,8 @@
   background: #3747d6;
   color: var(--text-night-mode);
   transform: scale(1.1);
-  border-top: 3px solid var(--text-night-mode);
-  border-bottom: 3px solid var(--text-night-mode);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+  border-color: #3747d6;
 }
 
 .paragraf {
@@ -188,6 +184,8 @@ hr {
     gap: 0.5rem;
     padding: 1rem;
     align-items: center;
+    margin: 1rem 0;
+    
   }
 
   .main2 {

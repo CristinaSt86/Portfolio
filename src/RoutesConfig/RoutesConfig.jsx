@@ -3,19 +3,27 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import PageTransition from "../components/PageTransition/PageTransition";
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
 
-
-
 const HomePage = lazy(() => import("../../src/pages/HomePage/HomePage"));
 const AboutPage = lazy(() => import("../../src/pages/AboutPage/AboutPage"));
-const ContactPage = lazy(() => import("../../src/pages/ContactPage/ContactPage"));
-const ProjectsPage = lazy(() => import("../../src/pages/ProjectsPage/ProjectsPage"));
-const AdviceSlipPage = lazy(() => import("../../src/pages/AdviceSlip/AdviceSlip"));
-const JokeTellerPage = lazy(() => import("../../src/pages/JokeTeller/JokeTeller"));
+const ContactPage = lazy(() =>
+  import("../../src/pages/ContactPage/ContactPage")
+);
+const ProjectsPage = lazy(() =>
+  import("../../src/pages/ProjectsPage/ProjectsPage")
+);
+const AdviceSlipPage = lazy(() =>
+  import("../../src/pages/AdviceSlip/AdviceSlip")
+);
+const JokeTellerPage = lazy(() =>
+  import("../../src/pages/JokeTeller/JokeTeller")
+);
 const ToDoPage = lazy(() => import("../../src/pages/ToDo/ToDo"));
 const FigoRestPage = lazy(() => import("../../src/pages/FigoRest/FigoRest"));
 const JoggaInter = lazy(() => import("../../src/pages/JoggaInter/JoggaInter"));
-const ServicesPage = lazy(() => import("../../src/pages/ServicesPage/ServicesPage"));
-
+const ServicesPage = lazy(() =>
+  import("../../src/pages/ServicesPage/ServicesPage")
+);
+const Topalx = lazy(() => import("../../src/pages/Topalx/Topalx"));
 
 const RoutesConfig = () => {
   const location = useLocation();
@@ -106,7 +114,14 @@ const RoutesConfig = () => {
           </PageTransition>
         }
       />
-  
+      <Route
+        path="/topalx"
+        element={
+          <PageTransition duration={1000}>
+            <Topalx />
+          </PageTransition>
+        }
+      />
     </Routes>
   );
 };

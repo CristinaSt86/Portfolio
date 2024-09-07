@@ -1,0 +1,46 @@
+.mainContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 2.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff33;
+    border-radius: 0 1rem 1rem 0;
+    font-size: 1.2rem;
+    margin: 3rem 3rem 3rem 0;
+  }
+  
+  .placeholder {
+    height: 2rem;
+  }
+  
+  .aboutApp {
+    max-width: 100%;
+  }
+  
+  .btnImg {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .mainContainer {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 1rem;
+      margin: 2rem 2rem 2rem 0;
+    }
+  
+    .placeholder {
+      height: 4rem;
+    }
+  
+    .aboutApp {
+      padding: 0;
+    }
+  }
+  

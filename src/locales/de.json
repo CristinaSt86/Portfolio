@@ -32,7 +32,7 @@
       { "name": "Git und GitHub", "url": "https://github.com/" },
       { "name": "Next.js", "url": "https://nextjs.org/" }
     ],
-    "languagesHeader": "Wir können auch sprechen in:",
+    "languagesHeader": "Wir können kommunizieren auf:",
     "languages": [
       { "language": "Rumänisch", "level": "Muttersprache" },
       { "language": "Englisch", "level": "C1" },
@@ -54,7 +54,8 @@
       { "name": "Mini Roboter", "path": "/joke-teller" },
       { "name": "Aufgabenliste", "path": "/to-do" },
       { "name": "Restaurant Figo", "path": "/figo-restaurant" },
-      { "name": "Jogga Praktikum", "path": "/jogga-inter" }
+      { "name": "Jogga Praktikum", "path": "/jogga-inter" },
+      { "name": "Fahrschule", "path": "/topalx" }
     ]
   },
   "contactPage": {
@@ -162,5 +163,33 @@
   "tinyTips": {
     "TinyTipsTitle": "RAT #",
     "rollForNewAdvice": "Für neuen Rat würfeln!"
+  },
+  "drivingSchoolWebsite": {
+    "pageTitle": "Fahrschul-Website",
+    "projectDescription": "Entwickelte eine moderne, vollständig responsive Website für eine Fahrschule, die fortschrittliche Webtechnologien verwendet, um eine optimierte und nahtlose Benutzererfahrung zu bieten. Die Seite ist leistungsorientiert und sorgt für schnelle Ladezeiten und eine reibungslose Navigation, während verschiedene fortschrittliche Funktionen integriert sind.",
+    "technologiesUsedTitle": "Eingesetzte Technologien",
+    "technologiesUsed": {
+      "react_typescript": "Erstellt mit einer modularen Architektur für Skalierbarkeit und einfache Wartung.",
+      "tailwindcss": "Verwendet für schnelles, konsistentes Styling und vollständig responsive Layouts auf allen Geräten.",
+      "seo": "SEO-Best Practices wurden implementiert, um die Sichtbarkeit und das Ranking in Suchmaschinen zu verbessern.",
+      "image_optimization": "Alle Bilder wurden optimiert, wobei das WebP-Format für eine bessere Komprimierung und schnellere Ladezeiten ohne Qualitätsverlust verwendet wurde.",
+      "suspense_lazy_loading": "Die Leistung wurde durch Lazy Loading von Komponenten und Bildern verbessert, wodurch die anfänglichen Ladezeiten reduziert wurden.",
+      "formspree": "Formspree wurde integriert, um eine effiziente Formularverarbeitung und -übermittlung zu ermöglichen.",
+      "google_maps": "Google Maps wurde eingebettet, um eine einfache Navigation zum Standort der Fahrschule zu ermöglichen.",
+      "google_ads": "Google Ads wurde integriert, um den Verkehr zu steigern und die Sichtbarkeit zu erhöhen.",
+      "i18n": "i18n wurde implementiert, um eine nahtlose Übersetzung und mehrsprachige Unterstützung zu ermöglichen.",
+      "react_image_gallery": "Die Einrichtungen und Fahrzeuge der Fahrschule wurden in einer interaktiven Bildergalerie präsentiert.",
+      "responsive_design": "Sicherstellung eines vollständig responsiven Layouts, das auf allen Geräten eine optimierte Benutzererfahrung bietet.",
+      "third_party_libraries": "Mehrere React-Pakete wurden verwendet, um die Funktionalität zu verbessern und die Entwicklungseffizienz zu steigern."
+    },
+    "additionalFeaturesTitle": "Zusätzliche Funktionen",
+    "additionalFeatures": {
+      "image_optimization": "Bildkomprimierungstechniken, einschließlich WebP, wurden implementiert, um die Ladezeiten zu minimieren und gleichzeitig eine hohe visuelle Qualität zu gewährleisten.",
+      "custom_animations": "Sanfte Animationen wurden integriert, um ein ansprechendes und flüssiges Benutzererlebnis zu bieten.",
+      "cross_browser": "Konsistente Leistung auf allen wichtigen Browsern sichergestellt.",
+      "future_proof": "Zukunftssicher entwickelt, um zukünftige Updates und Funktionserweiterungen zu erleichtern."
+    },
+    "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
+    "imageAlt": "Screenshot der Fahrschul-Website"
   }
 }

@@ -9,7 +9,7 @@
   "homePage": {
     "greeting": "Salut! Sunt Cristina,",
     "introduction": "dezvoltatoare frontend dedicată, localizată în Germania, concentrată pe crearea de soluții web elegante și ușor de utilizat.",
-     "readMore" : "Citește mai mult..."
+    "readMore": "Citește mai mult..."
   },
   "aboutPage": {
     "skillsHeader": "Limbaje de programare:",
@@ -32,7 +32,7 @@
       { "name": "Git și GitHub", "url": "https://github.com/" },
       { "name": "Next.js", "url": "https://nextjs.org/" }
     ],
-    "languagesHeader": "Putem comunica și în:",
+    "languagesHeader": "Putem comunica în:",
     "languages": [
       { "language": "Română", "level": "nativ" },
       { "language": "Engleză", "level": "C1" },
@@ -54,7 +54,8 @@
       { "name": "Mini Robot", "path": "/joke-teller" },
       { "name": "Manager de Activități", "path": "/to-do" },
       { "name": "Restaurant Figo", "path": "/figo-restaurant" },
-      { "name": "Internship Jogga", "path": "/jogga-inter" }
+      { "name": "Internship Jogga", "path": "/jogga-inter" },
+      { "name": "Școala de Șoferi", "path": "/topalx" }
     ]
   },
   "contactPage": {
@@ -160,5 +161,33 @@
   "tinyTips": {
     "TinyTipsTitle": "Sfat #",
     "rollForNewAdvice": "Clic pentru un sfat nou!"
+  },
+  "drivingSchoolWebsite": {
+    "pageTitle": "Site Web pentru Școala de Șoferi",
+    "projectDescription": "Am dezvoltat un site modern și complet responsiv pentru o școală de șoferi, folosind tehnologii web avansate pentru a oferi o experiență optimizată și fluentă. Site-ul este axat pe performanță, asigurând timpi de încărcare rapizi și navigare lină, integrând totodată diverse funcționalități sofisticate.",
+    "technologiesUsedTitle": "Tehnologii utilizate",
+    "technologiesUsed": {
+      "react_typescript": "Construit folosind o arhitectură modulară pentru scalabilitate și ușurință în întreținere.",
+      "tailwindcss": "Utilizat pentru stilizare rapidă și consecventă, precum și pentru design complet responsiv pe toate dispozitivele.",
+      "seo": "Am implementat cele mai bune practici SEO pentru o vizibilitate sporită și clasamente mai bune în motoarele de căutare.",
+      "image_optimization": "Toate imaginile au fost optimizate, utilizând formatul WebP pentru o compresie mai bună și timpi de încărcare mai rapizi, fără a sacrifica calitatea.",
+      "suspense_lazy_loading": "Am îmbunătățit performanța prin încărcarea lentă a componentelor și imaginilor, reducând timpii inițiali de încărcare.",
+      "formspree": "Am integrat Formspree pentru gestionarea eficientă a formularelor și trimiterea acestora.",
+      "google_maps": "Google Maps a fost integrat pentru o navigare ușoară către locația școlii de șoferi.",
+      "google_ads": "Am implementat Google Ads pentru a atrage trafic și a crește vizibilitatea.",
+      "i18n": "Am implementat i18n pentru suport multilingv, asigurând traducerea fluentă în mai multe limbi.",
+      "react_image_gallery": "Am creat o galerie de imagini interactivă pentru a prezenta facilitățile și vehiculele școlii de șoferi.",
+      "responsive_design": "Am asigurat un design complet responsiv pentru o experiență optimizată pe toate dispozitivele.",
+      "third_party_libraries": "Am utilizat diverse pachete React pentru a îmbunătăți funcționalitatea și eficiența dezvoltării."
+    },
+    "additionalFeaturesTitle": "Caracteristici suplimentare",
+    "additionalFeatures": {
+      "image_optimization": "Am implementat tehnici de compresie a imaginilor, inclusiv WebP, pentru a minimiza timpii de încărcare, menținând în același timp o calitate vizuală ridicată.",
+      "custom_animations": "Am integrat animații fluide pentru o experiență de utilizare atractivă și finisată.",
+      "cross_browser": "Am asigurat performanță constantă pe toate browserele importante.",
+      "future_proof": "Construit cu scalabilitate în minte, facilitând actualizările și adăugarea de funcționalități viitoare."
+    },
+    "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
+    "imageAlt": "Captură de ecran a Site-ului Web pentru Școala de Șoferi"
   }
 }

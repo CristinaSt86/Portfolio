@@ -9,7 +9,7 @@
   "homePage": {
     "greeting": "Hello! I'm Cristina,",
     "introduction": "dedicated frontend developer based in Germany, focused on creating elegant and user-friendly web solutions.",
-    "readMore" : "Read more..."
+    "readMore": "Read more..."
   },
 
   "aboutPage": {
@@ -33,7 +33,7 @@
       { "name": "Git and GitHub", "url": "https://github.com/" },
       { "name": "Next.js", "url": "https://nextjs.org/" }
     ],
-    "languagesHeader": "We can also talk in:",
+    "languagesHeader": "We can communicate in:",
     "languages": [
       { "language": "Romanian", "level": "native" },
       { "language": "English", "level": "C1" },
@@ -55,7 +55,8 @@
       { "name": "Mini Robot", "path": "/joke-teller" },
       { "name": "To Do App", "path": "/to-do" },
       { "name": "Figo Restaurant", "path": "/figo-restaurant" },
-      { "name": "Jogga Internship", "path": "/jogga-inter" }
+      { "name": "Jogga Internship", "path": "/jogga-inter" },
+      { "name": "Driving School", "path": "/topalx" }
     ]
   },
   "contactPage": {
@@ -161,5 +162,33 @@
   "tinyTips": {
     "TinyTipsTitle": "ADVICE #",
     "rollForNewAdvice": "Roll for new advice!"
+  },
+  "drivingSchoolWebsite": {
+    "pageTitle": "Driving School Website",
+    "projectDescription": "Developed a modern, fully responsive website for a driving school, employing advanced web technologies to deliver an optimized and seamless user experience. The site is performance-focused, ensuring fast load times and smooth navigation while incorporating various sophisticated features.",
+   "technologiesUsedTitle": "Technologies used",
+    "technologiesUsed": {
+      "react_typescript": "Built using a modular architecture for scalability and ease of maintenance.",
+      "tailwindcss": "Utilized for rapid, consistent styling and fully responsive layouts across devices.",
+      "seo": "Implemented SEO best practices for enhanced visibility and search engine rankings.",
+      "image_optimization": "Optimized all images, using WebP format for better compression and faster load times without sacrificing quality.",
+      "suspense_lazy_loading": "Improved performance by lazy loading components and images, reducing initial load times.",
+      "formspree": "Integrated Formspree for efficient form handling and submissions.",
+      "google_maps": "Embedded Google Maps for easy navigation to the driving school’s location.",
+      "google_ads": "Integrated Google Ads to drive traffic and boost visibility.",
+      "i18n": "Implemented i18n for seamless language translation, supporting multiple languages.",
+      "react_image_gallery": "Showcased the school’s facilities and vehicles through an interactive image gallery.",
+      "responsive_design": "Ensured a fully responsive layout, offering an optimized experience on all devices.",
+      "third_party_libraries": "Leveraged several React packages to enhance functionality and development efficiency."
+    },
+    "additionalFeaturesTitle": "Additional Features",
+    "additionalFeatures": {
+      "image_optimization": "Implemented image compression techniques, including WebP, to minimize loading times while maintaining high visual quality.",
+      "custom_animations": "Integrated smooth animations for a polished and engaging user experience.",
+      "cross_browser": "Ensured consistent performance across all major browsers.",
+      "future_proof": "Built with scalability in mind, making future updates and feature additions seamless."
+    },
+    "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
+    "imageAlt": "Screenshot of Driving School Website"
   }
 }

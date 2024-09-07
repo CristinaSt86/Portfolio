@@ -22,11 +22,11 @@ const ProjectsPage = () => {
     { name: t("projectsPage.toDoApp"), path: "/to-do" },
     { name: t("projectsPage.figoRestaurant"), path: "/figo-restaurant" },
     { name: t("projectsPage.joggaInter"), path: "/jogga-inter" },
+    { name: t("projectsPage.topalx"), path: "/topalx" },
   ];
 
   return (
     <>
-      {/* <div className={css.placeholder}></div> */}
       <div className={css.mainContainer}>
         <div>
           <WeatherMini />

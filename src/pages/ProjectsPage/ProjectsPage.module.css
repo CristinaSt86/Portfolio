@@ -4,12 +4,10 @@
   align-items: flex-start;
   gap: 4rem;
   padding: 2rem 2.3rem;
-  margin: 1rem 0;
+  margin: auto;
+  max-width:1200px;
+  margin-top: 3rem;
 }
-
-/* .placeholder {
-  height: 5rem;
-} */
 
  hr{
   display: none;
@@ -28,7 +26,6 @@
   font-weight: 600;
   border: 2px solid #3747d6;
   transition: transform 0.3s ease;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .links:hover {

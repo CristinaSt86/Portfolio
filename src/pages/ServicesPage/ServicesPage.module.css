@@ -6,17 +6,16 @@
 }
 
 .placeholder {
-  height: 4rem;
+  height: 3rem;
 }
 .mainContainer {
   max-width: 1200px;
-  /* padding: 4rem; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 6rem;
-  margin: 0 3rem 3rem 3rem;
+  margin: 0 2rem 4rem 2rem;
 }
 
 
