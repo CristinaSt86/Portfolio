@@ -9,7 +9,8 @@
   "homePage": {
     "greeting": "Hello! I'm Cristina,",
     "introduction": "dedicated frontend developer based in Germany, focused on creating elegant and user-friendly web solutions.",
-    "readMore": "Read more..."
+    "readMore": "Read more...",
+    "imageAlt": "Cristina Stoian | Frontend Developer"
   },
 
   "aboutPage": {

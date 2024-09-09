@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import css from "./TinyTips.module.css";
-import ellipse from "../../images/ellipse.png";
+import ellipse from "../../images/ellipse.webp";
 import divDesk from "../../images/pattern-divider-desktop.svg";
 import divMob from "../../images/pattern-divider-mobile.svg";
 import iconDice from "../../images/icon-dice.svg";
@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 const TinyTips = () => {
   const [advice, setAdvice] = useState("");
   const [adviceId, setAdviceId] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [hasLoadedAdvice, setHasLoadedAdvice] = useState(false);
   const { t } = useTranslation();
 

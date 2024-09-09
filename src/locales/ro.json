@@ -9,7 +9,8 @@
   "homePage": {
     "greeting": "Salut! Sunt Cristina,",
     "introduction": "dezvoltatoare frontend dedicată, localizată în Germania, concentrată pe crearea de soluții web elegante și ușor de utilizat.",
-    "readMore": "Citește mai mult..."
+    "readMore": "Citește mai mult...",
+     "imageAlt": "Cristina Stoian | Dezvoltatoare Frontend"
   },
   "aboutPage": {
     "skillsHeader": "Limbaje de programare:",

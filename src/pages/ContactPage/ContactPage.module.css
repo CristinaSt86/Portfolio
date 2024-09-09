@@ -58,6 +58,7 @@
   padding: 0.5rem 0.5rem;
   transition: transform 0.3s ease;
   font-size: 1.3rem;
+  white-space: nowrap;
 }
 
 .mail:hover {

@@ -2,10 +2,10 @@ import React from "react";
 import css from "./JoggaInter.module.css";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
-import i1 from "../../images/i1.jpg";
-import i2 from "../../images/i2.jpg";
-import i3 from "../../images/i3.jpg";
-import i4 from "../../images/i4.jpg";
+import i1 from "../../images/i1.webp";
+import i2 from "../../images/i2.webp";
+import i3 from "../../images/i3.webp";
+import i4 from "../../images/i4.webp";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import css from "./Navigation.module.css";
-import hamburgerMenu from "../../images/meniuHam.png";
+import hamburgerMenu from "../../images/meniuHam.webp";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import ThemeToggler from "../ThemeToggler/ThemeToggler";

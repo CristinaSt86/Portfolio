@@ -2,10 +2,10 @@ import React from "react";
 import css from "./ToDo.module.css";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
-import Todo1 from "../../images/Todo1.jpg";
-import Todo2 from "../../images/Todo2.jpg";
-import Todo3 from "../../images/Todo3.jpg";
-import Todo4 from "../../images/Todo4.jpg";
+import Todo1 from "../../images/Todo1.webp";
+import Todo2 from "../../images/Todo2.webp";
+import Todo3 from "../../images/Todo3.webp";
+import Todo4 from "../../images/Todo4.webp";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
 

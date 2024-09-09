@@ -9,7 +9,8 @@
   "homePage": {
     "greeting": "Hallo! Ich bin Cristina,",
     "introduction": "engagierte Frontend-Entwicklerin in Deutschland, spezialisiert auf die Erstellung eleganter und benutzerfreundlicher Web-Lösungen.",
-    "readMore": "Lesen Sie mehr..."
+    "readMore": "Lesen Sie mehr...",
+     "imageAlt": "Cristina Stoian | Frontend Entwicklerin"
   },
   "aboutPage": {
     "skillsHeader": "Fähigkeiten:",

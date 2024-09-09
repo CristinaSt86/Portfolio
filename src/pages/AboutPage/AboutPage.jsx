@@ -1,15 +1,15 @@
 import React from "react";
 import css from "./AboutPage.module.css";
 import { Link } from "react-router-dom";
-import ParagraphNight from "../../components/ParagraphNight/ParagraphNight"
+import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
-import c11 from "../../images/c11.jpg"
-import c12 from "../../images/c12.jpg";
-import c13 from "../../images/c13.jpg";
-import c14 from "../../images/c14.jpg";
-import c15 from "../../images/c15.png";
-import c16 from "../../images/c16.png";
-import c17 from "../../images/c17.png";
+import c11 from "../../images/c11.webp";
+import c12 from "../../images/c12.webp";
+import c13 from "../../images/c13.webp";
+import c14 from "../../images/c14.webp";
+import c15 from "../../images/c15.webp";
+import c16 from "../../images/c16.webp";
+import c17 from "../../images/c17.webp";
 import c18 from "../../images/c18.webp";
 import { useTranslation } from "react-i18next";
 import H from "../../images/H.svg";
@@ -20,6 +20,7 @@ import tlw from "../../images/tlw.svg";
 import tys from "../../images/tys.svg";
 import gt from "../../images/gt.svg";
 import nxt from "../../images/nxt.svg";
+import { Helmet } from "react-helmet-async";
 
 const AboutPage = () => {
   const { t } = useTranslation();
@@ -87,10 +88,60 @@ const AboutPage = () => {
     },
   ];
 
-  const certifications = [c11, c12, c13, c14, c15, c16, c17,c18];
+  const certifications = [c11, c12, c13, c14, c15, c16, c17, c18];
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://cristinastoian-developer.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "About",
+        item: "https://cristinastoian-developer.com/about",
+      },
+    ],
+  };
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Cristina Stoian",
+    jobTitle: "Frontend Developer",
+    url: "https://cristinastoian-developer.com",
+    description:
+      "Learn more about me, my journey, and my skills as a frontend developer.",
+    sameAs: [
+      "https://github.com/CristinaSt86",
+      "https://www.linkedin.com/in/cristina-stoian-frontend-developer/",
+    ],
+  };
 
   return (
     <>
+      <Helmet>
+        <title>About Me | Cristina Stoian | Frontend Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Learn more about me, my journey, and my skills as a frontend developer."
+        />
+        <meta
+          name="keywords"
+          content="about me, frontend developer, experience, web development"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
       <div className={css.mainContainer}>
         <aside className={css.aside}>
           <div>
@@ -115,7 +166,6 @@ const AboutPage = () => {
               ))}
             </ul>
           </div>
-          {/* <hr /> */}
         </aside>
         <main className={css.main2}>
           <div className={css.aboutBackground}>

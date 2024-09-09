@@ -5,22 +5,69 @@ import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import Form from "../../components/Form/Form";
 import css from "./ContactPage.module.css";
-import pc from "../../images/pc.jpg";
-import Linkedin from "../../images/linkedin.png";
-import Github from "../../images/github.png";
-import msg from "../../images/message.png";
+import pc from "../../images/pc.webp";
+import Linkedin from "../../images/linkedin.webp";
+import Github from "../../images/github.webp";
+import msg from "../../images/message.webp";
+import { Helmet } from "react-helmet-async";
 
 const ContactPage = () => {
   const { theme } = useTheme();
   const { t } = useTranslation();
   const emailAddress = "cristina.stoian@yahoo.com";
-  const contactBgDarkMode = theme === "dark"
-    ? `${css.contactBackground} ${css.contactBackgroundNight}`
-    : css.contactBackground;
+  const contactBgDarkMode =
+    theme === "dark"
+      ? `${css.contactBackground} ${css.contactBackgroundNight}`
+      : css.contactBackground;
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://cristinastoian-developer.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Contact",
+        item: "https://cristinastoian-developer.com/contact",
+      },
+    ],
+  };
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Cristina Stoian",
+    jobTitle: "Frontend Developer",
+    email: emailAddress,
+    url: "https://cristinastoian-developer.com",
+    description: "Get in touch with me for collaborations or job opportunities in frontend development.",
+    sameAs: [
+      "https://github.com/CristinaSt86",
+      "https://www.linkedin.com/in/cristina-stoian-frontend-developer/",
+    ],
+  };
 
   return (
     <>
-      {/* <div className={css.placeholder}></div> */}
+      <Helmet>
+        <title>Contact | Cristina Stoian | Frontend Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Get in touch with me for collaborations or job opportunities in frontend development."
+        />
+        <meta
+          name="keywords"
+          content="contact, frontend developer, collaboration, hire a developer"
+        />
+        <script type="application/ld+json">{JSON.stringify(breadcrumbData)}</script>
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
       <h1 className={css.contactMe}>{t("contactPage.contactMe")}</h1>
       <div className={css.display}>
         <div className={contactBgDarkMode}>
