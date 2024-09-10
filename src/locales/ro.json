@@ -69,9 +69,9 @@
     "instagramAlt": "link instagram"
   },
   "form": {
-    "namePlaceholder": "Nume",
-    "emailPlaceholder": "Email",
-    "messagePlaceholder": "Mesaj",
+    "namePlaceholder": "Nume*",
+    "emailPlaceholder": "Email*",
+    "messagePlaceholder": "Mesaj*",
     "submitButtonText": "Trimite",
     "successMessage": "Formularul a fost trimis cu succes!",
     "errorMessage": "Trimiterea formularului a eșuat. Vă rugăm să încercați din nou.",

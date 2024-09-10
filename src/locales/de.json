@@ -69,9 +69,9 @@
     "instagramAlt": "Instagram-Link"
   },
   "form": {
-    "namePlaceholder": "Name",
-    "emailPlaceholder": "E-Mail",
-    "messagePlaceholder": "Nachricht",
+    "namePlaceholder": "Name*",
+    "emailPlaceholder": "E-Mail*",
+    "messagePlaceholder": "Nachricht*",
     "submitButtonText": "Senden",
     "successMessage": "Formular erfolgreich übermittelt!",
     "errorMessage": "Fehler beim Senden des Formulars. Bitte versuchen Sie es erneut.",

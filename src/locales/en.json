@@ -71,9 +71,9 @@
     "instagramAlt": "Instagram link"
   },
   "form": {
-    "namePlaceholder": "Name",
-    "emailPlaceholder": "Email",
-    "messagePlaceholder": "Message",
+    "namePlaceholder": "Name*",
+    "emailPlaceholder": "Email*",
+    "messagePlaceholder": "Message*",
     "submitButtonText": "Submit",
     "successMessage": "Form submitted successfully!",
     "errorMessage": "Failed to submit form. Please try again.",
