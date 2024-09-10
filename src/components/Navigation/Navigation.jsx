@@ -5,7 +5,7 @@ import hamburgerMenu from "../../images/meniuHam.webp";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import ThemeToggler from "../ThemeToggler/ThemeToggler";
-import Logo from "../../images/logo.svg"
+import Logo from "../../images/logo.svg";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -52,9 +52,9 @@ const Navigation = () => {
         <img src={hamburgerMenu} alt="mobile-menu" />
       </div>
       <ul className={`${css.list} ${menuOpen ? css.show : ""}`}>
-      <li className={css.navItemMobileLogo}>
-      <img src={Logo} alt="Logo" className={css.mobileLogo} />
-    </li>
+        <Link to="/">
+          <img src={Logo} alt="Logo" className={css.mobileLogo} />
+        </Link>
 
         {navLinks.map((link, index) => (
           <Link

@@ -2,20 +2,19 @@
   cursor: pointer;
   text-decoration: none;
   color: #3747d6;
-  border: 2px solid #3747d6;
-  padding: 0.6rem 1.2rem;
+  padding: 0.7rem 1rem;
   border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.9);
   font-weight: 600;
-  font-size: 1rem; /* Slightly increase font size for better readability */
-  transition: all 0.3s ease; /* Apply transition to all properties for smooth animation */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-size: 1rem;
+  transition: transform 0.3s ease; 
+  background-color: rgba(255, 255,255, 0.1);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .Link:hover {
   background: #3747d6;
-  color: white;
-  transform: translateY(-3px); /* Subtle lift effect on hover */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow for hover state */
-  border-color: #3747d6; /* Maintain consistent border on hover */
+  color: #fff;
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+  border-color: #3747d6; 
 }

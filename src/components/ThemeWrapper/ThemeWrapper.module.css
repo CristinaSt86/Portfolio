@@ -13,6 +13,8 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+
+
 .darkTheme {
   background-color:var(--bg-night-mode);
   color: var(--text-night-mode);
