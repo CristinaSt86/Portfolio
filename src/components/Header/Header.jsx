@@ -3,7 +3,7 @@ import css from "./Header.module.css";
 //import BackButton from "../BackButton/BackButton";
 import Navigation from "../Navigation/Navigation";
 import { Link } from "react-router-dom";
-import logo from "../../images/l3.svg";
+import logo from "../../images/logo.svg";
 
 const Header = () => {
   return (
