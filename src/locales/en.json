@@ -62,12 +62,13 @@
   },
   "contactPage": {
     "contactMe": "Let's Connect",
-    "mobile": "Mobile: +49 15731871996",
+    "mobileLabel": "Mobile:",
+    "mobileNumber": "+4915731871996",
     "hireMe": "Hire me",
     "email": "cristina.stoian@yahoo.com",
-    "linkedInAlt": "linkedIn link",
-    "githubAlt": "gitHub link",
-    "instagramAlt": "instagram link"
+    "linkedInAlt": "LinkedIn link",
+    "githubAlt": "GitHub link",
+    "instagramAlt": "Instagram link"
   },
   "form": {
     "namePlaceholder": "Name",
@@ -167,7 +168,7 @@
   "drivingSchoolWebsite": {
     "pageTitle": "Driving School Website",
     "projectDescription": "Developed a modern, fully responsive website for a driving school, employing advanced web technologies to deliver an optimized and seamless user experience. The site is performance-focused, ensuring fast load times and smooth navigation while incorporating various sophisticated features.",
-   "technologiesUsedTitle": "Technologies used",
+    "technologiesUsedTitle": "Technologies used",
     "technologiesUsed": {
       "react_typescript": "Built using a modular architecture for scalability and ease of maintenance.",
       "tailwindcss": "Utilized for rapid, consistent styling and fully responsive layouts across devices.",

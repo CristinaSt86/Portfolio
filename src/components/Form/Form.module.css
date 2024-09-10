@@ -1,7 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   gap: 1.8rem;
   padding: 2rem 2.5rem;
@@ -23,7 +23,7 @@
   width: 50%;
   text-align: center;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--text-night-mode);
   border: none;
   cursor: pointer;
@@ -32,7 +32,7 @@
 }
 
 .submitButton:hover{
-  background-color: var(--text-night-mode);
+  background-color: #fff;
   color: #3747d6; 
   transform: scale(1.1);
 }

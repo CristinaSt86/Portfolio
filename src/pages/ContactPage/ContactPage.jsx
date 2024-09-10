@@ -46,7 +46,8 @@ const ContactPage = () => {
     jobTitle: "Frontend Developer",
     email: emailAddress,
     url: "https://cristinastoian-developer.com",
-    description: "Get in touch with me for collaborations or job opportunities in frontend development.",
+    description:
+      "Get in touch with me for collaborations or job opportunities in frontend development.",
     sameAs: [
       "https://github.com/CristinaSt86",
       "https://www.linkedin.com/in/cristina-stoian-frontend-developer/",
@@ -65,8 +66,12 @@ const ContactPage = () => {
           name="keywords"
           content="contact, frontend developer, collaboration, hire a developer"
         />
-        <script type="application/ld+json">{JSON.stringify(breadcrumbData)}</script>
-        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Helmet>
       <h1 className={css.contactMe}>{t("contactPage.contactMe")}</h1>
       <div className={css.display}>
@@ -78,7 +83,15 @@ const ContactPage = () => {
               className={css.imagine}
             />
             <div className={css.contactContainer}>
-              <h2 className={css.mobile}>{t("contactPage.mobile")}</h2>
+              <h2 className={css.mobile}>
+                {t("contactPage.mobileLabel")}{" "}
+                <a
+                  href={`tel:${t("contactPage.mobileNumber")}`}
+                  className={css.mobile}
+                >
+                  {t("contactPage.mobileNumber")}
+                </a>
+              </h2>
               <div className={css.msgHireMe}>
                 <a href={`mailto:${emailAddress}`} className={css.mail}>
                   {t("contactPage.hireMe")}
