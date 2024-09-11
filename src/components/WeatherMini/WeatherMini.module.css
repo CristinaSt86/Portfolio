@@ -30,3 +30,6 @@ input:focus {
 .weatherDiv{
   max-width: 25rem;
 }
+ .cityName{
+ font-size: 2rem;
+ }

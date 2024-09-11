@@ -71,7 +71,7 @@ const WeatherMini = () => {
           <p>{error}</p>
         ) : weather && weather.weather && weather.weather.length > 0 ? (
           <div className={css.weatherDetails}>
-            <h1>{weather.name}</h1>
+            <h1 className={css.cityName}>{weather.name}</h1>
             <p className={css.paragraf}>{t('weatherMini.temperature')}{getIntegerTemperature(weather, "temp")}°C</p>
             <p  className={css.paragraf}>{t('weatherMini.feelsLike')}{getIntegerTemperature(weather, "feels_like")}°C</p>
             <p  className={css.paragraf}>{t('weatherMini.wind')}{weather?.wind?.speed} km/h</p>
