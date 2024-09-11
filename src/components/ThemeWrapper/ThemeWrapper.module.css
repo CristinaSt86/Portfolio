@@ -1,6 +1,6 @@
 :root {
-  --text-night-mode: #E0E6EA;
-  --bg-night-mode:#000;
+  --text-night-mode: #e0e6ea;
+  --bg-night-mode: #000;
   --text-day-mode: #445561;
   --bg-day-mode: #e0e0e0;
 }
@@ -13,10 +13,8 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-
-
 .darkTheme {
-  background-color:var(--bg-night-mode);
+  background-color: var(--bg-night-mode);
   color: var(--text-night-mode);
   background-size: cover;
   background-position: center;

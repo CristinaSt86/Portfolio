@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   background: #ffffff33;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
   font-size: 1.2rem;
   margin: 3rem 3rem 3rem 0;
 }
@@ -20,7 +20,7 @@
   width: 18rem;
   height: 18rem;
   object-fit: cover;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .aboutApp {

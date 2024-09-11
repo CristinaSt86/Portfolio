@@ -57,7 +57,7 @@ const WeatherMini = () => {
   };
 
   return (
-    <div >
+    <div>
       <h3>{t('weatherMini.checkWeather')}</h3>
       <div className={css.mainContainer}>
         <input

@@ -21,6 +21,7 @@ import tys from "../../images/tys.svg";
 import gt from "../../images/gt.svg";
 import nxt from "../../images/nxt.svg";
 import { Helmet } from "react-helmet-async";
+import GoToGithub from "../../components/GoToGithub/GoToGithub";
 
 const AboutPage = () => {
   const { t } = useTranslation();
@@ -143,25 +144,21 @@ const AboutPage = () => {
         </script>
       </Helmet>
       <div className={css.mainContainer}>
-        <aside className={css.aside}>
+      <aside className={css.aside}>
           <div>
             <h2 className={css.skills}>{t("aboutPage.skillsHeader")}</h2>
             <ul className={css.ulist}>
               {skills.map((skill, index) => (
                 <li key={index} className={css.listItem}>
-                  <Link
+                  <GoToGithub
                     to={skill.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={css.nameIcon}
+                    additionalClasses={css.skillLink}
                   >
-                    <img
-                      src={skill.icon}
-                      alt={skill.name}
-                      className={css.icon}
-                    />
+                    <img src={skill.icon} alt={skill.name} />
                     {skill.name}
-                  </Link>
+                  </GoToGithub>
                 </li>
               ))}
             </ul>

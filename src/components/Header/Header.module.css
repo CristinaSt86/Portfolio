@@ -16,7 +16,6 @@
   width: 2rem;
   height: 2rem;
   border: 2px solid #374957;
-  /* border-radius: 50%; */
   cursor: pointer;
   transition: transform 0.3s ease;
   display: flex;
