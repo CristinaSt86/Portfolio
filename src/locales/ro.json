@@ -47,7 +47,8 @@
       "Am avut ocazia să lucrez la o varietate de proiecte, incluzând crearea de site-uri web responsive, dezvoltarea de interfețe utilizator și implementarea de caracteristici interactive.",
       "În acest portofoliu, veți găsi o colecție de proiecte care îmi ilustrează expertiza și creativitatea. Fiecare proiect reprezintă o călătorie de rezolvare a problemelor și explorare, demonstrând angajamentul meu de a livra soluții de calitate înaltă, centrate pe utilizator. Cred în puterea tehnologiei de a avea un impact pozitiv asupra lumii, și sunt entuziasmată să împărtășesc contribuțiile mele cu voi.",
       "Vă mulțumesc pentru vizită și sper să vă bucurați explorând lucrările mele!"
-    ]
+    ],
+    "toProjects": "Către Proiecte"
   },
   "projectsPage": {
     "projects": [
@@ -131,7 +132,7 @@
     "outcome": "Proiectul nu numai că a îmbunătățit semnificativ performanța Jogga.ro, dar mi-a și extins substanțial expertiza în Next.js și React, oferindu-mi experiență valoroasă în tehnologiile de dezvoltare web de ultimă oră. Aceasta m-a echipat pentru provocări mai complexe în proiectele viitoare."
   },
   "goToGithub": {
-    "linkText": "Catre GitHub"
+    "linkText": "Către GitHub"
   },
   "loadingMessage": "Portofoliul Cristinei este în curs de încărcare. Vă invităm să-l explorați!",
   "footerText": "© 2024 CS Development.",

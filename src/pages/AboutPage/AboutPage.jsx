@@ -144,7 +144,7 @@ const AboutPage = () => {
         </script>
       </Helmet>
       <div className={css.mainContainer}>
-      <aside className={css.aside}>
+        <aside className={css.aside}>
           <div>
             <h2 className={css.skills}>{t("aboutPage.skillsHeader")}</h2>
             <ul className={css.ulist}>
@@ -176,6 +176,14 @@ const AboutPage = () => {
                 )
               )}
             </ParagraphNight>
+            <div className={css.btnContainer}>
+              <GoToGithub
+                to="/projects"
+                text={t("aboutPage.toProjects")}
+                target="_self"
+                additionalClasses={css.toProjects}
+              />
+            </div>
           </div>
           <div className={css.certificationsContainer}>
             <h2>{t("aboutPage.certificationsHeader")}</h2>

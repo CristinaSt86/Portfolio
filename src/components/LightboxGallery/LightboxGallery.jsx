@@ -50,3 +50,5 @@ export const LightboxGallery = ({ images }) => {
     </div>
   );
 };
+
+export default LightboxGallery;

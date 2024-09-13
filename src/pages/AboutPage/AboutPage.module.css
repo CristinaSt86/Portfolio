@@ -71,6 +71,14 @@
   margin: 0.4rem;
 }
 
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 ;
+  width:100%;
+}
+
 .certificationsContainer {
   margin-top: 5rem;
   padding: 1rem;
