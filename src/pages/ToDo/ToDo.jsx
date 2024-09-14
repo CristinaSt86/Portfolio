@@ -24,7 +24,7 @@ const ToDo = () => {
           </ParagraphNight>
         </section>
         <GoToGithub
-          to={t("todoPage.githubLin")}
+          to={t("todoPage.githubLink")}
           text={t("goToGithub.linkText")}
         />
         <section style={{ width: "100%" }}>

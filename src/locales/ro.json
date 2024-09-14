@@ -10,7 +10,7 @@
     "greeting": "Salut! Sunt Cristina,",
     "introduction": "dezvoltatoare frontend dedicată, localizată în Germania, concentrată pe crearea de soluții web elegante și ușor de utilizat.",
     "readMore": "Citește mai mult...",
-     "imageAlt": "Cristina Stoian | Dezvoltatoare Frontend"
+    "imageAlt": "Cristina Stoian | Dezvoltatoare Frontend"
   },
   "aboutPage": {
     "skillsHeader": "Limbaje de programare:",
@@ -52,12 +52,12 @@
   },
   "projectsPage": {
     "projects": [
+      { "name": "Școala de Șoferi", "path": "/topalx" },
       { "name": "Sfaturi practice", "path": "/advice-slip" },
       { "name": "Mini Robot", "path": "/joke-teller" },
       { "name": "Manager de Activități", "path": "/to-do" },
       { "name": "Restaurant Figo", "path": "/figo-restaurant" },
-      { "name": "Internship Jogga", "path": "/jogga-inter" },
-      { "name": "Școala de Șoferi", "path": "/topalx" }
+      { "name": "Internship Jogga", "path": "/jogga-inter" }
     ]
   },
   "contactPage": {
@@ -109,7 +109,7 @@
   "todoPage": {
     "pageTitle": "Manager de Activități",
     "todoDescription": "Această aplicație React gestionează o listă de sarcini cu validare a formularului. Funcționalitatea principală include afișarea sarcinilor, permițând utilizatorilor să adauge, să editeze și să șteargă sarcini, și să marcheze sarcinile ca fiind completate. Aplicația utilizează hooks React, cum ar fi useState, pentru a gestiona datele sarcinilor și vizibilitatea modalului. Ea constă în componente precum MyTodos, Modal și CreateTaskForm, care gestionează diferite aspecte ale managementului sarcinilor. Componenta MyTodos redă lista de sarcini, permițând utilizatorilor să interacționeze cu ele. Componenta Modal gestionează afișarea unui modal pentru adăugarea sau editarea sarcinilor. În final, componenta CreateTaskForm oferă un formular pentru adăugarea sau editarea sarcinilor, cu validare a formularului care asigură că utilizatorii introduc date în câmpurile formularului înainte ca trimiterea sau editările să poată continua. Această validare îmbunătățește experiența utilizatorului prin solicitarea acestora de a furniza informații esențiale, cum ar fi titlul sarcinii, înainte de a continua. Componenta App integrează aceste componente și gestionează starea și manipularea evenimentelor pentru funcționalitatea sarcinilor.",
-    "githubLink":"https://github.com/CristinaSt86/TodoApp",
+    "githubLink": "https://github.com/CristinaSt86/TodoApp",
     "imageAlt": "Captură de ecran a Aplicației de sarcini"
   },
   "figoRestPage": {

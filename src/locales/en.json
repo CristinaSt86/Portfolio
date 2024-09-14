@@ -51,16 +51,6 @@
     ],
     "toProjects": "To Projects"
   },
-  "projectsPage": {
-    "projects": [
-      { "name": "Tiny Tips", "path": "/advice-slip" },
-      { "name": "Mini Robot", "path": "/joke-teller" },
-      { "name": "To Do App", "path": "/to-do" },
-      { "name": "Figo Restaurant", "path": "/figo-restaurant" },
-      { "name": "Jogga Internship", "path": "/jogga-inter" },
-      { "name": "Driving School", "path": "/topalx" }
-    ]
-  },
   "contactPage": {
     "contactMe": "Let's Connect",
     "mobileLabel": "Mobile:",
@@ -89,6 +79,17 @@
     "loading": "Loading weather...",
     "fetchError": "There was a problem fetching the weather data.",
     "validCityError": "Please enter a valid city name."
+  },
+  "projectsPage": {
+    "projects": [
+      { "name": "Driving School", "path": "/topalx" },
+      { "name": "Tiny Tips", "path": "/advice-slip" },
+      { "name": "Mini Robot", "path": "/joke-teller" },
+      { "name": "ToDo App", "path": "/to-do" },
+      { "name": "Figo Restaurant", "path": "/figo-restaurant" },
+      { "name": "Jogga Internship", "path": "/jogga-inter" }
+   
+    ]
   },
   "advicePage": {
     "pageTitle": "Tiny Tips",

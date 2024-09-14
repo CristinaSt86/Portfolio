@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import css from "./ProjectsPage.module.css";
-import { useNavigate } from "react-router-dom";
 import WeatherMini from "../../components/WeatherMini/WeatherMini";
 import { useTranslation } from "react-i18next";
 import TinyTips from "../../components/TinyTips/TinyTips";
@@ -8,17 +7,11 @@ import { Helmet } from "react-helmet-async";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
 
 const ProjectsPage = () => {
-  const navigate = useNavigate();
   const { t } = useTranslation();
 
   const proiecte = t("projectsPage.projects", { returnObjects: true });
 
   useEffect(() => {}, []);
-
-
-  const handleProjectClick = (projectPath) => {
-    navigate(projectPath);
-  };
 
   const breadcrumbData = {
     "@context": "https://schema.org",
@@ -59,10 +52,6 @@ const ProjectsPage = () => {
       addressCountry: "DE",
     },
   };
-
-  useEffect(() => {
-    console.log(proiecte); // Log the project data to inspect it
-  }, [proiecte]);
 
   return (
     <>
