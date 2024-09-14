@@ -1,19 +1,15 @@
-import React from 'react'
+import React from 'react';
 import { useTheme } from '../../ThemeContext';
-import css from './ThemeWrapper.module.css'
+import css from './ThemeWrapper.module.css';
 
-
-const ThemeWrapper = ({children}) => {
-
-
-const { theme } = useTheme();
-
+const ThemeWrapper = ({ children }) => {
+  const { theme } = useTheme();
 
   return (
-    <div className={theme === 'dark' ? `${css.darkTheme} dark-theme` : `${css.lightTheme} light-theme`}>
-    {children}
-  </div>
-  )
-}
+    <div className={theme === 'dark' ? css.darkTheme : css.lightTheme}>
+      {children}
+    </div>
+  );
+};
 
 export default ThemeWrapper;

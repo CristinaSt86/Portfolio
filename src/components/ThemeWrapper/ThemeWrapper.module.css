@@ -16,26 +16,21 @@ body {
 .darkTheme {
   background-color: var(--bg-night-mode);
   color: var(--text-night-mode);
-  background-size: cover;
-  background-position: center;
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 10px #fff;
   box-sizing: border-box;
   background-attachment: fixed;
 }
+
 .lightTheme {
   background-color: var(--bg-day-mode);
   color: var(--text-day-mode);
-  background-size: cover;
-  background-position: center;
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 10px #fff;
   box-sizing: border-box;
   background-attachment: fixed;
 }
