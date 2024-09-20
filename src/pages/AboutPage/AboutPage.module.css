@@ -1,16 +1,13 @@
 .mainContainer {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem 2.3rem;
+  margin: 4rem 0;
+  padding: 2rem 1.5rem;
   display: flex;
   align-items: flex-start;
   gap: 2.3rem;
   justify-content: space-between;
   box-sizing: border-box;
   overflow: auto;
-  min-height: 100vh;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  /* min-height: 100vh; */
 }
 
 .aboutBackground {
@@ -75,12 +72,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0 ;
-  width:100%;
+  margin: 1rem 0;
+  width: 100%;
 }
 
 .certificationsContainer {
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 1rem;
   background: #ffffff33;
   border-radius: 0.5rem;
@@ -139,9 +136,9 @@
   .mainContainer {
     flex-direction: column-reverse;
     gap: 0.5rem;
-    padding: 1rem;
     align-items: center;
-    margin: 1rem 0;
+    margin: 2rem 0; 
+    padding: 1rem 1rem; 
   }
 
   .main2 {

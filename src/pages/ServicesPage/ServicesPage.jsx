@@ -115,7 +115,7 @@ const Services = () => {
 
   return (
     <>
-      <div className={css.placeholder}></div>
+      <div id="services" className={css.placeholder}></div>
       <div className={css.services}>
         <h1 className={css.servicesTitle}>{t("servicesTitle")}</h1>
         <div className={css.mainContainer}>

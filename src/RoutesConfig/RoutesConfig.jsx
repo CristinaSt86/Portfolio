@@ -33,93 +33,93 @@ const RoutesConfig = () => {
       <Route
         path="/"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <ErrorBoundary>
               <HomePage />
             </ErrorBoundary>
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/about"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <ErrorBoundary>
               <AboutPage />
             </ErrorBoundary>
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/contact"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <ContactPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/projects"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <ProjectsPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/advice-slip"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <AdviceSlipPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/joke-teller"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <JokeTellerPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/to-do"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <ToDoPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/figo-restaurant"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <FigoRestPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/jogga-inter"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <JoggaInter />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/services"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <ServicesPage />
-          </PageTransition>
+          // </PageTransition>
         }
       />
       <Route
         path="/topalx"
         element={
-          <PageTransition duration={1000}>
+          // <PageTransition duration={1000}>
             <Topalx />
-          </PageTransition>
+          // </PageTransition>
         }
       />
     </Routes>

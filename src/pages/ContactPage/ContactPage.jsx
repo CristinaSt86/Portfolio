@@ -73,7 +73,7 @@ const ContactPage = () => {
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
-      <h1 className={css.contactMe}>{t("contactPage.contactMe")}</h1>
+      <h1 id="contact" className={css.contactMe}>{t("contactPage.contactMe")}</h1>
       <div className={css.display}>
         <div className={contactBgDarkMode}>
           <div className={css.imageContainer}>

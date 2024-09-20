@@ -7,9 +7,12 @@
 }
 
 .links {
-  text-decoration: none;
-  display: flex;
+  background: none;
+  border: none;
   padding: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;

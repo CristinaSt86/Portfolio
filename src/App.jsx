@@ -8,6 +8,8 @@ import { LanguageProvider } from "./LanguageContext";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 import { HelmetProvider } from "react-helmet-async";
+import BackToTop from "./components/BackToTop/BackToTop";
+//import Shapes from "../src/components/Shapes/Shapes";
 
 const App = () => {
   return (
@@ -16,8 +18,10 @@ const App = () => {
         <HelmetProvider>
           <Suspense fallback={<Loader />}>
             <ThemeWrapper>
+              {/* <Shapes /> */}
               <Header />
               <RoutesConfig />
+              <BackToTop />
               <Footer />
             </ThemeWrapper>
           </Suspense>

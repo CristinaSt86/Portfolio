@@ -9,27 +9,27 @@
   height: 3rem;
 }
 .mainContainer {
-  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 6rem;
-  margin: 0 2rem 8rem 2rem;
+  margin: 4rem 0;
+  padding: 2rem 1.5rem;
 }
-
 
 .servicesTitle {
- margin-bottom: 6rem;
- text-align: center;
- font-size: 2rem;
+  margin-bottom: 1.5rem; 
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
 }
-
 
 @media (max-width: 767px) {
   .mainContainer {
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin: 2rem 0; 
+    padding: 1rem 1rem; 
   }
 
   .placeholder {

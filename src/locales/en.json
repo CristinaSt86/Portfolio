@@ -82,13 +82,28 @@
   },
   "projectsPage": {
     "projects": [
-      { "name": "Driving School", "path": "/topalx" },
-      { "name": "Tiny Tips", "path": "/advice-slip" },
-      { "name": "Mini Robot", "path": "/joke-teller" },
-      { "name": "ToDo App", "path": "/to-do" },
-      { "name": "Figo Restaurant", "path": "/figo-restaurant" },
-      { "name": "Jogga Internship", "path": "/jogga-inter" }
-   
+      { "name": "Driving School", "path": "/topalx", "id": "topalx-project" },
+      {
+        "name": "Tiny Tips",
+        "path": "/advice-slip",
+        "id": "advice-slip-project"
+      },
+      {
+        "name": "Mini Robot",
+        "path": "/joke-teller",
+        "id": "joke-teller-project"
+      },
+      { "name": "ToDo App", "path": "/to-do", "id": "todo-project" },
+      {
+        "name": "Figo Restaurant",
+        "path": "/figo-restaurant",
+        "id": "figo-rest-project"
+      },
+      {
+        "name": "Jogga Internship",
+        "path": "/jogga-inter",
+        "id": "jogga-inter-project"
+      }
     ]
   },
   "advicePage": {

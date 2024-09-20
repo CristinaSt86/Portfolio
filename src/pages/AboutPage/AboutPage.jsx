@@ -123,6 +123,12 @@ const AboutPage = () => {
       "https://www.linkedin.com/in/cristina-stoian-frontend-developer/",
     ],
   };
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" }); // Smooth scroll
+    }
+  };
 
   return (
     <>
@@ -143,7 +149,7 @@ const AboutPage = () => {
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
-      <div className={css.mainContainer}>
+      <div id="about" className={css.mainContainer}>
         <aside className={css.aside}>
           <div>
             <h2 className={css.skills}>{t("aboutPage.skillsHeader")}</h2>
@@ -178,7 +184,7 @@ const AboutPage = () => {
             </ParagraphNight>
             <div className={css.btnContainer}>
               <GoToGithub
-                to="/projects"
+                onClick={scrollToProjects}
                 text={t("aboutPage.toProjects")}
                 target="_self"
                 additionalClasses={css.toProjects}
@@ -191,6 +197,7 @@ const AboutPage = () => {
               <LightboxGallery images={certifications} />
             </section>
           </div>
+
           <div className={css.foreignList}>
             <h2 className={css.lanTitle}>{t("aboutPage.languagesHeader")} </h2>
             <ul className={css.spokenLan}>

@@ -5,13 +5,26 @@ import { useTranslation } from "react-i18next";
 import TinyTips from "../../components/TinyTips/TinyTips";
 import { Helmet } from "react-helmet-async";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import Topalx from "../Topalx/Topalx";
+import AdviceSlip from "../AdviceSlip/AdviceSlip";
+import JokeTeller from "../JokeTeller/JokeTeller";
+import Todo from "../ToDo/ToDo";
+import FigoRest from "../FigoRest/FigoRest";
+import JoggaInter from "../JoggaInter/JoggaInter";
 
 const ProjectsPage = () => {
   const { t } = useTranslation();
 
-  const proiecte = t("projectsPage.projects", { returnObjects: true });
+  // Fetch projects from the JSON translation file, including the id field
+  const projects = t("projectsPage.projects", { returnObjects: true });
 
-  useEffect(() => {}, []);
+  // Function to scroll to the specific project section
+  const scrollToProject = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const breadcrumbData = {
     "@context": "https://schema.org",
@@ -73,24 +86,24 @@ const ProjectsPage = () => {
         </script>
       </Helmet>
 
-      <div className={css.mainContainer}>
+      <div id="projects" className={css.mainContainer}>
         <div>
           <WeatherMini />
         </div>
         <hr />
         <div>
           <ul className={css.ulLinks}>
-            {proiecte.map((project, index) => (
+            {projects.map((project, index) => (
               <li key={index}>
                 <GoToGithub
-                  to={project.path}
+                  to={`#${project.id}`} // Use the project ID directly from the JSON
+                  text={project.name}
+                  onClick={() => scrollToProject(project.id)} // Scroll to the matching section by ID
                   target="_self"
                   additionalClasses={`${css.proBtn} ${
                     index % 2 === 0 ? css.slideInLeft : css.slideInRight
                   }`}
-                >
-                  {project.name}
-                </GoToGithub>
+                />
               </li>
             ))}
           </ul>
@@ -100,6 +113,26 @@ const ProjectsPage = () => {
           <TinyTips />
         </div>
       </div>
+
+      {/* Add project sections with IDs matching those in the JSON */}
+      <section id="topalx-project">
+        <Topalx />
+      </section>
+      <section id="advice-slip-project">
+        <AdviceSlip />
+      </section>
+      <section id="joke-teller-project">
+        <JokeTeller />
+      </section>
+      <section id="todo-project">
+        <Todo />
+      </section>
+      <section id="figo-rest-project">
+        <FigoRest />
+      </section>
+      <section id="jogga-inter-project">
+        <JoggaInter />
+      </section>
     </>
   );
 };

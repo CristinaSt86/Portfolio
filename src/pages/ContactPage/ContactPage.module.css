@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   gap: 3rem;
-  padding: 1rem 2.3rem;
-  margin:1rem 2rem;
+  margin: 4rem 0; 
+  padding: 2rem 1.5rem; 
 }
 
 .contactBackground {
@@ -77,8 +77,8 @@
 
 .contactMe {
   text-align: center;
-  padding:0 0.5rem;
-  margin: 2rem 0;
+  margin-bottom: 1.5rem; 
+  padding-top: 1rem; 
   font-size: 2rem;
 }
 
@@ -127,7 +127,8 @@
 @media only screen and (max-width: 1045px) {
   .display {
     flex-direction: column;
-    padding: 1rem;
+    margin: 2rem 0; 
+    padding: 1rem 1rem; 
     align-items: center;
   }
   .contactBackground {
