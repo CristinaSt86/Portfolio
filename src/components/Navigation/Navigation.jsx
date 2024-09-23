@@ -58,9 +58,9 @@ const Navigation = () => {
   const linksDarkMode =
     theme === "dark" ? `${css.links} ${css.linksNight}` : css.links; // Re-enable theme logic
 
-  const handleLanguageChange = (event) => {
-    i18n.changeLanguage(event.target.value);
-  };
+  // const handleLanguageChange = (event) => {
+  //   i18n.changeLanguage(event.target.value);
+  // };
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);

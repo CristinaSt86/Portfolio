@@ -18,13 +18,18 @@
   font-weight: 600;
   text-align: center;
   transition: transform 0.3s ease;
-  color: #627580;
+  /* color: #627580; */
+  color: var(--text-day-mode);
   margin-top: 0;
+}
+
+.linksNight{
+  color: var(--text-night-mode);
 }
 
 .links:hover {
   text-decoration: underline;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .linksNight:hover {
@@ -96,15 +101,14 @@
 
   .links {
     padding: 1rem;
-    font-size: 1.5rem;
     display: inline;
   }
 
-  .links:hover {
+  /* .links:hover {
     text-decoration: underline;
-  }
+  } */
 
-  @keyframes fadeIn {
+  /* @keyframes fadeIn {
     from {
       opacity: 0;
       transform: translateX(-20px);
@@ -118,6 +122,6 @@
   .link {
     animation: fadeIn 0.5s ease forwards;
     opacity: 0;
-  }
+  } */
 }
 
