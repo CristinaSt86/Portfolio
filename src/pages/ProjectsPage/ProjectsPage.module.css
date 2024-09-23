@@ -18,6 +18,7 @@ hr {
   align-items: center;
   gap: 1rem;
   text-align: center;
+  width:100%;
 }
 
 .ulLinks {
@@ -73,41 +74,3 @@ hr {
   }
 }
 
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-150%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInRight {
-  0% {
-    transform: translateX(150%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.slideInLeft {
-  opacity: 0;
-  animation: slideInLeft 1s ease-in-out forwards;
-}
-
-.slideInRight {
-  opacity: 0;
-  animation: slideInRight 1s ease-in-out forwards;
-}
-
-.proBtn {
-  opacity: 0;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-}

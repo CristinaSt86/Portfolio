@@ -1,7 +1,7 @@
 :root {
   --text-night-mode: #e0e6ea;
   --bg-night-mode: #000;
-  --text-day-mode: #3A4A54;
+  --text-day-mode: #3a4a54;
   --bg-day-mode: #e0e0e0;
 }
 
@@ -25,7 +25,17 @@ body {
 }
 
 .lightTheme {
-  background-color: var(--bg-day-mode);
+  /* background-color: var(--bg-day-mode); */
+  background: linear-gradient(
+    135deg,
+    #3747d6,
+    #ffffff,
+    #f0f8ff,
+    #d1e7f5,
+    #b4d4ea
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
   color: var(--text-day-mode);
   width: 100%;
   min-height: 100vh;
@@ -33,6 +43,18 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (max-width: 767px) {

@@ -18,7 +18,7 @@ const Topalx = () => {
 
   return (
     <>
-      <div className={css.placeholder}></div>
+      <div id="topalx-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
           <h1>{t("drivingSchoolWebsite.pageTitle")}</h1>
@@ -26,7 +26,7 @@ const Topalx = () => {
             <p>{t("drivingSchoolWebsite.projectDescription")}</p>
           </ParagraphNight>
           <div className={css.technologiesUsed}>
-            <h2>{t("drivingSchoolWebsite.technologiesUsedTitle")}</h2>
+            <h4>{t("drivingSchoolWebsite.technologiesUsedTitle")}</h4>
             <ul>
               <li>{t("drivingSchoolWebsite.technologiesUsed.react_typescript")}</li>
               <li>{t("drivingSchoolWebsite.technologiesUsed.tailwindcss")}</li>
@@ -43,7 +43,7 @@ const Topalx = () => {
             </ul>
           </div>
           <div className={css.additionalFeatures}>
-            <h2>{t("drivingSchoolWebsite.additionalFeaturesTitle")}</h2>
+            <h4>{t("drivingSchoolWebsite.additionalFeaturesTitle")}</h4>
             <ul>
               <li>{t("drivingSchoolWebsite.additionalFeatures.image_optimization")}</li>
               <li>{t("drivingSchoolWebsite.additionalFeatures.custom_animations")}</li>

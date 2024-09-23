@@ -10,7 +10,7 @@ const AdviceSlip = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className={css.placeholder}></div>
+      <div id="advice-slip-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
           <h1>{t("advicePage.pageTitle")}</h1>

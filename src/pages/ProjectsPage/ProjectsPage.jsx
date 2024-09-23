@@ -18,52 +18,12 @@ const ProjectsPage = () => {
   // Fetch projects from the JSON translation file, including the id field
   const projects = t("projectsPage.projects", { returnObjects: true });
 
-  // Function to scroll to the specific project section
+  // Function to scroll to the specific project section by ID
   const scrollToProject = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
-  };
-
-  const breadcrumbData = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: "https://cristinastoian-developer.com",
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Projects",
-        item: "https://cristinastoian-developer.com/projects",
-      },
-    ],
-  };
-
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Cristina Stoian",
-    jobTitle: "Frontend Developer",
-    url: "https://cristinastoian-developer.com",
-    description:
-      "Frontend Developer specializing in building personalized and responsive websites.",
-    sameAs: [
-      "https://github.com/CristinaSt86",
-      "https://www.linkedin.com/in/cristina-stoian-frontend-developer/",
-    ],
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Limburgstrasse 47",
-      addressLocality: "Weilheim an der Teck",
-      postalCode: "73235",
-      addressCountry: "DE",
-    },
   };
 
   return (
@@ -78,12 +38,6 @@ const ProjectsPage = () => {
           name="keywords"
           content="frontend developer projects, react projects, web development portfolio, JavaScript projects, responsive design, Cristina Stoian projects"
         />
-        <script type="application/ld+json">
-          {JSON.stringify(breadcrumbData)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
       </Helmet>
 
       <div id="projects" className={css.mainContainer}>
@@ -96,25 +50,21 @@ const ProjectsPage = () => {
             {projects.map((project, index) => (
               <li key={index}>
                 <GoToGithub
-                  to={`#${project.id}`} // Use the project ID directly from the JSON
-                  text={project.name}
-                  onClick={() => scrollToProject(project.id)} // Scroll to the matching section by ID
-                  target="_self"
-                  additionalClasses={`${css.proBtn} ${
-                    index % 2 === 0 ? css.slideInLeft : css.slideInRight
-                  }`}
+                  text={project.name} // Use only the text prop, no 'to' prop here
+                  onClick={() => scrollToProject(project.id)} // Call scroll function on click
+                  target="_self" // Keep it here in case you still want this for consistency
+                  additionalClasses={css.proBtn}
                 />
               </li>
             ))}
           </ul>
         </div>
+
         <hr />
         <div>
           <TinyTips />
         </div>
       </div>
-
-      {/* Add project sections with IDs matching those in the JSON */}
       <section id="topalx-project">
         <Topalx />
       </section>

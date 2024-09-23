@@ -187,7 +187,7 @@ const AboutPage = () => {
                 onClick={scrollToProjects}
                 text={t("aboutPage.toProjects")}
                 target="_self"
-                additionalClasses={css.toProjects}
+           
               />
             </div>
           </div>

@@ -15,7 +15,7 @@ const ToDo = () => {
 
   return (
     <>
-      <div  className={css.placeholder}></div>
+      <div id="todo-project"  className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
           <h1>{t("todoPage.pageTitle")}</h1>

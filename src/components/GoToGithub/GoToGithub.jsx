@@ -1,15 +1,16 @@
 import React from "react";
-import css from "./GoToGithub.module.css";
 import { Link } from "react-router-dom";
+import css from "./GoToGithub.module.css";
 import { useTheme } from "../../ThemeContext";
 
 const GoToGithub = ({
-  to,
+  to, 
   text,
   onClick,
   target = "_blank",
-  additionalClasses,
+  additionalClasses = "", // CSS classes that can be added
   children,
+  rel = "noopener noreferrer", // Security for external links
   ...rest
 }) => {
   const { theme } = useTheme(); // Assuming this returns either 'light' or 'dark'
@@ -19,28 +20,40 @@ const GoToGithub = ({
     return theme === "dark" ? css.darkTheme : css.lightTheme;
   };
 
+  // Handle click logic based on the presence of a URL or just a scroll action
   const handleClick = (e) => {
-    // If an onClick handler is provided, use it
+    // If `onClick` is provided, use it to handle actions like scrolling
     if (onClick) {
-      e.preventDefault(); // Prevent the default behavior (e.g., navigating away)
-      onClick(); // Call the custom function (e.g., scroll to section)
-    } else {
-      // Otherwise, proceed with the default behavior (navigating to URL)
-      window.open(to, target);
+      e.preventDefault(); // Prevent default behavior
+      onClick(); // Perform the custom action
     }
   };
-  return (
-    <Link
-      onClick={handleClick}
-      to={to}
-      className={`${css.Link}  ${gtgNightMode()} ${additionalClasses || ""}`} // Apply theme-based class
-      target={target}
-      {...rest} // Spread any additional props, like `rel`
-    >
-      {children ? children : text}{" "}
-      {/* If children are provided, render them, otherwise use text */}
-    </Link>
-  );
+
+  // Check if 'to' is provided, this determines if it's a link or a button-like behavior
+  if (to) {
+    return (
+      <a
+        href={to} // For external URLs
+        target={target}
+        rel={rel} // Security for external URLs
+        className={`${css.Link} ${gtgNightMode()} ${additionalClasses}`}
+        {...rest}
+      >
+        {children || text} {/* If children exist, render them, otherwise use text */}
+      </a>
+    );
+  } else {
+    // Button-like behavior (e.g., for scroll or toggle actions)
+    return (
+      <button
+        onClick={handleClick}
+        className={`${css.Link} ${gtgNightMode()} ${additionalClasses}`}
+        {...rest}
+      >
+        {children || text} {/* If children exist, render them, otherwise use text */}
+      </button>
+    );
+  }
 };
 
 export default GoToGithub;

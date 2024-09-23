@@ -1,0 +1,86 @@
+.fabContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fabMenu {
+  position: relative;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  max-height: 0; /* Start collapsed */
+  overflow: hidden; /* Hide content when collapsed */
+  transition: max-height 0.5s ease-in-out; /* Smooth height expansion */
+}
+
+.fabMenu.show {
+  max-height: 300px; /* Adjust this value to match your content height */
+}
+
+.fabItem {
+  opacity: 0;
+  transform: translateY(-10px); /* Start slightly above */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fabItem.show {
+  opacity: 1;
+  transform: translateY(0); /* Move down into position */
+}
+
+/* This is for larger screens (desktop) -- Unchanged behavior */
+@media (min-width: 768px) {
+  .fabMenu {
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease;
+    opacity: 0;
+  }
+
+  .fabMenu.show {
+    max-height: 300px; 
+    opacity: 1; 
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease;
+  }
+}
+
+/* Specific behavior for iPad Mini and iPad Air */
+@media (min-width: 768px) and (max-width: 1024px), 
+       (min-width: 820px) and (max-width: 1180px) {
+  .fabMenu {
+    position: relative; /* Make it relative for iPads */
+    bottom: initial; /* Remove fixed positioning for iPads */
+    right: initial; 
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.5s ease-in-out;
+    top: 1rem;
+  }
+
+  .fabMenu.show {
+    max-height: 300px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .fabMenu {
+    position: relative;
+    padding: 1.2rem;
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden; /* Hide content when collapsed */
+    transition: max-height 0.5s ease-in-out; /* Smooth height expansion */
+  }
+
+  .fabMenu.show {
+    max-height: 300px;
+  }
+}

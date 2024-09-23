@@ -51,14 +51,30 @@
     "toProjects": "Zu Projekten"
   },
   "projectsPage": {
-  "projects": [
-    { "name": "Driving School", "path": "/topalx", "id": "topalx-project" },
-    { "name": "Tiny Tips", "path": "/advice-slip", "id": "advice-slip-project" },
-    { "name": "Mini Robot", "path": "/joke-teller", "id": "joke-teller-project" },
-    { "name": "ToDo App", "path": "/to-do", "id": "todo-project" },
-    { "name": "Figo Restaurant", "path": "/figo-restaurant", "id": "figo-rest-project" },
-    { "name": "Jogga Internship", "path": "/jogga-inter", "id": "jogga-inter-project" }
-  ]
+    "projects": [
+      { "name": "Driving School", "path": "/topalx", "id": "topalx-project" },
+      {
+        "name": "Tiny Tips",
+        "path": "/advice-slip",
+        "id": "advice-slip-project"
+      },
+      {
+        "name": "Mini Robot",
+        "path": "/joke-teller",
+        "id": "joke-teller-project"
+      },
+      { "name": "ToDo App", "path": "/to-do", "id": "todo-project" },
+      {
+        "name": "Figo Restaurant",
+        "path": "/figo-restaurant",
+        "id": "figo-rest-project"
+      },
+      {
+        "name": "Jogga Internship",
+        "path": "/jogga-inter",
+        "id": "jogga-inter-project"
+      }
+    ]
   },
   "contactPage": {
     "contactMe": "Lass uns verbinden",

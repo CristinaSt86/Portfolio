@@ -1,0 +1,12 @@
+.languageDropdown {
+  border: 0.5px solid #374957;
+  outline: none;
+  padding: 0.2rem;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  color: #374957;
+}
+
+.option {
+  font-size: 1.1rem;
+}

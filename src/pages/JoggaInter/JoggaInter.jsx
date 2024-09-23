@@ -15,7 +15,7 @@ const JoggaInter = () => {
 
   return (
     <>
-      <div  className={css.placeholder}></div>
+      <div id="jogga-inter-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
           <h1>{t("joggaPage.pageTitle")}</h1>

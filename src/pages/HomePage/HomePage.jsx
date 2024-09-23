@@ -116,12 +116,14 @@ const HomePage = () => {
               alt={t("homePage.imageAlt")}
               className={`${imagineDark} ${css.imageAnimate}`}
             />
+
             <div className={`${css.introMore} ${css.textAnimate}`}>
-              <h1 className={css.titlu}>
-                {t("homePage.greeting")}
-                <br />
+              <h1 className={css.titlu}>{t("homePage.greeting")}</h1>
+              <h2 className={css.subtitlu}>
+                {" "}
+                {/* You can use h4 instead of h3 if you prefer */}
                 {t("homePage.introduction")}
-              </h1>
+              </h2>
               <GoToGithub
                 onClick={scrollToAbout}
                 text={t("homePage.readMore")}
