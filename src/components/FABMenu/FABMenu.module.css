@@ -13,27 +13,26 @@
   flex-direction: column;
   gap: 1.5rem;
   align-items: flex-start;
-  max-height: 0; /* Start collapsed */
-  overflow: hidden; /* Hide content when collapsed */
-  transition: max-height 0.5s ease-in-out; /* Smooth height expansion */
+  max-height: 0;
+  overflow: hidden; 
+  transition: max-height 0.5s ease-in-out;
 }
 
 .fabMenu.show {
-  max-height: 300px; /* Adjust this value to match your content height */
+  max-height: 300px; 
 }
 
 .fabItem {
   opacity: 0;
-  transform: translateY(-10px); /* Start slightly above */
+  transform: translateY(-10px); 
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .fabItem.show {
   opacity: 1;
-  transform: translateY(0); /* Move down into position */
+  transform: translateY(0);
 }
 
-/* This is for larger screens (desktop) -- Unchanged behavior */
 @media (min-width: 768px) {
   .fabMenu {
     position: fixed;
@@ -52,12 +51,16 @@
   }
 }
 
-/* Specific behavior for iPad Mini and iPad Air */
-@media (min-width: 768px) and (max-width: 1024px), 
-       (min-width: 820px) and (max-width: 1180px) {
+
+/* @media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  and (aspect-ratio: 3/4) {
   .fabMenu {
-    position: relative; /* Make it relative for iPads */
-    bottom: initial; /* Remove fixed positioning for iPads */
+    position: relative; 
+    bottom: initial;
     right: initial; 
     max-height: 0; 
     overflow: hidden; 
@@ -68,19 +71,20 @@
   .fabMenu.show {
     max-height: 300px;
   }
-}
+} */
 
-/* For mobile devices */
+
 @media (max-width: 768px) {
   .fabMenu {
     position: relative;
     padding: 1.2rem;
-    max-height: 0; /* Initially collapsed */
-    overflow: hidden; /* Hide content when collapsed */
-    transition: max-height 0.5s ease-in-out; /* Smooth height expansion */
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.5s ease-in-out; 
   }
 
   .fabMenu.show {
     max-height: 300px;
+    top:1rem;
   }
 }

@@ -56,7 +56,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   .hamburger img {
     display: block;
   }
@@ -104,24 +104,6 @@
     display: inline;
   }
 
-  /* .links:hover {
-    text-decoration: underline;
-  } */
-
-  /* @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  .link {
-    animation: fadeIn 0.5s ease forwards;
-    opacity: 0;
-  } */
+  
 }
 

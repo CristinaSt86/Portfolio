@@ -1,3 +1,8 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+
 :root {
   --text-night-mode: #e0e6ea;
   --bg-night-mode: #000;
@@ -26,14 +31,7 @@ body {
 
 .lightTheme {
   /* background-color: var(--bg-day-mode); */
-  background: linear-gradient(
-    135deg,
-    #3747d6,
-    #ffffff,
-    #f0f8ff,
-    #d1e7f5,
-    #b4d4ea
-  );
+  background: linear-gradient(135deg, #ffffff, #f0f8ff, #d1e7f5, #b4d4ea);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   color: var(--text-day-mode);
@@ -43,6 +41,7 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
+  /* overflow-x: hidden;  */
 }
 
 @keyframes gradientBG {
