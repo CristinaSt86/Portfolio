@@ -28,7 +28,7 @@
 @media (max-width: 767px) {
   .mainContainer {
     flex-direction: column;
-    margin: 2rem 0; 
+    margin: 1rem 0; 
     padding: 1rem 1rem; 
   }
 
@@ -37,7 +37,8 @@
   }
 
   .servicesTitle {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
   }
   .services {
     margin: 2rem 0 6rem 0;

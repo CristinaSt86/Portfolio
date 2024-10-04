@@ -42,7 +42,7 @@ export const LightboxGallery = ({ images }) => {
           onSlide={(currentIndex) => setPhotoIndex(currentIndex)}
           infinite={true}
           showPlayButton={false}
-          showFullscreenButton={false}
+          showFullscreenButton={true}
           showIndex={false}
           showBullets={true}
         />

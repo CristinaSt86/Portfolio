@@ -1,15 +1,15 @@
-.backToTopContainer {
+   .backToTopContainer {
     position: fixed;
-    bottom: 4rem;
+    bottom: 4rem; 
     right: 1rem;
     z-index: 10000;
   }
   
   .backToTopButton {
     padding: 0.5rem;
-    width: 3rem; /* Set a fixed width */
-    height: 3rem; /* Ensure height and width are equal */
-    border-radius: 50%; /* Make it perfectly round */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
     background-color: #2d3748;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -17,8 +17,8 @@
     transition: background-color 0.3s ease;
     outline: none;
     display: flex;
-    align-items: center; /* Center the icon vertically */
-    justify-content: center; /* Center the icon horizontally */
+    align-items: center;
+    justify-content: center;
   }
   
   .backToTopButton:hover {
@@ -33,5 +33,17 @@
   .icon {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .backToTopContainer {
+      bottom: 0.5rem; 
+      right: 0.5rem;
+    }
+  
+  
+    .bottomAtEnd {
+      bottom: 3rem; 
+    }
   }
   
