@@ -77,9 +77,15 @@ const Navigation = () => {
         <img src={hamburgerMenu} alt="mobile-menu" />
       </div>
       <ul className={`${css.list} ${menuOpen ? css.show : ""}`}>
-        <div onClick={() => scrollToSection("home")} className={css.mobileLogo}>
+      {/* <div onClick={() => scrollToSection("home")} className={css.mobileLogo}> */}
+          {/* Aici înlocuiești imaginea cu textul */}
+          {/* <span className={css.logoText}>Cristina Stoian</span>
+        </div> */}
+
+        
+        {/* <div onClick={() => scrollToSection("home")} className={css.mobileLogo}>
           <img src={Logo} alt="Logo" />
-        </div>
+        </div> */}
 
         {navLinks.map((link, index) => (
           <li key={index} className={css.navItem}>
