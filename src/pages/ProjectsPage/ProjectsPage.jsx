@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import css from "./ProjectsPage.module.css";
 import WeatherMini from "../../components/WeatherMini/WeatherMini";
 import { useTranslation } from "react-i18next";

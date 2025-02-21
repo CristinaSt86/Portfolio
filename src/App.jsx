@@ -19,6 +19,7 @@ const App = () => {
           <Suspense fallback={<Loader />}>
             <ThemeWrapper>
               {/* <Shapes /> */}
+              
               <Header />
               <RoutesConfig />
               <BackToTop />

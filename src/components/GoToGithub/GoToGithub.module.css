@@ -8,7 +8,8 @@
   transition: transform 0.3s ease, background-color 0.3s ease,
     box-shadow 0.3s ease, color 0.3s ease;
   background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
+
   /* position: relative; */
 }
 
@@ -16,18 +17,19 @@
   background: #3747d6;
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
+
   border-color: #3747d6;
 }
 
 .lightTheme {
-  color: #3A4A54;
+  color: #3a4a54;
 }
 
 .darkTheme {
   color: var(--text-night-mode);
 }
 
-button{
-  border:none;
+button {
+  border: none;
 }
