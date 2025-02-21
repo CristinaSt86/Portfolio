@@ -10,6 +10,7 @@ import Linkedin from "../../images/linkedin.webp";
 import Github from "../../images/github.webp";
 import msg from "../../images/message.webp";
 import { Helmet } from "react-helmet-async";
+import Separator from "../../components/Separator/Separator";
 
 const ContactPage = () => {
   const { theme } = useTheme();
@@ -74,6 +75,7 @@ const ContactPage = () => {
         </script>
       </Helmet>
       <h1 id="contact" className={css.contactMe}>{t("contactPage.contactMe")}</h1>
+      <Separator/>
       <div className={css.display}>
         <div className={contactBgDarkMode}>
           <div className={css.imageContainer}>

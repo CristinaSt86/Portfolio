@@ -5,6 +5,7 @@ import AdvicePic from "../../images/AdvicePic.webp";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
+import Separator from "../../components/Separator/Separator";
 
 const AdviceSlip = () => {
   const { t } = useTranslation();
@@ -13,14 +14,15 @@ const AdviceSlip = () => {
       <div id="advice-slip-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
-          <h1>{t("advicePage.pageTitle")}</h1>
+          <h1 className={css.titlu}>{t("advicePage.pageTitle")}</h1>
+          <Separator/>
           <ParagraphNight>
             <p>{t("advicePage.adviceDescription")}</p>
           </ParagraphNight>
         </section>
         <GoToGithub
           to={t("advicePage.githubLink")}
-          text={t("goToGithub.linkText")}
+          text={t("advicePage.linkText")}
         />
         <section>
           <Image

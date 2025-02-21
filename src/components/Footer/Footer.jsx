@@ -27,7 +27,7 @@ const Footer = () => {
     <footer className={css.footer}>
       <div className={css.left}>
         <p className={css.textFoot}>{t("footerText")}</p>
-        <p className={css.textFoot}>{t("footerText2")}</p>
+        {/* <p className={css.textFoot}>{t("footerText2")}</p> */}
       </div>
       <div className={css.right}>
         {socialMedia.map((media) => (

@@ -1,7 +1,7 @@
    .backToTopContainer {
     position: fixed;
     bottom: 4rem; 
-    right: 1rem;
+    right: 2rem;
     z-index: 10000;
   }
   
@@ -37,8 +37,8 @@
   
   @media (max-width: 768px) {
     .backToTopContainer {
-      bottom: 0.5rem; 
-      right: 0.5rem;
+      bottom: 2rem; 
+      right: 2rem;
     }
   
   

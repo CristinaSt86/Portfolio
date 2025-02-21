@@ -22,6 +22,7 @@ import gt from "../../images/gt.svg";
 import nxt from "../../images/nxt.svg";
 import { Helmet } from "react-helmet-async";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import Separator from "../../components/Separator/Separator";
 
 const AboutPage = () => {
   const { t } = useTranslation();
@@ -173,6 +174,7 @@ const AboutPage = () => {
         <main className={css.main2}>
           <div className={css.aboutBackground}>
             <h2 className={css.hey}>{t("aboutPage.hello")}</h2>
+            <Separator />
             <ParagraphNight>
               {t("aboutPage.introText", { returnObjects: true }).map(
                 (text, index) => (
@@ -187,12 +189,12 @@ const AboutPage = () => {
                 onClick={scrollToProjects}
                 text={t("aboutPage.toProjects")}
                 target="_self"
-           
               />
             </div>
           </div>
           <div className={css.certificationsContainer}>
             <h2>{t("aboutPage.certificationsHeader")}</h2>
+            <Separator />
             <section className={css.lightbox}>
               <LightboxGallery images={certifications} />
             </section>
@@ -200,6 +202,7 @@ const AboutPage = () => {
 
           <div className={css.foreignList}>
             <h2 className={css.lanTitle}>{t("aboutPage.languagesHeader")} </h2>
+            <Separator/>
             <ul className={css.spokenLan}>
               {languages.map((lang, index) => (
                 <li key={index}>

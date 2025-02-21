@@ -105,57 +105,55 @@
     "validCityError": "Bitte geben Sie einen gültigen Stadtnamen ein."
   },
   "advicePage": {
-    "pageTitle": "Kleine Tipps",
-    "adviceDescription": "Diese App bietet ein klares HTML-Layout mit einer Überschrift für Beratungsnummern und einem Absatz zur Anzeige von Beratungstexten, ergänzt durch zwei Bilder - eines dekorativ und eines als Würfelsymbol, das als Knopf zum Abrufen neuer Ratschläge dient. Mithilfe von JavaScript werden notwendige DOM-Elemente ausgewählt, um Beratungstexte dynamisch anzuzeigen, die asynchron von der https://api.adviceslip.com/advice API abgerufen werden. Ein Würfelknopf löst Updates aus und bringt auf Klick frische Ratschläge, während CSS und Google Fonts eine stilvolle und lesbare Schnittstelle sicherstellen. Diese Einrichtung illustriert eine reaktionsfähige, benutzerinteraktive Webanwendung.",
+    "pageTitle": "Praktische Ratschläge",
+    "adviceDescription": "Interaktive Web-App, die Ratschläge dynamisch von der Advice Slip API abruft. Eine Würfeltaste ermöglicht die schnelle Generierung neuer Tipps. Das moderne Layout wird mit CSS und Google Fonts für eine angenehme Benutzererfahrung gestaltet.",
     "githubLink": "https://github.com/CristinaSt86/Advice_Slip",
-    "imageAlt": "Kleine Tipps Bild"
+    "imageAlt": "Schnelle Ratschläge Bild",
+     "linkText": "Zu GitHub"
   },
   "jokeTellerPage": {
-    "pageTitle": "Witzeerzähler",
-    "jokeDescription": "Diese HTML-Datei, zusammen mit begleitenden CSS- und JavaScript-Dateien, erstellt eine einfache Webanwendung namens 'Joke Teller'. Die App besteht aus einem Behälter mit zwei Knöpfen: einem, um einen Witz anzufordern, und einem anderen, um zur 'Über'-Seite zu navigieren. Wenn der Benutzer auf den 'Erzähl mir einen Witz!' Knopf klickt, holt eine asynchrone JavaScript-Funktion einen Witz von der JokeAPI, sicherstellend, dass er für alle Zielgruppen sicher ist, indem NSFW, rassistischer, sexistischer und expliziter Inhalt ausgeschlossen wird. Der abgerufene Witz wird dann in das HTML-Div mit der ID 'speech' gerendert und mit der VoiceRSS API laut vorgelesen. Zusätzlich leitet das Klicken auf den 'Über die App' Knopf den Benutzer auf eine Über-Seite weiter.",
+    "pageTitle": "Witze-Erzähler",
+    "jokeDescription": "Interaktive Web-App, die Witze dynamisch über JokeAPI und VoiceRSS abruft und vorliest. Mit den Buttons kann der Benutzer einen Witz generieren oder eine Infoseite aufrufen.",
     "githubLink": "https://github.com/CristinaSt86/Robot-Mini-App",
-    "imageAlt": "Mini-Roboter - Witz-Erzähler Bild",
+    "imageAlt": "Mini-Roboter - Witze-Erzähler",
     "buttons": {
       "tellJoke": "Erzähl mir einen Witz!",
-      "stopJoke": "Stille!"
+      "stopJoke": "Ruhe!"
     },
-    "noJoke": "Klicken Sie auf die Schaltfläche, um einen Witz zu hören!",
-    "errorFetchingJoke": "Witz abrufen fehlgeschlagen"
+    "noJoke": "Drücke den Button, um einen Witz zu hören!",
+    "errorFetchingJoke": "Fehler beim Abrufen des Witzes",
+     "linkText": "Zu GitHub"
   },
   "todoPage": {
-    "pageTitle": "Aufgabenliste",
-    "todoDescription": "Diese React-Anwendung verwaltet eine Liste von Aufgaben mit Formularvalidierung. Die Hauptfunktionen beinhalten das Anzeigen von Aufgaben, das Erlauben von Benutzern, Aufgaben hinzuzufügen, zu bearbeiten und zu löschen, und das Markieren von Aufgaben als abgeschlossen. Die App nutzt React State Hooks wie useState, um Todo-Daten und die Sichtbarkeit von Modals zu verwalten. Sie besteht aus Komponenten wie MyTodos, Modal und CreateTaskForm, die unterschiedliche Aspekte des Aufgabenmanagements behandeln. Die MyTodos-Komponente rendert die Liste der Aufgaben, sodass Benutzer mit ihnen interagieren können. Die Modal-Komponente behandelt das Anzeigen eines Modals zum Hinzufügen oder Bearbeiten von Aufgaben. Schließlich bietet die CreateTaskForm-Komponente ein Formular zum Hinzufügen oder Bearbeiten von Aufgaben, wobei die Formularvalidierung sicherstellt, dass Benutzer Daten in Formularfelder eingeben, bevor Einsendungen oder Bearbeitungen fortgesetzt werden können. Diese Validierung verbessert die Benutzererfahrung, indem sie die Benutzer auffordert, wesentliche Informationen, wie den Titel der Aufgabe, bereitzustellen, bevor sie fortfahren. Die App-Komponente integriert diese Komponenten und verwaltet Zustand und Ereignisbehandlung für die Todo-Funktionalität.",
+    "pageTitle": "Aufgabenmanager",
+    "todoDescription": "React-App zur Aufgabenverwaltung, mit Funktionen zum Hinzufügen, Bearbeiten, Löschen und Markieren von Aufgaben als erledigt. Verwendet Hooks wie useState zur Zustandsverwaltung und modulare Komponenten für eine intuitive Benutzeroberfläche.",
     "githubLink": "https://github.com/CristinaSt86/TodoApp",
-    "imageAlt": "Screenshot der Aufgaben-App"
+    "imageAlt": "Screenshot der Aufgabenverwaltungs-App",
+     "linkText": "Zu GitHub"
   },
   "figoRestPage": {
     "pageTitle": "Restaurant Figo",
-    "description": "Dieser HTML-Code repräsentiert eine moderne und visuell ansprechende Restaurant-Website. Er integriert verschiedene Merkmale und Elemente, um ein ansprechendes Benutzererlebnis zu schaffen. Das Design ist responsiv, was die Kompatibilität über verschiedene Geräte hinweg sicherstellt. Zu den Hauptmerkmalen gehören ein responsives Navigationsmenü, das es Benutzern ermöglicht, leicht zu verschiedenen Abschnitten wie Über uns, Menü, Service und Galerie zu navigieren. Der Hero-Bereich bietet ein fesselndes Bild mit einer prominenten Überschrift und einer Handlungsaufforderungstaste, die die Benutzer einlädt, weiter zu erkunden. Der Willkommensbereich begrüßt die Besucher des Restaurants und bietet einen kurzen Überblick über seine Angebote. Er umfasst ein einladendes Bild eines Kochs und ermutigt die Benutzer, mehr über die Geschichte des Restaurants zu erfahren. Die Gründe für die Wahl des Restaurants werden im Abschnitt 'Gründe für die Wahl' hervorgehoben, der wichtige Vorteile wie ein vielfältiges Menü, taschenfreundliche Lieferung und beste Angebote darstellt. Der Menükarussell präsentiert Menüpunkte in einem interaktiven Karussell und ermöglicht es den Benutzern, durch verschiedene Kategorien wie Frühstück, Mittagessen, Abendessen, Desserts, Suppen und Getränke zu blättern. Besucher können Testimonials von zufriedenen Kunden lesen, was zur Glaubwürdigkeit des Rufs des Restaurants beiträgt. Der Abschnitt 'Neueste Nachrichten' hält die Benutzer über die neuesten Nachrichten und Updates im Zusammenhang mit dem Restaurant auf dem Laufenden und bietet Artikel zu Themen wie spanische Vorspeisen, Wein und Käse und Tassen Kaffee. Der Fußzeilenbereich enthält wichtige Informationen wie Kontaktdetails, Social-Media-Links, Menüoptionen und Links zu wichtigen Seiten wie Über uns, Nutzungsbedingungen und Datenschutzrichtlinien. Verwendete Bibliotheken: jQuery, verwendet für DOM-Manipulation und Ereignisbehandlung; Owl Carousel, genutzt zur Erstellung des interaktiven Karussells für die Anzeige von Menüpunkten. Insgesamt zeigt dieser HTML-Code eine gut gestaltete Restaurant-Website, die die Marke und die Angebote des Restaurants effektiv an potenzielle Kunden fördert.",
+    "description": "Moderne, responsive Restaurant-Website mit interaktivem Menü, Galerie, Kundenbewertungen und Nachrichtenbereich. Intuitive Navigation und attraktives Design, optimiert für alle Geräte.",
     "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
-    "imageAlt": "Galeriebild des Figo Restaurants"
+    "imageAlt": "Galeriebild des Figo Restaurants",
+     "linkText": "Zu GitHub"
   },
   "joggaPage": {
-    "pageTitle": "Übergang von Jogga.ro von React.js zu Next.js",
-    "description": "Während meines Praktikums bei Jogga spielte ich eine Schlüsselrolle bei der Migration der Unternehmenswebsite von React zu Next.js, um die Ladezeiten zu verkürzen und die Suchmaschinenoptimierung zu verbessern. Meine Aufgaben umfassten die Implementierung serverseitiger Renderings, die Optimierung von Bildladeprozessen und die Verbesserung der Zugänglichkeit und Interaktivität durch dynamisches Laden von Inhalten. Diese technischen Verbesserungen trugen dazu bei, die Benutzererfahrung erheblich zu verbessern und die Plattform für zukünftiges Wachstum vorzubereiten.",
+    "pageTitle": "Jogga.ro Migration von React.js zu Next.js",
+    "description": "Ich habe zur Migration von Jogga.ro auf Next.js beigetragen, um Ladezeiten und SEO durch serverseitiges Rendering, dynamische Inhaltsladung und Bildoptimierung zu verbessern.",
     "githubLink": "https://github.com/SkillBrain-com/europa-jogga-internship",
-    "imageAlt": "Interaktive Karte aus dem Jogga.ro Projekt",
+    "imageAlt": "Interaktive Karte aus dem Jogga.ro-Projekt",
     "keyContributions": [
-      "Verwendung von API-Eigenschaften zum Abrufen und Anzeigen von Daten, was die Benutzerinteraktion verbesserte.",
-
-      "Aktualisierung und Implementierung von Benutzeroberflächenkomponenten zur Verbesserung der Benutzererfahrung.",
-
-      "Implementierung des Lazy Loading für Bilder zur Reduzierung der Ladezeiten.",
-
-      "Erstellung einer interaktiven Karte mit Markierungen für eine einfache Navigation."
+      "Dynamisches Abrufen und Anzeigen von Daten über API.",
+      "Optimierung der Benutzeroberfläche für ein verbessertes Nutzererlebnis.",
+      "Lazy Loading für Bilder implementiert.",
+      "Interaktive Karte mit Markierungen erstellt."
     ],
-    "outcome": "Das Projekt verbesserte nicht nur erheblich die Leistung von Jogga.ro, sondern erweiterte auch meine Fähigkeiten in Next.js und React erheblich. Dadurch sammelte ich wertvolle Erfahrungen mit modernsten Webentwicklungstechnologien, die mich auf komplexere Herausforderungen in zukünftigen Projekten vorbereiten."
-  },
-  "goToGithub": {
+    "outcome": "Das Projekt verbesserte die Leistung von Jogga.ro und stärkte meine Expertise in Next.js und React.",
     "linkText": "Zu GitHub"
   },
   "loadingMessage": "Cristinas Portfolio wird geladen, viel Spaß dabei!",
   "footerText": "© 2024 Cristina Stoian.",
-  "footerText2": "  Alle Rechte vorbehalten.",
   "servicesTitle": "Individuelle Lösungen",
   "customWebDevTitle": "Maßgeschneiderte Webentwicklung",
   "customWebDevDescription": "Erstellung von responsiven, interaktiven und visuell ansprechenden Webseiten mit React. Gewährleistung der Kompatibilität über verschiedene Geräte und Browser hinweg.",
@@ -184,29 +182,23 @@
   },
   "drivingSchoolWebsite": {
     "pageTitle": "Fahrschul-Website",
-    "projectDescription": "Entwickelte eine moderne, vollständig responsive Website für eine Fahrschule, die fortschrittliche Webtechnologien verwendet, um eine optimierte und nahtlose Benutzererfahrung zu bieten. Die Seite ist leistungsorientiert und sorgt für schnelle Ladezeiten und eine reibungslose Navigation, während verschiedene fortschrittliche Funktionen integriert sind.",
+    "projectDescription": "Wir haben eine moderne, vollständig responsive Website für eine Fahrschule entwickelt, die fortschrittliche Webtechnologien nutzt, um eine optimierte und nahtlose Benutzererfahrung zu bieten. Die Seite ist leistungsstark, mit schnellen Ladezeiten und intuitiver Navigation, sowie essenziellen Funktionen.",
     "technologiesUsedTitle": "Eingesetzte Technologien",
     "technologiesUsed": {
-      "react_typescript": "Erstellt mit einer modularen Architektur für Skalierbarkeit und einfache Wartung.",
-      "tailwindcss": "Verwendet für schnelles, konsistentes Styling und vollständig responsive Layouts auf allen Geräten.",
-      "seo": "SEO-Best Practices wurden implementiert, um die Sichtbarkeit und das Ranking in Suchmaschinen zu verbessern.",
-      "image_optimization": "Alle Bilder wurden optimiert, wobei das WebP-Format für eine bessere Komprimierung und schnellere Ladezeiten ohne Qualitätsverlust verwendet wurde.",
-      "suspense_lazy_loading": "Die Leistung wurde durch Lazy Loading von Komponenten und Bildern verbessert, wodurch die anfänglichen Ladezeiten reduziert wurden.",
-      "formspree": "Formspree wurde integriert, um eine effiziente Formularverarbeitung und -übermittlung zu ermöglichen.",
-      "google_maps": "Google Maps wurde eingebettet, um eine einfache Navigation zum Standort der Fahrschule zu ermöglichen.",
-      "google_ads": "Google Ads wurde integriert, um den Verkehr zu steigern und die Sichtbarkeit zu erhöhen.",
-      "i18n": "i18n wurde implementiert, um eine nahtlose Übersetzung und mehrsprachige Unterstützung zu ermöglichen.",
-      "react_image_gallery": "Die Einrichtungen und Fahrzeuge der Fahrschule wurden in einer interaktiven Bildergalerie präsentiert.",
-      "responsive_design": "Sicherstellung eines vollständig responsiven Layouts, das auf allen Geräten eine optimierte Benutzererfahrung bietet.",
-      "third_party_libraries": "Mehrere React-Pakete wurden verwendet, um die Funktionalität zu verbessern und die Entwicklungseffizienz zu steigern."
+      "react_typescript": "Modulare Architektur für Skalierbarkeit und einfache Wartung.",
+      "tailwindcss": "Schnelles Styling und vollständig responsives Design auf allen Geräten.",
+      "seo": "Erweiterte Optimierung für bessere Suchmaschinenplatzierung.",
+      "image_optimization": "WebP-Bildkomprimierung für reduzierte Ladezeiten.",
+      "suspense_lazy_loading": "Lazy Loading von Komponenten für verbesserte Leistung.",
+      "formspree": "Effizientes Management von Kontaktformularen.",
+      "google_maps": "Google Maps-Integration für einfache Navigation.",
+      "google_ads": "Google Ads-Implementierung zur Steigerung des Traffics.",
+      "i18n": "Mehrsprachige Unterstützung für erweiterte Zugänglichkeit.",
+      "react_image_gallery": "Interaktive Galerie zur Präsentation der Schulräumlichkeiten.",
+      "responsive_design": "Vollständig responsives Design für alle Geräte.",
+      "third_party_libraries": "React-Bibliotheken zur Erweiterung der Funktionalität."
     },
-    "additionalFeaturesTitle": "Zusätzliche Funktionen",
-    "additionalFeatures": {
-      "image_optimization": "Bildkomprimierungstechniken, einschließlich WebP, wurden implementiert, um die Ladezeiten zu minimieren und gleichzeitig eine hohe visuelle Qualität zu gewährleisten.",
-      "custom_animations": "Sanfte Animationen wurden integriert, um ein ansprechendes und flüssiges Benutzererlebnis zu bieten.",
-      "cross_browser": "Konsistente Leistung auf allen wichtigen Browsern sichergestellt.",
-      "future_proof": "Zukunftssicher entwickelt, um zukünftige Updates und Funktionserweiterungen zu erleichtern."
-    },
+    "linkText": "Zu GitHub",
     "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
     "imageAlt": "Screenshot der Fahrschul-Website"
   }

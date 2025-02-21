@@ -74,7 +74,7 @@ const Navigation = () => {
   return (
     <nav ref={navRef}>
       <div className={css.hamburger} onClick={toggleMenu}>
-        <img src={hamburgerMenu} alt="mobile-menu" />
+        <img src={hamburgerMenu} alt="mobile-menu"/>
       </div>
       <ul className={`${css.list} ${menuOpen ? css.show : ""}`}>
       {/* <div onClick={() => scrollToSection("home")} className={css.mobileLogo}> */}

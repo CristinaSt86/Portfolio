@@ -54,6 +54,7 @@
   height: auto;
   padding: 1.5rem;
   display: none;
+  color: #3747d6;
 }
 
 @media only screen and (max-width: 768px) {

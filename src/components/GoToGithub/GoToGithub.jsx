@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import css from "./GoToGithub.module.css";
 import { useTheme } from "../../ThemeContext";
+import { useTranslation } from "react-i18next";
 
 const GoToGithub = ({
-  to, 
+  to,
   text,
   onClick,
   target = "_blank",
@@ -14,6 +15,7 @@ const GoToGithub = ({
   ...rest
 }) => {
   const { theme } = useTheme(); // Assuming this returns either 'light' or 'dark'
+  const {t} = useTranslation();
 
   // Function to get the appropriate theme class
   const gtgNightMode = () => {
@@ -39,7 +41,8 @@ const GoToGithub = ({
         className={`${css.Link} ${gtgNightMode()} ${additionalClasses}`}
         {...rest}
       >
-        {children || text} {/* If children exist, render them, otherwise use text */}
+        {children || text}{" "}
+        {/* If children exist, render them, otherwise use text */}
       </a>
     );
   } else {
@@ -50,7 +53,9 @@ const GoToGithub = ({
         className={`${css.Link} ${gtgNightMode()} ${additionalClasses}`}
         {...rest}
       >
-        {children || text} {/* If children exist, render them, otherwise use text */}
+        {children || text}{" "}
+        {/* If children exist, render them, otherwise use text */}
+        
       </button>
     );
   }

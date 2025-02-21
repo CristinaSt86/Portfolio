@@ -11,6 +11,7 @@ import JokeTeller from "../JokeTeller/JokeTeller";
 import Todo from "../ToDo/ToDo";
 import FigoRest from "../FigoRest/FigoRest";
 import JoggaInter from "../JoggaInter/JoggaInter";
+import Separator from "../../components/Separator/Separator";
 
 const ProjectsPage = () => {
   const { t } = useTranslation();
@@ -44,7 +45,7 @@ const ProjectsPage = () => {
         <div>
           <WeatherMini />
         </div>
-        <hr />
+      <Separator/>
         <div>
           <ul className={css.ulLinks}>
             {projects.map((project, index) => (
@@ -60,7 +61,7 @@ const ProjectsPage = () => {
           </ul>
         </div>
 
-        <hr />
+        <Separator/>
         <div>
           <TinyTips />
         </div>

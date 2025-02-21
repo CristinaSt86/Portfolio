@@ -45,4 +45,8 @@
     width: 100%;
     height: auto;
   }
+
+  .titlu{
+    text-align:center;
+  }
 }

@@ -53,7 +53,7 @@
 .titlu {
   text-align: center;
   z-index: 1001;
-  margin:0.5rem 0;
+  margin:1.3rem 0;
 }
 
 .subtitlu {
@@ -91,6 +91,12 @@
 
   .imagine {
     height: 19rem;
+  }
+  .titlu{
+    font-size:2rem;
+  }
+  .subtitlu{
+    font-size:1.3rem;
   }
 }
 

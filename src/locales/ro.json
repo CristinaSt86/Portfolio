@@ -106,48 +106,50 @@
   },
   "advicePage": {
     "pageTitle": "Sfaturi practice",
-    "adviceDescription": "Această aplicație are un layout HTML curat cu un antet pentru numerele de sfaturi și un paragraf pentru afișarea textelor de sfaturi, completat de două imagini - una decorativă și una cu un zar ce servește ca buton pentru a obține sfaturi noi. Folosind JavaScript, selectează elementele DOM necesare pentru a afișa dinamic sfaturile, obținute asincron de la https://api.adviceslip.com/advice. Un buton cu zar declanșează actualizări, aducând sfaturi noi la un clic, în timp ce CSS și Google Fonts asigură o interfață stilată și lizibilă. Această configurație ilustrează o aplicație web interactivă și responsivă.",
+    "adviceDescription": "Aplicație web interactivă care afișează sfaturi obținute dinamic de la API-ul Advice Slip. Un buton cu zar permite generarea rapidă a unor sfaturi noi. Layout-ul modern este stilizat cu CSS și Google Fonts pentru o experiență plăcută.",
     "githubLink": "https://github.com/CristinaSt86/Advice_Slip",
-    "imageAlt": "Imagine Sfaturi rapide"
+    "imageAlt": "Imagine Sfaturi rapide",
+    "linkText": "Către GitHub"
   },
   "jokeTellerPage": {
     "pageTitle": "Povestitorul de glume",
-    "jokeDescription": "Acest fișier HTML, împreună cu fișierele CSS și JavaScript însoțitoare, creează o aplicație web simplă numită 'Povestitorul de glume.' Aplicația constă într-un container cu două butoane: unul pentru a solicita o glumă și altul pentru a naviga către o pagină 'Despre.' Când utilizatorul apasă pe butonul 'Spune-mi o glumă!', o funcție JavaScript asincronă obține o glumă de la JokeAPI, asigurând că este sigură pentru toate audiențele prin excluderea conținutului NSFW, rasist, sexist și explicit. Gluma obținută este apoi redată în div-ul HTML cu id-ul 'speech' și citită cu voce tare folosind API-ul VoiceRSS. În plus, apăsând pe butonul 'Despre aplicație' redirecționează utilizatorul către o pagină despre.",
+    "jokeDescription": "Aplicație web interactivă care obține și citește glume dinamic prin JokeAPI și VoiceRSS. Butoanele permit utilizatorului să genereze o glumă sau să navigheze către o pagină informativă.",
     "githubLink": "https://github.com/CristinaSt86/Robot-Mini-App",
     "imageAlt": "Mini Robot - Povestitor de glume",
     "buttons": {
       "tellJoke": "Spune-mi o glumă!",
-      "stopJoke": "Liniste!"
+      "stopJoke": "Liniște!"
     },
     "noJoke": "Apasă butonul pentru a auzi o glumă!",
-    "errorFetchingJoke": "Obținerea glumei a eșuat"
+    "errorFetchingJoke": "Obținerea glumei a eșuat",
+     "linkText": "Către GitHub"
   },
   "todoPage": {
     "pageTitle": "Manager de Activități",
-    "todoDescription": "Această aplicație React gestionează o listă de sarcini cu validare a formularului. Funcționalitatea principală include afișarea sarcinilor, permițând utilizatorilor să adauge, să editeze și să șteargă sarcini, și să marcheze sarcinile ca fiind completate. Aplicația utilizează hooks React, cum ar fi useState, pentru a gestiona datele sarcinilor și vizibilitatea modalului. Ea constă în componente precum MyTodos, Modal și CreateTaskForm, care gestionează diferite aspecte ale managementului sarcinilor. Componenta MyTodos redă lista de sarcini, permițând utilizatorilor să interacționeze cu ele. Componenta Modal gestionează afișarea unui modal pentru adăugarea sau editarea sarcinilor. În final, componenta CreateTaskForm oferă un formular pentru adăugarea sau editarea sarcinilor, cu validare a formularului care asigură că utilizatorii introduc date în câmpurile formularului înainte ca trimiterea sau editările să poată continua. Această validare îmbunătățește experiența utilizatorului prin solicitarea acestora de a furniza informații esențiale, cum ar fi titlul sarcinii, înainte de a continua. Componenta App integrează aceste componente și gestionează starea și manipularea evenimentelor pentru funcționalitatea sarcinilor.",
+    "todoDescription": "Aplicație React pentru gestionarea sarcinilor, permițând adăugarea, editarea, ștergerea și marcarea ca finalizate. Utilizează hooks precum useState pentru gestionarea stării și include componente modulare pentru o interfață intuitivă.",
     "githubLink": "https://github.com/CristinaSt86/TodoApp",
-    "imageAlt": "Captură de ecran a Aplicației de sarcini"
+    "imageAlt": "Captură de ecran a Aplicației de sarcini",
+    "linkText": "Către GitHub"
   },
   "figoRestPage": {
-    "pageTitle": "Restaurantul Figo",
-    "description": "Acest cod HTML reprezintă un website de restaurant modern și vizual atractiv. El incorporează diverse caracteristici și elemente pentru a crea o experiență de utilizator captivantă. Designul este responsiv, asigurând compatibilitatea pe diferite dispozitive. Caracteristicile cheie includ un meniu de navigare responsiv care permite utilizatorilor să navigheze ușor către diferite secțiuni, cum ar fi Despre noi, Meniu, Serviciu și Galerie. Secțiunea eroilor prezintă o imagine captivantă cu un titlu proeminent și un buton de apel la acțiune, invitând utilizatorii să exploreze mai departe. Secțiunea de întâmpinare îi întâmpină pe vizitatori la restaurant și oferă o prezentare generală succintă a ofertelor sale. Ea include o imagine invitatoare cu un bucătar și încurajează utilizatorii să afle mai multe despre povestea restaurantului. Evidențiind diverse motive pentru a alege restaurantul, secțiunea Motive pentru a alege prezintă beneficii cheie, cum ar fi un meniu divers, livrare convenabilă la prețuri accesibile și cele mai bune oferte. Caruselul Meniului prezintă articolele de meniu folosind un carusel interactiv, permițând utilizatorilor să navigheze prin diferite categorii, cum ar fi micul dejun, prânzul, cina, deserturile, supele și băuturile. Vizitatorii pot citi testimoniale de la clienți mulțumiți, adăugând credibilitate reputației restaurantului. Secțiunea Ultimele știri ține utilizatorii informați despre cele mai recente știri și actualizări legate de restaurant, prezentând articole pe teme cum ar fi aperitivele spaniole, vinul și brânza, și ceștile de cafea. Secțiunea de footer include informații importante, cum ar fi detaliile de contact, linkurile de social media, opțiunile de meniu și linkurile către pagini esențiale, cum ar fi Despre noi, Termenii de utilizare și Politica de confidențialitate. Biblioteci utilizate: jQuery, folosit pentru manipularea DOM-ului și gestionarea evenimentelor; Owl Carousel, utilizat pentru a crea caruselul interactiv pentru afișarea articolelor de meniu. În general, acest cod HTML demonstrează un website de restaurant bine proiectat care promovează eficient marca și ofertele restaurantului către potențialii clienți.",
+    "pageTitle": "Restaurant Figo",
+    "description": "Website modern și responsiv pentru un restaurant, cu un meniu interactiv, galerie, testimoniale și secțiune de știri. Navigare intuitivă și design atractiv, optimizat pentru toate dispozitivele.",
     "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
-    "imageAlt": "Imagine Galerie Restaurant Figo"
+    "imageAlt": "Imagine din galeria Restaurantului Figo",
+    "linkText": "Către GitHub"
   },
   "joggaPage": {
     "pageTitle": "Tranziția Jogga.ro de la React.js la Next.js",
-    "description": "În timpul internshipului meu la Jogga, am jucat un rol cheie în migrarea site-ului companiei de la React la Next.js, scopul fiind reducerea timpilor de încărcare și îmbunătățirea optimizării pentru motoarele de căutare. Responsabilitățile mele au inclus implementarea randării pe partea de server, optimizarea proceselor de încărcare a imaginilor și îmbunătățirea accesibilității și interactivității prin încărcarea dinamică a conținutului. Aceste îmbunătățiri tehnice au îmbunătățit semnificativ experiența utilizatorilor și au pregătit platforma pentru creșterea viitoare.",
+    "description": "Am contribuit la migrarea Jogga.ro la Next.js, optimizând timpii de încărcare și SEO prin randare pe server, încărcare dinamică a conținutului și optimizarea imaginilor.",
     "githubLink": "https://github.com/SkillBrain-com/europa-jogga-internship",
     "imageAlt": "Hartă interactivă din proiectul Jogga.ro",
     "keyContributions": [
-      "Am utilizat proprietăți API pentru a prelua și afișa date, îmbunătățind interacțiunea utilizatorilor.",
-      "Am actualizat și implementat componente ale interfeței utilizatorilor pentru a îmbunătăți experiența utilizatorilor.",
-      "Am implementat lazy loading pentru imagini pentru a reduce timpurile de încărcare.",
-      "Am creat o hartă interactivă cu marcaje pentru o navigare ușoară."
+      "Preluare și afișare dinamică a datelor prin API.",
+      "Optimizarea interfeței pentru o experiență îmbunătățită.",
+      "Implementare lazy loading pentru imagini.",
+      "Creare hartă interactivă cu marcaje."
     ],
-    "outcome": "Proiectul nu numai că a îmbunătățit semnificativ performanța Jogga.ro, dar mi-a și extins substanțial expertiza în Next.js și React, oferindu-mi experiență valoroasă în tehnologiile de dezvoltare web de ultimă oră. Aceasta m-a echipat pentru provocări mai complexe în proiectele viitoare."
-  },
-  "goToGithub": {
+    "outcome": "Proiectul a îmbunătățit performanța Jogga.ro și mi-a consolidat expertiza în Next.js și React.",
     "linkText": "Către GitHub"
   },
   "loadingMessage": "Portofoliul Cristinei este în curs de încărcare. Vă invităm să-l explorați!",
@@ -180,32 +182,27 @@
     "TinyTipsTitle": "Sfat #",
     "rollForNewAdvice": "Clic pentru un sfat nou!"
   },
+
   "drivingSchoolWebsite": {
     "pageTitle": "Site Web pentru Școala de Șoferi",
-    "projectDescription": "Am dezvoltat un site modern și complet responsiv pentru o școală de șoferi, folosind tehnologii web avansate pentru a oferi o experiență optimizată și fluentă. Site-ul este axat pe performanță, asigurând timpi de încărcare rapizi și navigare lină, integrând totodată diverse funcționalități sofisticate.",
+    "projectDescription": "Am dezvoltat un site modern și complet responsiv pentru o școală de șoferi, utilizând tehnologii avansate pentru o experiență optimizată și fluentă. Site-ul este performant, cu timpi de încărcare rapizi și navigare intuitivă, integrând funcționalități esențiale.",
     "technologiesUsedTitle": "Tehnologii utilizate",
     "technologiesUsed": {
-      "react_typescript": "Construit folosind o arhitectură modulară pentru scalabilitate și ușurință în întreținere.",
-      "tailwindcss": "Utilizat pentru stilizare rapidă și consecventă, precum și pentru design complet responsiv pe toate dispozitivele.",
-      "seo": "Am implementat cele mai bune practici SEO pentru o vizibilitate sporită și clasamente mai bune în motoarele de căutare.",
-      "image_optimization": "Toate imaginile au fost optimizate, utilizând formatul WebP pentru o compresie mai bună și timpi de încărcare mai rapizi, fără a sacrifica calitatea.",
-      "suspense_lazy_loading": "Am îmbunătățit performanța prin încărcarea lentă a componentelor și imaginilor, reducând timpii inițiali de încărcare.",
-      "formspree": "Am integrat Formspree pentru gestionarea eficientă a formularelor și trimiterea acestora.",
-      "google_maps": "Google Maps a fost integrat pentru o navigare ușoară către locația școlii de șoferi.",
-      "google_ads": "Am implementat Google Ads pentru a atrage trafic și a crește vizibilitatea.",
-      "i18n": "Am implementat i18n pentru suport multilingv, asigurând traducerea fluentă în mai multe limbi.",
-      "react_image_gallery": "Am creat o galerie de imagini interactivă pentru a prezenta facilitățile și vehiculele școlii de șoferi.",
-      "responsive_design": "Am asigurat un design complet responsiv pentru o experiență optimizată pe toate dispozitivele.",
-      "third_party_libraries": "Am utilizat diverse pachete React pentru a îmbunătăți funcționalitatea și eficiența dezvoltării."
+      "react_typescript": "Arhitectură modulară pentru scalabilitate și întreținere ușoară.",
+      "tailwindcss": "Stilizare rapidă și design responsiv pe toate dispozitivele.",
+      "seo": "Optimizare avansată pentru vizibilitate crescută în motoarele de căutare.",
+      "image_optimization": "Imagini optimizate în format WebP pentru timpi de încărcare reduși.",
+      "suspense_lazy_loading": "Încărcare inteligentă a componentelor pentru o performanță îmbunătățită.",
+      "formspree": "Gestionare eficientă a formularelor de contact.",
+      "google_maps": "Integrare Google Maps pentru localizare facilă.",
+      "google_ads": "Implementare Google Ads pentru creșterea traficului.",
+      "i18n": "Suport multilingv pentru accesibilitate extinsă.",
+      "react_image_gallery": "Galerie interactivă pentru prezentarea facilităților școlii.",
+      "responsive_design": "Design complet responsiv pentru toate dispozitivele.",
+      "third_party_libraries": "Biblioteci React utilizate pentru extinderea funcționalităților."
     },
-    "additionalFeaturesTitle": "Caracteristici suplimentare",
-    "additionalFeatures": {
-      "image_optimization": "Am implementat tehnici de compresie a imaginilor, inclusiv WebP, pentru a minimiza timpii de încărcare, menținând în același timp o calitate vizuală ridicată.",
-      "custom_animations": "Am integrat animații fluide pentru o experiență de utilizare atractivă și finisată.",
-      "cross_browser": "Am asigurat performanță constantă pe toate browserele importante.",
-      "future_proof": "Construit cu scalabilitate în minte, facilitând actualizările și adăugarea de funcționalități viitoare."
-    },
+    "linkText": "Către GitHub",
     "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
-    "imageAlt": "Captură de ecran a Site-ului Web pentru Școala de Șoferi"
+    "imageAlt": "Captură de ecran a site-ului Școlii de Șoferi"
   }
 }

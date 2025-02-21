@@ -107,49 +107,52 @@
     ]
   },
   "advicePage": {
-    "pageTitle": "Tiny Tips",
-    "adviceDescription": "This app features a clean HTML layout with a heading for advice numbers and a paragraph for displaying advice texts, complemented by two images—one decorative and one a dice icon that serves as a button to fetch new advice. Using JavaScript, it selects necessary DOM elements to dynamically display advice, fetched asynchronously from the https://api.adviceslip.com/advice API. A dice button triggers updates, bringing fresh advice on click, while CSS and Google Fonts ensure a stylish and readable interface. This setup illustrates a responsive, user-interactive web application.",
+    "pageTitle": "Practical Advice",
+    "adviceDescription": "Interactive web app displaying advice dynamically from the Advice Slip API. A dice button allows quick generation of new tips. The modern layout is styled with CSS and Google Fonts for an enjoyable experience.",
     "githubLink": "https://github.com/CristinaSt86/Advice_Slip",
-    "imageAlt": "Tiny Tips Image"
+    "imageAlt": "Quick Advice Image",
+    "linkText": "To GitHub"
   },
   "jokeTellerPage": {
     "pageTitle": "Joke Teller",
-    "jokeDescription": "This HTML file, along with accompanying CSS and JavaScript files, creates a simple web application called 'Joke Teller.' The app consists of a container with two buttons: one to request a joke and another to navigate to an 'About' page. When the user clicks the 'Tell me a joke!' button, an asynchronous JavaScript function fetches a joke from the JokeAPI, ensuring it's safe for all audiences by excluding NSFW, racist, sexist, and explicit content. The fetched joke is then rendered in the HTML div with the id 'speech' and read aloud using the VoiceRSS API. Additionally, clicking the 'About app' button redirects the user to an about page.",
+    "jokeDescription": "Interactive web app that dynamically fetches and reads jokes using JokeAPI and VoiceRSS. Buttons allow users to generate a joke or navigate to an info page.",
     "githubLink": "https://github.com/CristinaSt86/Robot-Mini-App",
     "imageAlt": "Mini Robot - Joke Teller",
     "buttons": {
       "tellJoke": "Tell me a joke!",
-      "stopJoke": "Quiet!"
+      "stopJoke": "Silence!"
     },
-    "noJoke": "Click the button to hear a joke!",
-    "errorFetchingJoke": "Fetching joke failed"
+    "noJoke": "Press the button to hear a joke!",
+    "errorFetchingJoke": "Failed to fetch joke",
+    "linkText": "To GitHub"
   },
   "todoPage": {
-    "pageTitle": "To Do App",
-    "todoDescription": "This React application manages a list of todos with form validation. The main functionality includes displaying todos, allowing users to add, edit, and delete todos, and marking todos as completed. The app utilizes React state hooks such as useState to manage todo data and modal visibility. It consists of components like MyTodos, Modal, and CreateTaskForm, which handle different aspects of the todo management. The MyTodos component renders the list of todos, allowing users to interact with them. The Modal component handles the display of a modal for adding or editing todos. Finally, the CreateTaskForm component provides a form for adding or editing todos, with form validation ensuring that users input data into form fields before submissions or edits can proceed. This validation enhances user experience by prompting them to provide essential information, such as the title of the todo, before proceeding. The App component integrates these components and manages state and event handling for the todo functionality.",
+    "pageTitle": "Task Manager",
+    "todoDescription": "React app for task management, allowing users to add, edit, delete, and mark tasks as completed. Uses hooks like useState for state management and modular components for an intuitive interface.",
     "githubLink": "https://github.com/CristinaSt86/TodoApp",
-    "imageAlt": "Screenshot of To Do App"
+    "imageAlt": "Screenshot of the Task Management App",
+    "linkText": "To GitHub"
   },
   "figoRestPage": {
     "pageTitle": "Figo Restaurant",
-    "description": "This HTML code represents a modern and visually appealing restaurant website. It incorporates various features and elements to create an engaging user experience. The design is responsive, ensuring compatibility across different devices. Key Features include a responsive navigation menu that allows users to easily navigate to different sections such as About Us, Menu, Service, and Gallery. The hero section features a captivating image with a prominent headline and a call-to-action button, inviting users to explore further. The welcome section welcomes visitors to the restaurant and provides a brief overview of its offerings. It includes an inviting image of a chef and encourages users to learn more about the restaurant's story. Highlighting various reasons to choose the restaurant, the Reasons to Choose section presents key benefits such as a diverse menu, pocket-friendly delivery, and best offers. The Menu Carousel showcases menu items using an interactive carousel, allowing users to browse through different categories such as breakfast, lunch, dinner, desserts, soups, and drinks. Visitors can read testimonials from satisfied customers, adding credibility to the restaurant's reputation. The Latest News section keeps users informed about the latest news and updates related to the restaurant, featuring articles on topics such as Spanish appetizers, wine and cheese, and cups of coffee. The footer section includes important information such as contact details, social media links, menu options, and links to essential pages like About Us, Terms of Use, and Privacy Policy. Used Libraries: jQuery, used for DOM manipulation and event handling; Owl Carousel, utilized to create the interactive carousel for displaying menu items. Overall, this HTML code demonstrates a well-designed restaurant website that effectively promotes the restaurant's brand and offerings to potential customers.",
+    "description": "A modern, responsive restaurant website featuring an interactive menu, gallery, testimonials, and news section. Intuitive navigation and an appealing design, optimized for all devices.",
     "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
-    "imageAlt": "Figo Restaurant Gallery Image"
+    "imageAlt": "Gallery image of Figo Restaurant",
+    "linkText": "To GitHub"
   },
   "joggaPage": {
-    "pageTitle": "Transition of Jogga.ro from React.js to Next.js",
-    "description": "During my internship at Jogga, I played a key role in migrating the company's website from React to Next.js, aimed at reducing load times and enhancing search engine optimization. My responsibilities included implementing server-side rendering, optimizing image loading processes, and improving accessibility and interactivity through dynamic content loading. These technical enhancements significantly improved the user experience and prepared the platform for future growth.",
+    "pageTitle": "Jogga.ro Transition from React.js to Next.js",
+    "description": "I contributed to migrating Jogga.ro to Next.js, optimizing load times and SEO through server-side rendering, dynamic content loading, and image optimization.",
     "githubLink": "https://github.com/SkillBrain-com/europa-jogga-internship",
-    "imageAlt": "Interactive map from Jogga.ro project",
+    "imageAlt": "Interactive map from the Jogga.ro project",
     "keyContributions": [
-      "Used API properties to fetch and display data, improving user interaction.",
-      "Updated and implemented user interface components to enhance user experience.",
-      "Implemented lazy loading for images to reduce loading times.",
-      "Created an interactive map with markers for easy navigation."
+      "Fetched and displayed data dynamically via API.",
+      "Optimized UI components for better user experience.",
+      "Implemented lazy loading for images.",
+      "Created an interactive map with markers."
     ],
-    "outcome": "The project not only significantly boosted Jogga.ro's performance, but it also substantially expanded my expertise in Next.js and React, providing me with valuable experience in cutting-edge web development technologies. This has equipped me for more complex challenges in future projects."
-  },
-  "goToGithub": {
+    "outcome": "The project improved Jogga.ro’s performance and strengthened my expertise in Next.js and React.",
+
     "linkText": "To GitHub"
   },
   "loadingMessage": "Cristina's portfolio is loading, enjoy it!",
@@ -184,30 +187,24 @@
   },
   "drivingSchoolWebsite": {
     "pageTitle": "Driving School Website",
-    "projectDescription": "Developed a modern, fully responsive website for a driving school, employing advanced web technologies to deliver an optimized and seamless user experience. The site is performance-focused, ensuring fast load times and smooth navigation while incorporating various sophisticated features.",
-    "technologiesUsedTitle": "Technologies used",
+    "projectDescription": "We developed a modern, fully responsive website for a driving school, using advanced web technologies for an optimized and seamless user experience. The site ensures high performance with fast load times and smooth navigation, integrating essential features.",
+    "technologiesUsedTitle": "Technologies Used",
     "technologiesUsed": {
-      "react_typescript": "Built using a modular architecture for scalability and ease of maintenance.",
-      "tailwindcss": "Utilized for rapid, consistent styling and fully responsive layouts across devices.",
-      "seo": "Implemented SEO best practices for enhanced visibility and search engine rankings.",
-      "image_optimization": "Optimized all images, using WebP format for better compression and faster load times without sacrificing quality.",
-      "suspense_lazy_loading": "Improved performance by lazy loading components and images, reducing initial load times.",
-      "formspree": "Integrated Formspree for efficient form handling and submissions.",
-      "google_maps": "Embedded Google Maps for easy navigation to the driving school’s location.",
-      "google_ads": "Integrated Google Ads to drive traffic and boost visibility.",
-      "i18n": "Implemented i18n for seamless language translation, supporting multiple languages.",
-      "react_image_gallery": "Showcased the school’s facilities and vehicles through an interactive image gallery.",
-      "responsive_design": "Ensured a fully responsive layout, offering an optimized experience on all devices.",
-      "third_party_libraries": "Leveraged several React packages to enhance functionality and development efficiency."
+      "react_typescript": "Modular architecture for scalability and easy maintenance.",
+      "tailwindcss": "Fast styling and fully responsive design across all devices.",
+      "seo": "Advanced optimization for better search engine visibility.",
+      "image_optimization": "WebP image compression for reduced loading times.",
+      "suspense_lazy_loading": "Lazy loading of components for improved performance.",
+      "formspree": "Efficient contact form management.",
+      "google_maps": "Google Maps integration for easy navigation.",
+      "google_ads": "Google Ads implementation to boost traffic.",
+      "i18n": "Multilingual support for extended accessibility.",
+      "react_image_gallery": "Interactive gallery showcasing school facilities.",
+      "responsive_design": "Fully responsive design for all devices.",
+      "third_party_libraries": "React libraries used to extend functionality."
     },
-    "additionalFeaturesTitle": "Additional Features",
-    "additionalFeatures": {
-      "image_optimization": "Implemented image compression techniques, including WebP, to minimize loading times while maintaining high visual quality.",
-      "custom_animations": "Integrated smooth animations for a polished and engaging user experience.",
-      "cross_browser": "Ensured consistent performance across all major browsers.",
-      "future_proof": "Built with scalability in mind, making future updates and feature additions seamless."
-    },
+    "linkText": "To GitHub",
     "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
-    "imageAlt": "Screenshot of Driving School Website"
+    "imageAlt": "Screenshot of the Driving School Website"
   }
 }

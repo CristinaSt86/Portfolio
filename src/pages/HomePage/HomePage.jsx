@@ -10,6 +10,7 @@ import AboutPage from "../AboutPage/AboutPage";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import Services from "../ServicesPage/ServicesPage";
 import ContactPage from "../ContactPage/ContactPage";
+import Separator from "../../components/Separator/Separator";
 // import FloatingShapes from "../../components/FloatingShapes/FloatingShapes";
 // import Shapes from "../../components/Shapes/Shapes";
 
@@ -119,6 +120,7 @@ const HomePage = () => {
 
             <div className={`${css.introMore} ${css.textAnimate}`}>
               <h1 className={css.titlu}>{t("homePage.greeting")}</h1>
+              {/* <Separator/> */}
               <h2 className={css.subtitlu}>
                 {" "}
                 {/* You can use h4 instead of h3 if you prefer */}

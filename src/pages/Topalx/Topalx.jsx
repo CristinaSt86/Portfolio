@@ -11,6 +11,7 @@ import Top7 from "../../images/Top7.webp";
 import GoToGithub from "../../components/GoToGithub/GoToGithub";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
+import Separator from "../../components/Separator/Separator";
 
 const Topalx = () => {
   const { t } = useTranslation();
@@ -21,7 +22,8 @@ const Topalx = () => {
       <div id="topalx-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
-          <h1>{t("drivingSchoolWebsite.pageTitle")}</h1>
+          <h1 className={css.titlu}>{t("drivingSchoolWebsite.pageTitle")}</h1>
+          <Separator/>
           <ParagraphNight>
             <p>{t("drivingSchoolWebsite.projectDescription")}</p>
           </ParagraphNight>
@@ -42,19 +44,11 @@ const Topalx = () => {
               <li>{t("drivingSchoolWebsite.technologiesUsed.third_party_libraries")}</li>
             </ul>
           </div>
-          <div className={css.additionalFeatures}>
-            <h4>{t("drivingSchoolWebsite.additionalFeaturesTitle")}</h4>
-            <ul>
-              <li>{t("drivingSchoolWebsite.additionalFeatures.image_optimization")}</li>
-              <li>{t("drivingSchoolWebsite.additionalFeatures.custom_animations")}</li>
-              <li>{t("drivingSchoolWebsite.additionalFeatures.cross_browser")}</li>
-              <li>{t("drivingSchoolWebsite.additionalFeatures.future_proof")}</li>
-            </ul>
-          </div>
+
         </section>
         <GoToGithub
           to={t("drivingSchoolWebsite.githubLink")}
-          text={t("goToGithub.linkText")}
+          text={t("drivingSchoolWebsite.linkText")}
         />
         <section style={{ width: "100%" }}>
           <LightboxGallery images={images} alt={t("drivingSchoolWebsite.imageAlt")} />

@@ -1,0 +1,18 @@
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 24px 0;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  
+  /* Variante diferite pentru mobile și desktop */
+  @media (max-width: 768px) {
+    .separator {
+      height: 2px; /* Puțin mai gros pe mobil pentru vizibilitate */
+      width: 80%; /* Mai scurt pe mobil pentru un aspect mai aerisit */
+      margin: 16px auto; /* Centrat și cu mai puțin spațiu */
+    }
+  }
+  

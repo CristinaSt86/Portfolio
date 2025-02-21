@@ -13,6 +13,7 @@ import figoPic8 from "../../images/figoPic8.webp";
 import figoPic9 from "../../images/figoPic9.webp";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
+import Separator from "../../components/Separator/Separator";
 
 const FigoRest = () => {
   const images = [
@@ -34,14 +35,15 @@ const FigoRest = () => {
       <div id="figo-rest-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
-          <h1>{t("figoRestPage.pageTitle")}</h1>
+          <h1 className={css.titlu}>{t("figoRestPage.pageTitle")}</h1>
+          <Separator/>
           <ParagraphNight>
             <p>{t("figoRestPage.description")}</p>
           </ParagraphNight>
         </section>
         <GoToGithub
           to={t("figoRestPage.githubLink")}
-          text={t("goToGithub.linkText")}
+          text={t("figoRestPage.linkText")}
         />
         <section style={{ width: "100%" }}>
           <LightboxGallery images={images} alt={t("figoRestPage.imageAlt")} />

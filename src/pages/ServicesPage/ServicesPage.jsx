@@ -13,6 +13,7 @@ import support from "../../images/support.svg";
 import website from "../../images/website.svg";
 import wrench from "../../images/wrench.svg";
 import flipIcon from "../../images/flip.svg";
+import Separator from "../../components/Separator/Separator";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -118,6 +119,7 @@ const Services = () => {
       <div id="services" className={css.placeholder}></div>
       <div className={css.services}>
         <h1 className={css.servicesTitle}>{t("servicesTitle")}</h1>
+        <Separator/>
         <div className={css.mainContainer}>
           {services.map((service) => (
             <div

@@ -8,6 +8,7 @@ import i3 from "../../images/i3.webp";
 import i4 from "../../images/i4.webp";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
+import Separator from "../../components/Separator/Separator";
 
 const JoggaInter = () => {
   const images = [i1, i2, i3, i4];
@@ -18,7 +19,8 @@ const JoggaInter = () => {
       <div id="jogga-inter-project" className={css.placeholder}></div>
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
-          <h1>{t("joggaPage.pageTitle")}</h1>
+          <h1 className={css.titlu}>{t("joggaPage.pageTitle")}</h1>
+          <Separator/>
           <ParagraphNight>
             <p>{t("joggaPage.description")}</p>
           </ParagraphNight>
@@ -35,7 +37,7 @@ const JoggaInter = () => {
         </section>
         <GoToGithub
           to={t("joggaPage.githubLink")}
-          text={t("goToGithub.linkText")}
+          text={t("joggaPage.linkText")}
         />
         <section>
           <LightboxGallery images={images} alt={t("joggaPage.imageAlt")} />
