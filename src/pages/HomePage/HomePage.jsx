@@ -10,9 +10,6 @@ import AboutPage from "../AboutPage/AboutPage";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import Services from "../ServicesPage/ServicesPage";
 import ContactPage from "../ContactPage/ContactPage";
-import Separator from "../../components/Separator/Separator";
-// import FloatingShapes from "../../components/FloatingShapes/FloatingShapes";
-// import Shapes from "../../components/Shapes/Shapes";
 
 const HomePage = () => {
   const { theme } = useTheme();
@@ -106,8 +103,6 @@ const HomePage = () => {
         </script>
       </Helmet>
       <div className={css.mainMaxWidth}>
-        {/* <FloatingShapes />  */}
-        {/* <Shapes /> */}
         <div id="home" className={css.flexHome}>
           <div
             className={`${css.mainContainer} ${isMounted ? css.animate : ""}`}
@@ -120,12 +115,8 @@ const HomePage = () => {
 
             <div className={`${css.introMore} ${css.textAnimate}`}>
               <h1 className={css.titlu}>{t("homePage.greeting")}</h1>
-              {/* <Separator/> */}
-              <h2 className={css.subtitlu}>
-                {" "}
-                {/* You can use h4 instead of h3 if you prefer */}
-                {t("homePage.introduction")}
-              </h2>
+
+              <h2 className={css.subtitlu}> {t("homePage.introduction")}</h2>
               <GoToGithub
                 onClick={scrollToAbout}
                 text={t("homePage.readMore")}
