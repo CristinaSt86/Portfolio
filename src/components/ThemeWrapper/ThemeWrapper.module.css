@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  padding: 0 0.5rem;
+ 
   font-size: 1.2rem;
   font-weight: 500;
   font-family: "Arial", sans-serif;
@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
+  padding: 0 0.5rem;
 }
 
 .lightTheme {
@@ -38,6 +39,7 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
+  padding: 0 0.5rem;
 }
 
 @media (max-width: 767px) {
