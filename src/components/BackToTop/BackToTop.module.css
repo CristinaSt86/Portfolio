@@ -24,8 +24,10 @@
 
 .backToTopButton:hover {
   background-color: #fff;
-  border: 2px solid #3747d6;
+  /* border: 2px solid #3747d6; */
   color: #3747d6;
+  box-shadow: 0 4px 12px rgba(55, 71, 214, 0.3);
+  transition: all 0.2s ease-in-out; 
 }
 
 .backToTopButton:focus {

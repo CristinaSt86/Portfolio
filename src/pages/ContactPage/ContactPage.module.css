@@ -100,7 +100,7 @@
 }
 
 .msgHireMe:hover {
-  transform: scale(1.1);
+  transform: translateY(-2px);
 }
 
 /* Standard media query for mobile devices (below 768px) */

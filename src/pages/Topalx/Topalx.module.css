@@ -30,7 +30,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 2rem 0; 
-    padding: 1rem 1rem; 
+    padding: 0.5rem 0.5rem; 
   }
 
   .placeholder {

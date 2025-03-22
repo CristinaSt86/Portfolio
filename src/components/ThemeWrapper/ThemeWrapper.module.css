@@ -28,6 +28,7 @@ body {
   box-sizing: border-box;
   background-attachment: fixed;
   padding: 0 0.5rem;
+  overflow-x: hidden;
 }
 
 .lightTheme {
@@ -40,10 +41,12 @@ body {
   box-sizing: border-box;
   background-attachment: fixed;
   padding: 0 0.5rem;
+  overflow-x: hidden;
 }
 
 @media (max-width: 767px) {
   body {
     background-attachment: scroll;
+    overflow-x: hidden;
   }
 }

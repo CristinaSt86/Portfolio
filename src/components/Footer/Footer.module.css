@@ -13,7 +13,7 @@
   text-align: left;
 }
 
-.textFoot{
+.textFoot {
   margin: 0.3rem 0;
 }
 
@@ -26,4 +26,11 @@
   width: 1.5rem;
   height: 1.5rem;
   margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
 }
