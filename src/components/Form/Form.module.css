@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background-color: #222b8a
+  background-color: #3747d6;
 }
 
 .formNight {
@@ -30,10 +30,12 @@
   cursor: pointer;
   transition: transform 0.3s ease;
   box-sizing:border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .submitButton:hover{
   background-color: #fff;
-  color: #3747d6; 
+  color: #3747d6;
   transform: translateY(-2px);
+  
 }

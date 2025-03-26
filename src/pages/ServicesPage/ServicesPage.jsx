@@ -5,7 +5,6 @@ import FlippCard from "../../components/FlippCard/FlippCard";
 import code from "../../images/code.svg";
 import edit from "../../images/editTool.svg";
 import gitBranch from "../../images/gitBranch.svg";
-import limitations from "../../images/limitations.svg";
 import network from "../../images/network.svg";
 import nodes from "../../images/nodes.svg";
 import rocket from "../../images/rocket.svg";
@@ -103,13 +102,6 @@ const Services = () => {
       title: t("maintenanceTitle"),
       description: t("maintenanceDescription"),
       icon: wrench,
-      flipIcon: flipIcon,
-    },
-    {
-      key: "limitations",
-      title: t("limitationsTitle"),
-      description: t("limitationsDescription"),
-      icon: limitations,
       flipIcon: flipIcon,
     },
   ];

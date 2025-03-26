@@ -178,9 +178,7 @@
   "thirdPartyIntegrationDescription": "Integrating external services such as content management systems (CMS), analytics tools, and social media widgets. Embedding interactive maps, chatbots, and other third-party widgets.",
   "maintenanceTitle": "Maintenance and Support",
   "maintenanceDescription": "Offering ongoing website maintenance and updates. Troubleshooting and fixing bugs.",
-  "limitationsTitle": "Limitations",
-  "limitationsDescription": "While I focus on front-end solutions and do not handle back-end development or payment integrations, I can collaborate with back-end experts or connect you with third-party services as needed.",
-
+  
   "tinyTips": {
     "TinyTipsTitle": "ADVICE #",
     "rollForNewAdvice": "Roll for new advice!"
