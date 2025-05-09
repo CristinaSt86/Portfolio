@@ -16,7 +16,8 @@
 
 .projectCard {
   position: relative;
-  border-radius: 0.625rem; /* 10px */
+  border-radius: 0.5rem; /* 10px */
+  border: 1px solid  #3747d6;
   overflow: hidden;
   cursor: pointer;
   width: 25rem; /* 500px */
