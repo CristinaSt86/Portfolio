@@ -11,7 +11,7 @@ const Navigation = () => {
   const navRef = useRef(null);
   const { t } = useTranslation();
   const { theme } = useTheme();
-  const { i18n } = useTranslation();
+  //const { i18n } = useTranslation();
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -58,10 +58,6 @@ const Navigation = () => {
   const linksDarkMode =
     theme === "dark" ? `${css.links} ${css.linksNight}` : css.links; // Re-enable theme logic
 
-  // const handleLanguageChange = (event) => {
-  //   i18n.changeLanguage(event.target.value);
-  // };
-
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -74,19 +70,9 @@ const Navigation = () => {
   return (
     <nav ref={navRef}>
       <div className={css.hamburger} onClick={toggleMenu}>
-        <img src={hamburgerMenu} alt="mobile-menu"/>
+        <img src={hamburgerMenu} alt="mobile-menu" />
       </div>
       <ul className={`${css.list} ${menuOpen ? css.show : ""}`}>
-      {/* <div onClick={() => scrollToSection("home")} className={css.mobileLogo}> */}
-          {/* Aici înlocuiești imaginea cu textul */}
-          {/* <span className={css.logoText}>Cristina Stoian</span>
-        </div> */}
-
-        
-        {/* <div onClick={() => scrollToSection("home")} className={css.mobileLogo}>
-          <img src={Logo} alt="Logo" />
-        </div> */}
-
         {navLinks.map((link, index) => (
           <li key={index} className={css.navItem}>
             <button

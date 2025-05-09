@@ -81,30 +81,51 @@
     "validCityError": "Please enter a valid city name."
   },
   "projectsPage": {
-    "projects": [
-      { "name": "Driving School", "path": "/topalx", "id": "topalx-project" },
-      {
-        "name": "Tiny Tips",
-        "path": "/advice-slip",
-        "id": "advice-slip-project"
-      },
-      {
-        "name": "Mini Robot",
-        "path": "/joke-teller",
-        "id": "joke-teller-project"
-      },
-      { "name": "ToDo App", "path": "/to-do", "id": "todo-project" },
-      {
-        "name": "Figo Restaurant",
-        "path": "/figo-restaurant",
-        "id": "figo-rest-project"
-      },
-      {
-        "name": "Jogga Internship",
-        "path": "/jogga-inter",
-        "id": "jogga-inter-project"
-      }
-    ]
+   "projects": [
+  {
+    "name": "CSWEB",
+    "path": "/csweb",
+    "id": "csweb-project",
+    "imageKey": "cs1"
+  },
+  {
+    "name": "Driving School",
+    "path": "/topalx",
+    "id": "topalx-project",
+    "imageKey": "Top1"
+  },
+  {
+    "name": "Jogga Internship",
+    "path": "/jogga-inter",
+    "id": "jogga-inter-project",
+    "imageKey": "i1"
+  },
+  {
+    "name": "Tiny Tips",
+    "path": "/advice-slip",
+    "id": "advice-slip-project",
+    "imageKey": "AdvicePic"
+  },
+  {
+    "name": "Mini Robot",
+    "path": "/joke-teller",
+    "id": "joke-teller-project",
+    "imageKey": "miniRobotPic"
+  },
+  {
+    "name": "ToDo App",
+    "path": "/to-do",
+    "id": "todo-project",
+    "imageKey": "Todo1"
+  },
+  {
+    "name": "Figo Restaurant",
+    "path": "/figo-restaurant",
+    "id": "figo-rest-project",
+    "imageKey": "figoPic1"
+  }
+]
+
   },
   "advicePage": {
     "pageTitle": "Practical Advice",
@@ -178,7 +199,7 @@
   "thirdPartyIntegrationDescription": "Integrating external services such as content management systems (CMS), analytics tools, and social media widgets. Embedding interactive maps, chatbots, and other third-party widgets.",
   "maintenanceTitle": "Maintenance and Support",
   "maintenanceDescription": "Offering ongoing website maintenance and updates. Troubleshooting and fixing bugs.",
-  
+
   "tinyTips": {
     "TinyTipsTitle": "ADVICE #",
     "rollForNewAdvice": "Roll for new advice!"
@@ -204,5 +225,26 @@
     "linkText": "To GitHub",
     "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
     "imageAlt": "Screenshot of the Driving School Website"
+  },
+
+  "cswebPage": {
+    "pageTitle": "CSWeb – Custom Web Solutions",
+    "description": "I developed a professional, scalable web platform for a digital service provider using modern frontend technologies. The project included UI/UX design, modular architecture, SEO optimization, and full responsive layout. I also implemented multilingual support and integrated third-party tools to enhance performance and user engagement.",
+    "keyContributions": [
+      "TailwindCSS for fast, consistent styling and responsiveness",
+      "Page navigation with React Router",
+      "Internationalization using react-i18next",
+      "Icons and flags with react-icons and react-flagkit",
+      "Contact form integration via Formspree",
+      "Smooth scrolling with react-scroll",
+      "Google Ads integration for traffic tracking",
+      "WebP images and lazy loading for better performance",
+      "Component-based structure and CSS Modules",
+      "SEO best practices: meta tags, semantic HTML, fast loading"
+    ],
+    "outcome": "The project resulted in a scalable web platform tailored to client requirements, focusing on performance and user experience.",
+    "githubLink": "https://github.com/CristinaSt86/csweb",
+    "linkText": "To GitHub",
+    "imageAlt": "Screenshots from the CSWeb project"
   }
 }

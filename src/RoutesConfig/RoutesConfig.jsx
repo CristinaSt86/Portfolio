@@ -1,6 +1,6 @@
 import React, { lazy } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import PageTransition from "../components/PageTransition/PageTransition";
+
 import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
 
 const HomePage = lazy(() => import("../../src/pages/HomePage/HomePage"));
@@ -24,6 +24,7 @@ const ServicesPage = lazy(() =>
   import("../../src/pages/ServicesPage/ServicesPage")
 );
 const Topalx = lazy(() => import("../../src/pages/Topalx/Topalx"));
+const Csweb = lazy(() => import("../../src/pages/Csweb/Csweb"));
 
 const RoutesConfig = () => {
   const location = useLocation();
@@ -33,95 +34,29 @@ const RoutesConfig = () => {
       <Route
         path="/"
         element={
-          // <PageTransition duration={1000}>
-            <ErrorBoundary>
-              <HomePage />
-            </ErrorBoundary>
-          // </PageTransition>
+          <ErrorBoundary>
+            <HomePage />
+          </ErrorBoundary>
         }
       />
       <Route
         path="/about"
         element={
-          // <PageTransition duration={1000}>
-            <ErrorBoundary>
-              <AboutPage />
-            </ErrorBoundary>
-          // </PageTransition>
+          <ErrorBoundary>
+            <AboutPage />
+          </ErrorBoundary>
         }
       />
-      <Route
-        path="/contact"
-        element={
-          // <PageTransition duration={1000}>
-            <ContactPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/projects"
-        element={
-          // <PageTransition duration={1000}>
-            <ProjectsPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/advice-slip"
-        element={
-          // <PageTransition duration={1000}>
-            <AdviceSlipPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/joke-teller"
-        element={
-          // <PageTransition duration={1000}>
-            <JokeTellerPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/to-do"
-        element={
-          // <PageTransition duration={1000}>
-            <ToDoPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/figo-restaurant"
-        element={
-          // <PageTransition duration={1000}>
-            <FigoRestPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/jogga-inter"
-        element={
-          // <PageTransition duration={1000}>
-            <JoggaInter />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/services"
-        element={
-          // <PageTransition duration={1000}>
-            <ServicesPage />
-          // </PageTransition>
-        }
-      />
-      <Route
-        path="/topalx"
-        element={
-          // <PageTransition duration={1000}>
-            <Topalx />
-          // </PageTransition>
-        }
-      />
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/advice-slip" element={<AdviceSlipPage />} />
+      <Route path="/joke-teller" element={<JokeTellerPage />} />
+      <Route path="/to-do" element={<ToDoPage />} />
+      <Route path="/figo-restaurant" element={<FigoRestPage />} />
+      <Route path="/jogga-inter" element={<JoggaInter />} />
+      <Route path="/services" element={<ServicesPage />} />
+      <Route path="/topalx" element={<Topalx />} />
+      <Route path="/csweb" element={<Csweb />} />
     </Routes>
   );
 };

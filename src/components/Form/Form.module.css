@@ -9,6 +9,7 @@
   align-items: center;
   box-sizing: border-box;
   background-color: #3747d6;
+
 }
 
 .formNight {
@@ -38,4 +39,18 @@
   color: #3747d6;
   transform: translateY(-2px);
   
+}
+
+.name, .email, .text {
+  display: flex;
+  flex-direction: column; /* ✅ corect */
+  gap: 0.5rem;
+  width: 100%;
+  color: #fff;
+}
+.radius {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }

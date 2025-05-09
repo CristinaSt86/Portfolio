@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import css from "./Form.module.css";
 import { useTheme } from "../../ThemeContext";
-import FloatingLabel from "../FloatingLabel/FloatingLabel";
 import { useTranslation } from "react-i18next";
 
 const Form = () => {
@@ -24,7 +23,6 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // POST data to Formspree
     const form = e.target;
     try {
       const response = await fetch("https://formspree.io/f/myyrrwal", {
@@ -56,39 +54,60 @@ const Form = () => {
 
   return (
     <form onSubmit={handleSubmit} className={formBgDarkMode}>
-      <FloatingLabel
-        id="name"
-        name="name"
-        type="text"
-        maxLength="50"
-        placeholder={t("form.namePlaceholder")}
-        value={formData.name}
-        onChange={handleInputChange}
-      />
-      <FloatingLabel
-        id="email"
-        name="email"
-        type="email"
-        maxLength="50"
-        placeholder={t("form.emailPlaceholder")}
-        value={formData.email}
-        onChange={handleInputChange}
-      />
-      <FloatingLabel
-        id="message"
-        name="message"
-        maxLength="500"
-        placeholder={t("form.messagePlaceholder")}
-        isTextArea={true}
-        value={formData.message}
-        onChange={handleInputChange}
-      />
+      <div>
+        <div className={css.name}>
+          <label htmlFor="name">{t("form.namePlaceholder")}</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            maxLength="50"
+            value={formData.name}
+            onChange={handleInputChange}
+            required
+            className={css.radius}
+          />
+        </div>
+      </div>
+
+      <div>
+        <div className={css.email}>
+          <label htmlFor="email">{t("form.emailPlaceholder")}</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            maxLength="50"
+            value={formData.email}
+            onChange={handleInputChange}
+            required
+            className={css.radius}
+          />
+        </div>
+      </div>
+
+      <div>
+        <div className={css.text}>
+          <label htmlFor="message">{t("form.messagePlaceholder")}</label>
+          <textarea
+            id="message"
+            name="message"
+            maxLength="500"
+            value={formData.message}
+            onChange={handleInputChange}
+            required
+            className={css.radius}
+          />
+        </div>
+      </div>
+
       <button type="submit" className={css.submitButton}>
         {t("form.submitButtonText")}
       </button>
+
       {submissionMessage && (
         <div className={css.submissionMessage}>{submissionMessage}</div>
-      )}{" "}
+      )}
     </form>
   );
 };

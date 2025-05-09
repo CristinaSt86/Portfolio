@@ -51,30 +51,51 @@
     "toProjects": "Către Proiecte"
   },
   "projectsPage": {
-    "projects": [
-      { "name": "Driving School", "path": "/topalx", "id": "topalx-project" },
-      {
-        "name": "Tiny Tips",
-        "path": "/advice-slip",
-        "id": "advice-slip-project"
-      },
-      {
-        "name": "Mini Robot",
-        "path": "/joke-teller",
-        "id": "joke-teller-project"
-      },
-      { "name": "ToDo App", "path": "/to-do", "id": "todo-project" },
-      {
-        "name": "Figo Restaurant",
-        "path": "/figo-restaurant",
-        "id": "figo-rest-project"
-      },
-      {
-        "name": "Jogga Internship",
-        "path": "/jogga-inter",
-        "id": "jogga-inter-project"
-      }
-    ]
+   "projects": [
+  {
+    "name": "CSWEB",
+    "path": "/csweb",
+    "id": "csweb-project",
+    "imageKey": "cs1"
+  },
+  {
+    "name": "Școala de șoferi",
+    "path": "/topalx",
+    "id": "topalx-project",
+    "imageKey": "Top1"
+  },
+  {
+    "name": "Internship Jogga",
+    "path": "/jogga-inter",
+    "id": "jogga-inter-project",
+    "imageKey": "i1"
+  },
+  {
+    "name": "Sfaturi rapide",
+    "path": "/advice-slip",
+    "id": "advice-slip-project",
+    "imageKey": "AdvicePic"
+  },
+  {
+    "name": "Mini Robot",
+    "path": "/joke-teller",
+    "id": "joke-teller-project",
+    "imageKey": "miniRobotPic"
+  },
+  {
+    "name": "Aplicație ToDo",
+    "path": "/to-do",
+    "id": "todo-project",
+    "imageKey": "Todo1"
+  },
+  {
+    "name": "Restaurant Figo",
+    "path": "/figo-restaurant",
+    "id": "figo-rest-project",
+    "imageKey": "figoPic1"
+  }
+]
+
   },
   "contactPage": {
     "contactMe": "Conectare la un Click",
@@ -122,7 +143,7 @@
     },
     "noJoke": "Apasă butonul pentru a auzi o glumă!",
     "errorFetchingJoke": "Obținerea glumei a eșuat",
-     "linkText": "Către GitHub"
+    "linkText": "Către GitHub"
   },
   "todoPage": {
     "pageTitle": "Manager de Activități",
@@ -175,7 +196,6 @@
   "thirdPartyIntegrationDescription": "Integrarea serviciilor externe, cum ar fi sistemele de gestionare a conținutului (CMS), uneltele de analiză și widgeturile rețelelor sociale. Încorporarea hărților interactive, chatbot-urilor și altor widgeturi terțe.",
   "maintenanceTitle": "Mentenanță și suport",
   "maintenanceDescription": "Oferirea de mentenanță și actualizări continue ale site-ului web. Depanarea și remedierea erorilor.",
-  
 
   "tinyTips": {
     "TinyTipsTitle": "Sfat #",
@@ -203,5 +223,26 @@
     "linkText": "Către GitHub",
     "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
     "imageAlt": "Captură de ecran a site-ului Școlii de Șoferi"
+  },
+
+  "cswebPage": {
+    "pageTitle": "CSWeb – Soluții Web Personalizate",
+    "description": "Am dezvoltat o platformă web profesională și scalabilă pentru un furnizor de servicii digitale, folosind tehnologii moderne de frontend. Proiectul a inclus design UI/UX, arhitectură modulară, optimizare SEO și layout complet responsive. Am implementat suport multilingv și am integrat instrumente externe pentru performanță și interacțiune eficientă.",
+    "keyContributions": [
+      "TailwindCSS pentru stilizare rapidă și design responsive",
+      "Navigare cu React Router",
+      "Internaționalizare cu react-i18next",
+      "Pictograme și steaguri cu react-icons și react-flagkit",
+      "Formular de contact funcțional cu Formspree",
+      "Navigare lină între secțiuni cu react-scroll",
+      "Integrare Google Ads pentru urmărirea traficului",
+      "Imagini WebP și lazy loading pentru viteze mari de încărcare",
+      "Arhitectură pe componente și CSS Modules",
+      "Practici SEO: meta taguri, HTML semantic, timp de încărcare optim"
+    ],
+    "outcome": "Proiectul a dus la o platformă web scalabilă, adaptată cerințelor clienților, cu accent pe performanță și experiență utilizator.",
+    "githubLink": "https://github.com/CristinaSt86/csweb",
+    "linkText": "Către GitHub",
+    "imageAlt": "Capturi de ecran din proiectul CSWeb"
   }
 }

@@ -199,22 +199,21 @@ const AboutPage = () => {
               <LightboxGallery images={certifications} />
             </section>
           </div>
-
-          <div className={css.foreignList}>
-            <h2 className={css.lanTitle}>{t("aboutPage.languagesHeader")} </h2>
-            <Separator/>
-            <ul className={css.spokenLan}>
-              {languages.map((lang, index) => (
-                <li key={index}>
-                  <span className={css.boldLang}>{lang.language}</span>
-                  <br /> - {lang.level}
-                  <br />
-                  <br />
-                </li>
-              ))}
-            </ul>
-          </div>
         </main>
+      </div>
+      <div className={css.foreignList}>
+        <h2 className={css.lanTitle}>{t("aboutPage.languagesHeader")} </h2>
+        <Separator />
+        <ul className={css.spokenLan}>
+          {languages.map((lang, index) => (
+            <li key={index}>
+              <span className={css.boldLang}>{lang.language}</span>
+              <br /> - {lang.level}
+              <br />
+              <br />
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   );

@@ -52,27 +52,47 @@
   },
   "projectsPage": {
     "projects": [
-      { "name": "Driving School", "path": "/topalx", "id": "topalx-project" },
       {
-        "name": "Tiny Tips",
+        "name": "CSWEB",
+        "path": "/csweb",
+        "id": "csweb-project",
+        "imageKey": "cs1"
+      },
+      {
+        "name": "Fahrschule",
+        "path": "/topalx",
+        "id": "topalx-project",
+        "imageKey": "Top1"
+      },
+      {
+        "name": "Jogga Praktikum",
+        "path": "/jogga-inter",
+        "id": "jogga-inter-project",
+        "imageKey": "i1"
+      },
+      {
+        "name": "Schnelle Tipps",
         "path": "/advice-slip",
-        "id": "advice-slip-project"
+        "id": "advice-slip-project",
+        "imageKey": "AdvicePic"
       },
       {
-        "name": "Mini Robot",
+        "name": "Mini-Roboter",
         "path": "/joke-teller",
-        "id": "joke-teller-project"
+        "id": "joke-teller-project",
+        "imageKey": "miniRobotPic"
       },
-      { "name": "ToDo App", "path": "/to-do", "id": "todo-project" },
+      {
+        "name": "ToDo App",
+        "path": "/to-do",
+        "id": "todo-project",
+        "imageKey": "Todo1"
+      },
       {
         "name": "Figo Restaurant",
         "path": "/figo-restaurant",
-        "id": "figo-rest-project"
-      },
-      {
-        "name": "Jogga Internship",
-        "path": "/jogga-inter",
-        "id": "jogga-inter-project"
+        "id": "figo-rest-project",
+        "imageKey": "figoPic1"
       }
     ]
   },
@@ -109,7 +129,7 @@
     "adviceDescription": "Interaktive Web-App, die Ratschläge dynamisch von der Advice Slip API abruft. Eine Würfeltaste ermöglicht die schnelle Generierung neuer Tipps. Das moderne Layout wird mit CSS und Google Fonts für eine angenehme Benutzererfahrung gestaltet.",
     "githubLink": "https://github.com/CristinaSt86/Advice_Slip",
     "imageAlt": "Schnelle Ratschläge Bild",
-     "linkText": "Zu GitHub"
+    "linkText": "Zu GitHub"
   },
   "jokeTellerPage": {
     "pageTitle": "Witze-Erzähler",
@@ -122,21 +142,21 @@
     },
     "noJoke": "Drücke den Button, um einen Witz zu hören!",
     "errorFetchingJoke": "Fehler beim Abrufen des Witzes",
-     "linkText": "Zu GitHub"
+    "linkText": "Zu GitHub"
   },
   "todoPage": {
     "pageTitle": "Aufgabenmanager",
     "todoDescription": "React-App zur Aufgabenverwaltung, mit Funktionen zum Hinzufügen, Bearbeiten, Löschen und Markieren von Aufgaben als erledigt. Verwendet Hooks wie useState zur Zustandsverwaltung und modulare Komponenten für eine intuitive Benutzeroberfläche.",
     "githubLink": "https://github.com/CristinaSt86/TodoApp",
     "imageAlt": "Screenshot der Aufgabenverwaltungs-App",
-     "linkText": "Zu GitHub"
+    "linkText": "Zu GitHub"
   },
   "figoRestPage": {
     "pageTitle": "Restaurant Figo",
     "description": "Moderne, responsive Restaurant-Website mit interaktivem Menü, Galerie, Kundenbewertungen und Nachrichtenbereich. Intuitive Navigation und attraktives Design, optimiert für alle Geräte.",
     "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
     "imageAlt": "Galeriebild des Figo Restaurants",
-     "linkText": "Zu GitHub"
+    "linkText": "Zu GitHub"
   },
   "joggaPage": {
     "pageTitle": "Jogga.ro Migration von React.js zu Next.js",
@@ -174,7 +194,7 @@
   "thirdPartyIntegrationDescription": "Integration externer Dienste wie CMS, Analyse-Tools, Social-Media-Widgets sowie interaktive Karten, Chatbots und andere Drittanbieter-Widgets für eine nahtlose Funktionalität.",
   "maintenanceTitle": "Wartung und Unterstützung",
   "maintenanceDescription": "Angebot von fortlaufender Wartung und Aktualisierungen der Webseite. Fehlerbehebung und Bugfixing.",
-  
+
   "tinyTips": {
     "TinyTipsTitle": "RAT #",
     "rollForNewAdvice": "Für neuen Rat würfeln!"
@@ -200,5 +220,26 @@
     "linkText": "Zu GitHub",
     "githubLink": "https://github.com/CristinaSt86/TopalX-Driving-School",
     "imageAlt": "Screenshot der Fahrschul-Website"
+  },
+
+  "cswebPage": {
+    "pageTitle": "CSWeb – Maßgeschneiderte Weblösungen",
+    "description": "Ich habe eine professionelle und skalierbare Webplattform für einen digitalen Dienstleister entwickelt, unter Einsatz moderner Frontend-Technologien. Das Projekt umfasste UI/UX-Design, modulare Architektur, SEO-Optimierung und ein vollständig responsives Layout. Mehrsprachigkeit und Drittanbieter-Integrationen wurden ebenfalls umgesetzt, um die Leistung und Benutzerfreundlichkeit zu verbessern.",
+    "keyContributions": [
+      "TailwindCSS für schnelles, konsistentes Styling und Responsive Design",
+      "Seitennavigation mit React Router",
+      "Internationalisierung mit react-i18next",
+      "Icons und Flaggen mit react-icons und react-flagkit",
+      "Kontaktformular mit Formspree integriert",
+      "Weiches Scrollen mit react-scroll",
+      "Google Ads Integration zur Traffic-Analyse",
+      "WebP-Bilder und Lazy Loading für bessere Ladezeiten",
+      "Komponentenstruktur mit CSS Modules",
+      "SEO Best Practices: Meta-Tags, semantisches HTML, schnelle Ladezeiten"
+    ],
+    "outcome": "Das Projekt führte zu einer skalierbaren Webplattform, die auf die Anforderungen der Kunden zugeschnitten ist, mit Fokus auf Leistung und Benutzererfahrung.",
+    "githubLink": "https://github.com/CristinaSt86/csweb",
+    "linkText": "Zu GitHub",
+    "imageAlt": "Screenshots vom CSWeb-Projekt"
   }
 }
