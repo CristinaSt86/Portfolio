@@ -7,24 +7,23 @@
   font-size: 1rem;
   transition: transform 0.3s ease, background-color 0.3s ease,
     box-shadow 0.3s ease, color 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #3747d6;
+  color: #fff;
   box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
 
   /* position: relative; */
 }
 
 .Link:hover {
-  background: #3747d6;
-  color: #fff;
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
 
   border-color: #3747d6;
 }
 
-.lightTheme {
+/* .lightTheme {
   color: #3a4a54;
-}
+} */
 
 .darkTheme {
   color: var(--text-night-mode);

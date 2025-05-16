@@ -23,18 +23,20 @@
   margin-top: 0;
 }
 
-.linksNight{
+.linksNight {
   color: var(--text-night-mode);
 }
 
 .links:hover {
   text-decoration: underline;
+  color: #3747d6;
   /* transform: scale(1.1); */
 }
 
 .linksNight:hover {
   text-decoration: underline;
-  color: var(--text-night-mode);
+  /* color: var(--text-night-mode); */
+  color: #3747d6;
 }
 
 .languageDropdown {
@@ -49,17 +51,59 @@
 .option {
   font-size: 1.1rem;
 }
-.hamburger img {
+/* .hamburger img {
   width: 2rem;
   height: auto;
   padding: 1.5rem;
   display: none;
   color: #3747d6;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   .hamburger img {
     display: block;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: block;
+  }
+
+  .hamburgerIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aliniază liniile spre dreapta */
+    gap: 6px;
+    padding: 1.5rem;
+  }
+
+  .barLong,
+  .barShort {
+    background-color: #3747d6;
+    height: 5px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  /* Dimensiuni */
+  .barLong {
+    width: 28px;
+  }
+
+  .barShort {
+    width: 18px;
+    margin-left: auto; /* aliniere dreapta, implicit prin flex-end */
+  }
+
+  /* Animație pentru deschidere */
+  .barLongOpen {
+    transform: rotate(45deg) translateY(8px);
+    width: 28px;
+  }
+
+  .barShortOpen {
+    transform: rotate(-45deg) translateY(-8px);
+    width: 28px;
   }
 
   .mobileLogo {
@@ -104,7 +148,4 @@
     padding: 1rem;
     display: inline;
   }
-
-  
 }
-

@@ -12,19 +12,22 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   max-height: 0;
-  overflow: hidden; 
+  overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
 
 .fabMenu.show {
-  max-height: 300px; 
+  max-height: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .fabItem {
   opacity: 0;
-  transform: translateY(-10px); 
+  transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -45,12 +48,11 @@
   }
 
   .fabMenu.show {
-    max-height: 300px; 
-    opacity: 1; 
+    max-height: 300px;
+    opacity: 1;
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease;
   }
 }
-
 
 /* @media only screen 
   and (min-device-width: 820px) 
@@ -73,18 +75,18 @@
   }
 } */
 
-
 @media (max-width: 768px) {
   .fabMenu {
     position: relative;
     padding: 1.2rem;
-    max-height: 0; 
-    overflow: hidden; 
-    transition: max-height 0.5s ease-in-out; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
   }
 
   .fabMenu.show {
     max-height: 300px;
-    top:1rem;
+    top: 1rem;
+    display: flex;
   }
 }

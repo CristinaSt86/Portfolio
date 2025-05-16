@@ -69,9 +69,20 @@ const Navigation = () => {
 
   return (
     <nav ref={navRef}>
-      <div className={css.hamburger} onClick={toggleMenu}>
+      {/* <div className={css.hamburger} onClick={toggleMenu}>
         <img src={hamburgerMenu} alt="mobile-menu" />
+      </div> */}
+      <div className={css.hamburger} onClick={toggleMenu}>
+        <div className={css.hamburgerIcon}>
+          <span
+            className={`${css.barLong} ${menuOpen ? css.barLongOpen : ""}`}
+          ></span>
+          <span
+            className={`${css.barShort} ${menuOpen ? css.barShortOpen : ""}`}
+          ></span>
+        </div>
       </div>
+
       <ul className={`${css.list} ${menuOpen ? css.show : ""}`}>
         {navLinks.map((link, index) => (
           <li key={index} className={css.navItem}>
