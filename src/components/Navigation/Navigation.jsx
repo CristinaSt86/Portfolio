@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import css from "./Navigation.module.css";
-import hamburgerMenu from "../../images/meniuHam.webp";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
-import Logo from "../../images/logo.svg";
 import FABMenu from "../FABMenu/FABMenu";
 
 const Navigation = () => {
