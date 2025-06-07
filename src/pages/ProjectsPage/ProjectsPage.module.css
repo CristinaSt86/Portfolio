@@ -69,7 +69,7 @@
 @media only screen and (max-width: 767px) {
   .mainContainer {
     gap: 2rem;
-    padding: 1rem;
+    //padding: 1rem;
   }
 
   .projectGrid {

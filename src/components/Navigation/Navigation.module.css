@@ -27,7 +27,8 @@
   color: var(--text-night-mode);
 }
 
-.links:hover, .linksNight:hover {
+.links:hover,
+.linksNight:hover {
   text-decoration: underline;
   color: #3747d6;
   transform: translateY(-3px);
@@ -138,10 +139,13 @@
     display: inline;
     border-bottom-left-radius: 1rem;
     border-left: 2px solid #3747d6;
-     
   }
 
   .links:hover {
+    border-left: none;
+    border-radius: 0;
     text-decoration: none;
+    border-top-right-radius: 1rem;
+    border-right: 2px solid #3747d6;
   }
 }
