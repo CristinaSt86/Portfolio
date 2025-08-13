@@ -35,7 +35,7 @@
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .mainMaxWidth {
@@ -61,6 +61,8 @@
   font-weight: 400;
   text-align: center;
   margin: 0 0 2rem 0;
+  font-family: "Arial", sans serif;
+  word-spacing: 0.2rem;
 }
 
 .imagine {
