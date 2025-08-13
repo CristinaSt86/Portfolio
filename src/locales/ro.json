@@ -8,7 +8,7 @@
   },
   "homePage": {
     "greeting": "Salut! Sunt Cristina,",
-    "introduction": "dezvoltatoare frontend dedicată, localizată în Germania, concentrată pe crearea de soluții web elegante și ușor de utilizat.",
+    "introduction": "UX designer cu focus pe soluții funcționale și interfețe atent construite. Creez experiențe digitale intuitive, incluzive și bine structurate.",
     "readMore": "Citește mai mult...",
     "imageAlt": "Cristina Stoian | Dezvoltatoare Frontend"
   },
@@ -43,64 +43,64 @@
     "certificationsHeader": "Certificări",
     "hello": "Cine este Cristina?",
     "introText": [
-      "Sunt Cristina Stoian, dezvoltatoare frontend pasionată și motivată, cu un entuziasm puternic pentru crearea de experiențe web atractive și ușor de utilizat. Având o bază în multiple programe de formare acreditate, cursuri online și studiu intensiv individual, sunt dornică să contribui la proiecte inovative și să colaborez cu profesioniști cu gândire similară.",
-      "Am avut ocazia să lucrez la o varietate de proiecte, incluzând crearea de site-uri web responsive, dezvoltarea de interfețe utilizator și implementarea de caracteristici interactive.",
-      "În acest portofoliu, veți găsi o colecție de proiecte care îmi ilustrează expertiza și creativitatea. Fiecare proiect reprezintă o călătorie de rezolvare a problemelor și explorare, demonstrând angajamentul meu de a livra soluții de calitate înaltă, centrate pe utilizator. Cred în puterea tehnologiei de a avea un impact pozitiv asupra lumii, și sunt entuziasmată să împărtășesc contribuțiile mele cu voi.",
-      "Vă mulțumesc pentru vizită și sper să vă bucurați explorând lucrările mele!"
+      "Sunt Cristina Stoian, UX designer pasionată de crearea unor experiențe digitale intuitive și semnificative. Abordez fiecare proiect cu empatie și curiozitate, având mereu ca scop rezolvarea problemelor reale ale utilizatorilor.",
+      "Prin user research, wireframe-uri, prototipuri și iterație continuă, proiectez cu claritate și intenție. Experiența mea în dezvoltare frontend mă ajută să transform ideile în interfețe responsive și accesibile.",
+      "Acest portofoliu reflectă valorile mele: utilitate, design atent și un angajament profund de a îmbunătăți experiențele oamenilor.",
+      "Îți mulțumesc pentru vizită, sper să te bucuri explorând proiectele mele!"
     ],
     "toProjects": "Către Proiecte"
   },
   "projectsPage": {
-   "projects": [
-  {
-    "name": "CSWEB",
-    "path": "/csweb",
-    "id": "csweb-project",
-    "imageKey": "cs1"
-  },
-  {
-    "name": "Școala de șoferi",
-    "path": "/topalx",
-    "id": "topalx-project",
-    "imageKey": "Top1"
-  },
-  {
-    "name": "Internship Jogga",
-    "path": "/jogga-inter",
-    "id": "jogga-inter-project",
-    "imageKey": "i1"
-  },
-  {
-    "name": "Sfaturi rapide",
-    "path": "/advice-slip",
-    "id": "advice-slip-project",
-    "imageKey": "AdvicePic"
-  },
-  {
-    "name": "Mini Robot",
-    "path": "/joke-teller",
-    "id": "joke-teller-project",
-    "imageKey": "miniRobotPic"
-  },
-  {
-    "name": "Aplicație ToDo",
-    "path": "/to-do",
-    "id": "todo-project",
-    "imageKey": "Todo1"
-  },
-  {
-    "name": "Restaurant Figo",
-    "path": "/figo-restaurant",
-    "id": "figo-rest-project",
-    "imageKey": "figoPic1"
-  }
-]
-
+    "title": "Proiecte",
+    "projects": [
+      {
+        "name": "CSWEB",
+        "path": "/csweb",
+        "id": "csweb-project",
+        "imageKey": "cs1"
+      },
+      {
+        "name": "Școala de șoferi",
+        "path": "/topalx",
+        "id": "topalx-project",
+        "imageKey": "Top1"
+      },
+      {
+        "name": "Internship Jogga",
+        "path": "/jogga-inter",
+        "id": "jogga-inter-project",
+        "imageKey": "i1"
+      },
+      {
+        "name": "Sfaturi rapide",
+        "path": "/advice-slip",
+        "id": "advice-slip-project",
+        "imageKey": "AdvicePic"
+      },
+      {
+        "name": "Mini Robot",
+        "path": "/joke-teller",
+        "id": "joke-teller-project",
+        "imageKey": "miniRobotPic"
+      },
+      {
+        "name": "Aplicație ToDo",
+        "path": "/to-do",
+        "id": "todo-project",
+        "imageKey": "Todo1"
+      },
+      {
+        "name": "Restaurant Figo",
+        "path": "/figo-restaurant",
+        "id": "figo-rest-project",
+        "imageKey": "figoPic1"
+      }
+    ]
   },
   "contactPage": {
     "contactMe": "Conectare la un Click",
     "mobile": "Mobil: +49 15731871996",
-    "hireMe": "Colaborează cu mine",
+    "hireMe": "Hai să creăm!",
     "email": "cristina.stoian@yahoo.com",
     "linkedInAlt": "link linkedIn",
     "githubAlt": "link gitHub",
@@ -243,6 +243,8 @@
     "outcome": "Proiectul a dus la o platformă web scalabilă, adaptată cerințelor clienților, cu accent pe performanță și experiență utilizator.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "Către GitHub",
+    "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
+    "linkUX": "Vezi studiul de caz",
     "imageAlt": "Capturi de ecran din proiectul CSWeb"
   }
 }

@@ -31,6 +31,11 @@
   width: 0.5rem;
   height: 0.5rem;
 }
+.btns {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem;
+}
 
 @media only screen and (max-width: 767px) {
   .mainContainer {
@@ -50,5 +55,9 @@
   }
   .titlu{
     text-align:center;
+  }
+  .btns{
+    flex-direction: column;
+    gap: 2rem;
   }
 }

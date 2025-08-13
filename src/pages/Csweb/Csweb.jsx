@@ -35,10 +35,16 @@ const Csweb = () => {
             <p>{t("cswebPage.outcome")}</p>
           </ParagraphNight>
         </section>
-        <GoToGithub
-          to={t("cswebPage.githubLink")}
-          text={t("cswebPage.linkText")}
-        />
+        <div className={css.btns}>
+          <GoToGithub
+            to={t("cswebPage.githubLink")}
+            text={t("cswebPage.linkText")}
+          />
+          <GoToGithub
+            to={t("cswebPage.caseStudyLink")}
+            text={t("cswebPage.linkUX")}
+          />
+        </div>
         <section>
           <LightboxGallery images={images} alt={t("cswebPage.imageAlt")} />
         </section>

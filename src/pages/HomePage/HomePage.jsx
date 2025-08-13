@@ -121,6 +121,7 @@ const HomePage = () => {
                 onClick={scrollToAbout}
                 text={t("homePage.readMore")}
                 target="_self"
+                additionalClasses={css.homeBTN}
               />
             </div>
           </div>

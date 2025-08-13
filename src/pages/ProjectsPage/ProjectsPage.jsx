@@ -100,12 +100,13 @@
 // export default ProjectsPage;
 
 import React from "react";
+// import WeatherMini from "../../components/WeatherMini/WeatherMini";
+// import TinyTips from "../../components/TinyTips/TinyTips";
+// import GoToGithub from "../../components/GoToGithub/GoToGithub";
 import css from "./ProjectsPage.module.css";
-import WeatherMini from "../../components/WeatherMini/WeatherMini";
 import { useTranslation } from "react-i18next";
-import TinyTips from "../../components/TinyTips/TinyTips";
 import { Helmet } from "react-helmet-async";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import Separator from "../../components/Separator/Separator";
 
 // Proiecte individuale
 import Topalx from "../Topalx/Topalx";
@@ -133,7 +134,7 @@ const imageMap = {
   AdvicePic,
   miniRobotPic,
   Todo1,
-  figoPic1
+  figoPic1,
 };
 const ProjectsPage = () => {
   const { t } = useTranslation();
@@ -165,7 +166,8 @@ const ProjectsPage = () => {
         {/* <div>
           <WeatherMini />
         </div> */}
-
+        <h1 className={css.proTitle}>{t("projectsPage.title")}</h1>
+        <Separator />
         <div>
           <ul className={css.projectGrid}>
             {projects.map((project, index) => (
@@ -188,7 +190,7 @@ const ProjectsPage = () => {
             ))}
           </ul>
         </div>
-{/* 
+        {/* 
         <div>
           <TinyTips />
         </div> */}

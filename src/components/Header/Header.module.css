@@ -44,11 +44,16 @@
 
 .logo{
   text-decoration: none;
-  color: var(--text-color); /* Definește culoarea în CSS vars pentru a schimba între Dark și Light Mode */
-  font-family: 'Arial', sans-serif;
+  /* color: var(--text-color); */
+  color: #3747d6;
+  font-family: 'Poppins', sans-serif;
   padding:1rem;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.logo span {
+  color: #ffb347;
 }
 
 .logoCont {

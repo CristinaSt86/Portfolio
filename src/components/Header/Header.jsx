@@ -37,7 +37,7 @@ const Header = () => {
       <div className={css.logoCont}>
         {/* <BackButton /> */}
         <Link to="/" className={css.logo}>
-          Cristina Stoian
+          Cristina <span>Stoian</span>
         </Link>
       </div>
       <div className={css.langThemeContainer}>

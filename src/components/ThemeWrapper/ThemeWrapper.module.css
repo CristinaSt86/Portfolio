@@ -6,16 +6,23 @@
   --text-night-mode: #e0e6ea;
   --bg-night-mode: #000;
   --text-day-mode: #3a4a54;
-  --bg-day-mode: #ffffff; /* Fundal alb */
+  --bg-day-mode: #ffffff; 
 }
 
 body {
   margin: 0;
- 
   font-size: 1.2rem;
   font-weight: 500;
   font-family: "Arial", sans-serif;
+}
 
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1{
+  font-weight: 600;
 }
 
 .darkTheme {

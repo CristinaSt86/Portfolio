@@ -8,7 +8,7 @@
   },
   "homePage": {
     "greeting": "Hello! I'm Cristina,",
-    "introduction": "dedicated frontend developer based in Germany, focused on creating elegant and user-friendly web solutions.",
+    "introduction": "a UX designer who brings ideas to life through thoughtful design and clean frontend development. I create digital experiences that are intuitive, inclusive, and beautifully crafted.",
     "readMore": "Read more...",
     "imageAlt": "Cristina Stoian | Frontend Developer"
   },
@@ -44,10 +44,10 @@
     "certificationsHeader": "Certifications",
     "hello": "Who is Cristina?",
     "introText": [
-      "I'm Cristina Stoian, a passionate and driven frontend developer with a strong enthusiasm for creating engaging and user-friendly web experiences. With a background in multiple accredited training programs, online courses and intensive self-study, I am eager to contribute to innovative projects and collaborate with like-minded professionals.",
-      "I've had the opportunity to work on a variety of projects, including building responsive websites, developing user interfaces, and implementing interactive features.",
-      "In this portfolio, you'll find a collection of projects that showcase my expertise and creativity. Each project represents a journey of problem-solving and exploration, demonstrating my commitment to delivering high-quality, user-centric solutions. I believe in the power of technology to make a positive impact on the world, and I'm excited to share my contributions with you.",
-      "Thank you for visiting, and I hope you enjoy exploring my work!"
+      "I'm Cristina Stoian, a UX designer passionate about creating intuitive and meaningful digital experiences. I approach each project with empathy and curiosity, always aiming to solve real user problems.",
+      "Through user research, wireframes, prototypes, and continuous iteration, I design with clarity and purpose. My background in frontend development helps me translate ideas into responsive, accessible interfaces.",
+      "This portfolio reflects my values: usability, thoughtful design, and a deep commitment to improving people’s experiences.",
+      "Thank you for stopping by, I hope you enjoy exploring my work!"
     ],
     "toProjects": "To Projects"
   },
@@ -55,7 +55,7 @@
     "contactMe": "Let's Connect",
     "mobileLabel": "Mobile:",
     "mobileNumber": "+4915731871996",
-    "hireMe": "Hire me",
+    "hireMe": "Let’s create!",
     "email": "cristina.stoian@yahoo.com",
     "linkedInAlt": "LinkedIn link",
     "githubAlt": "GitHub link",
@@ -81,51 +81,51 @@
     "validCityError": "Please enter a valid city name."
   },
   "projectsPage": {
-   "projects": [
-  {
-    "name": "CSWEB",
-    "path": "/csweb",
-    "id": "csweb-project",
-    "imageKey": "cs1"
-  },
-  {
-    "name": "Driving School",
-    "path": "/topalx",
-    "id": "topalx-project",
-    "imageKey": "Top1"
-  },
-  {
-    "name": "Jogga Internship",
-    "path": "/jogga-inter",
-    "id": "jogga-inter-project",
-    "imageKey": "i1"
-  },
-  {
-    "name": "Tiny Tips",
-    "path": "/advice-slip",
-    "id": "advice-slip-project",
-    "imageKey": "AdvicePic"
-  },
-  {
-    "name": "Mini Robot",
-    "path": "/joke-teller",
-    "id": "joke-teller-project",
-    "imageKey": "miniRobotPic"
-  },
-  {
-    "name": "ToDo App",
-    "path": "/to-do",
-    "id": "todo-project",
-    "imageKey": "Todo1"
-  },
-  {
-    "name": "Figo Restaurant",
-    "path": "/figo-restaurant",
-    "id": "figo-rest-project",
-    "imageKey": "figoPic1"
-  }
-]
-
+    "title": "Projects",
+    "projects": [
+      {
+        "name": "CSWEB",
+        "path": "/csweb",
+        "id": "csweb-project",
+        "imageKey": "cs1"
+      },
+      {
+        "name": "Driving School",
+        "path": "/topalx",
+        "id": "topalx-project",
+        "imageKey": "Top1"
+      },
+      {
+        "name": "Jogga Internship",
+        "path": "/jogga-inter",
+        "id": "jogga-inter-project",
+        "imageKey": "i1"
+      },
+      {
+        "name": "Tiny Tips",
+        "path": "/advice-slip",
+        "id": "advice-slip-project",
+        "imageKey": "AdvicePic"
+      },
+      {
+        "name": "Mini Robot",
+        "path": "/joke-teller",
+        "id": "joke-teller-project",
+        "imageKey": "miniRobotPic"
+      },
+      {
+        "name": "ToDo App",
+        "path": "/to-do",
+        "id": "todo-project",
+        "imageKey": "Todo1"
+      },
+      {
+        "name": "Figo Restaurant",
+        "path": "/figo-restaurant",
+        "id": "figo-rest-project",
+        "imageKey": "figoPic1"
+      }
+    ]
   },
   "advicePage": {
     "pageTitle": "Practical Advice",
@@ -245,6 +245,8 @@
     "outcome": "The project resulted in a scalable web platform tailored to client requirements, focusing on performance and user experience.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "To GitHub",
+    "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
+    "linkUX": "View Case Study",
     "imageAlt": "Screenshots from the CSWeb project"
   }
 }

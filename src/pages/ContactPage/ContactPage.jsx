@@ -5,12 +5,12 @@ import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import Form from "../../components/Form/Form";
 import css from "./ContactPage.module.css";
-import pc from "../../images/pc.webp";
+import pc from "../../images/contactPicEd.webp";
 import Linkedin from "../../images/linkedin.webp";
 import Github from "../../images/github.webp";
-import msg from "../../images/message.webp";
 import { Helmet } from "react-helmet-async";
 import Separator from "../../components/Separator/Separator";
+import { Icon } from "@iconify/react";
 
 const ContactPage = () => {
   const { theme } = useTheme();
@@ -74,8 +74,10 @@ const ContactPage = () => {
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
-      <h1 id="contact" className={css.contactMe}>{t("contactPage.contactMe")}</h1>
-      <Separator/>
+      <h1 id="contact" className={css.contactMe}>
+        {t("contactPage.contactMe")}
+      </h1>
+      <Separator />
       <div className={css.display}>
         <div className={contactBgDarkMode}>
           <div className={css.imageContainer}>
@@ -84,45 +86,47 @@ const ContactPage = () => {
               alt={t("contactPage.imageAlt")}
               className={css.imagine}
             />
-            <div className={css.contactContainer}>
-              <h2 className={css.mobile}>
-                {t("contactPage.mobileLabel")}{" "}
-                <a
-                  href={`tel:${t("contactPage.mobileNumber")}`}
-                  className={css.mobile}
-                >
-                  {t("contactPage.mobileNumber")}
-                </a>
-              </h2>
-              <div className={css.msgHireMe}>
-                <a href={`mailto:${emailAddress}`} className={css.mail}>
-                  {t("contactPage.hireMe")}
-                </a>
-                <img src={msg} alt="email" />
-              </div>
-              <div className={css.contactLinks}>
-                <Link to="https://github.com/CristinaSt86" target="blank">
-                  <Image
-                    src={Github}
-                    alt={t("contactPage.githubAlt")}
-                    className={css.socialMediaImg}
-                  />
-                </Link>
-                <Link
-                  to="https://www.linkedin.com/in/cristina-stoian-frontend-developer/"
-                  target="blank"
-                >
-                  <Image
-                    src={Linkedin}
-                    alt={t("contactPage.linkedInAlt")}
-                    className={css.socialMediaImg}
-                  />
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
         <Form />
+      </div>
+      <div className={css.contactContainer}>
+        <h2>
+          {/* {t("contactPage.mobileLabel")}{" "} */}
+          <a
+            href={`tel:${t("contactPage.mobileNumber")}`}
+            className={css.mobile}
+          >
+            <Icon icon="mdi:cellphone" className={css.icon} />
+            {t("contactPage.mobileNumber")}
+          </a>
+        </h2>
+
+        <a href={`mailto:${emailAddress}`} className={css.msgHireMe}>
+          <Icon icon="mdi:email" className={css.icon} />
+          {t("contactPage.hireMe")}
+        </a>
+        
+
+        <div className={css.contactLinks}>
+          <Link to="https://github.com/CristinaSt86" target="blank">
+            <Image
+              src={Github}
+              alt={t("contactPage.githubAlt")}
+              className={css.socialMediaImg}
+            />
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/cristina-stoian-frontend-developer/"
+            target="blank"
+          >
+            <Image
+              src={Linkedin}
+              alt={t("contactPage.linkedInAlt")}
+              className={css.socialMediaImg}
+            />
+          </Link>
+        </div>
       </div>
     </>
   );
