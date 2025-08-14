@@ -1,15 +1,17 @@
 import React from "react";
-import { useTheme } from "../../ThemeContext"; 
-import Image from "../Image/Image";
-import dn from "../../images/d-n.png";
-import css from "./ThemeToggler.module.css"; 
+import { useTheme } from "../../ThemeContext";
+import css from "./ThemeToggler.module.css";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 const ThemeToggler = () => {
-  const { toggleTheme } = useTheme(); 
- 
+  const { toggleTheme } = useTheme();
+
   return (
-    <Image
-      src={dn}
+    <Icon
+      icon="mdi:weather-night"
+      width="24"
+      height="24"
+      classname={css.toggleBtn}
       alt="dayNightSwitch"
       className={css.toggleBtn}
       onClick={toggleTheme}

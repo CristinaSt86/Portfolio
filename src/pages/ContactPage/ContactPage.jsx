@@ -1,13 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Image from "../../components/Image/Image";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import Form from "../../components/Form/Form";
 import css from "./ContactPage.module.css";
 import pc from "../../images/contactPicEd.webp";
-import Linkedin from "../../images/linkedin.webp";
-import Github from "../../images/github.webp";
 import { Helmet } from "react-helmet-async";
 import Separator from "../../components/Separator/Separator";
 import { Icon } from "@iconify/react";
@@ -106,27 +104,6 @@ const ContactPage = () => {
           <Icon icon="mdi:email" className={css.icon} />
           {t("contactPage.hireMe")}
         </a>
-        
-
-        <div className={css.contactLinks}>
-          <Link to="https://github.com/CristinaSt86" target="blank">
-            <Image
-              src={Github}
-              alt={t("contactPage.githubAlt")}
-              className={css.socialMediaImg}
-            />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/cristina-stoian-frontend-developer/"
-            target="blank"
-          >
-            <Image
-              src={Linkedin}
-              alt={t("contactPage.linkedInAlt")}
-              className={css.socialMediaImg}
-            />
-          </Link>
-        </div>
       </div>
     </>
   );

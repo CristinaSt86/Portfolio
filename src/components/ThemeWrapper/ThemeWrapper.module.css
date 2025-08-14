@@ -3,9 +3,9 @@
 } */
 
 :root {
-  --text-night-mode: #e0e6ea;
+  --text-night-mode: #f5f7fa;
   --bg-night-mode: #000;
-  --text-day-mode: #3a4a54;
+  --text-day-mode: #333333;
   --bg-day-mode: #ffffff; 
 }
 

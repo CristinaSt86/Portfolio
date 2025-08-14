@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
+import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
-import css from "./LanguageSelector.module.css"; // Add styles for the dropdown
+import { useTheme } from "../../ThemeContext"; // dacă ai contextul de theme
+import css from "./LanguageSelector.module.css";
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
+  const [showMenu, setShowMenu] = useState(false);
+  const { theme } = useTheme(); // preia tema activă
 
-  const handleLanguageChange = (event) => {
-    i18n.changeLanguage(event.target.value); // Switch language
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setShowMenu(false);
   };
 
   return (
-    <select
-      onChange={handleLanguageChange}
-      value={i18n.language}
-      className={css.languageDropdown}
-    >
-      <option value="en" className={css.option}>En</option>
-      <option value="de" className={css.option}>De</option>
-      <option value="ro" className={css.option}>Ro</option>
-    </select>
+    <div className={css.wrapper}>
+      <button
+        className={css.iconButton}
+        onClick={() => setShowMenu((prev) => !prev)}
+      >
+        <Icon
+          icon="material-symbols:language"
+          className={css.langIcon}
+          style={{
+            color: theme === "dark" ? "#fff" : "#333333", // alb pe dark mode, albastru pe light mode
+          }}
+        />
+      </button>
+
+      {showMenu && (
+      <div className={`${css.dropdownMenu} ${showMenu ? css.show : ""}`}>
+          <button onClick={() => changeLanguage("en")}>En</button>
+          <button onClick={() => changeLanguage("de")}>De</button>
+          <button onClick={() => changeLanguage("ro")}>Ro</button>
+        </div>
+      )}
+    </div>
   );
 };
 

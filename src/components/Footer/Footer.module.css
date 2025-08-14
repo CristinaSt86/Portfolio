@@ -9,7 +9,7 @@
 }
 
 .left {
-  flex-grow: 1; /* Allows the text to take up remaining space */
+  flex-grow: 1;
   text-align: left;
 }
 
@@ -20,12 +20,24 @@
 .right {
   display: flex;
   justify-content: flex-end;
+  gap: 1.5rem;
 }
 
 .socialMedia {
   width: 1.5rem;
   height: 1.5rem;
   margin: 0 0.5rem;
+}
+
+.socialIcon {
+  font-size: 1.8rem;
+  color: #ffb347;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.iconLink:hover .socialIcon {
+  color: #3747d6;
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 767px) {

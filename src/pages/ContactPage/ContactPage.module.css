@@ -42,6 +42,7 @@
   justify-content: center;
   gap: 6rem;
   padding: 1rem;
+  padding-bottom: 6rem;
 }
 
 .socialMediaImg {
@@ -152,6 +153,6 @@
   .contactContainer {
     flex-direction: column;
     gap: 2rem;
-    padding: 1rem;
+  
   }
 }

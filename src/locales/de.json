@@ -224,25 +224,25 @@
   },
 
   "cswebPage": {
-    "pageTitle": "CSWeb – Maßgeschneiderte Weblösungen",
-    "description": "Ich habe eine professionelle und skalierbare Webplattform für einen digitalen Dienstleister entwickelt, unter Einsatz moderner Frontend-Technologien. Das Projekt umfasste UI/UX-Design, modulare Architektur, SEO-Optimierung und ein vollständig responsives Layout. Mehrsprachigkeit und Drittanbieter-Integrationen wurden ebenfalls umgesetzt, um die Leistung und Benutzerfreundlichkeit zu verbessern.",
+    "pageTitle": "CSWeb – UX-orientierte Digitale Plattform",
+    "description": "Ich habe eine professionelle, skalierbare Webplattform für einen digitalen Dienstleister entworfen und entwickelt, mit starkem Fokus auf UX-Prinzipien. Der Prozess umfasste Nutzerforschung, Wireframing, Prototyping, Usability-Tests sowie die Umsetzung einer responsiven und barrierefreien Benutzeroberfläche. Ich sorgte für intuitive Navigation, klare visuelle Hierarchie und flüssige Interaktionen, um die Zufriedenheit und Bindung der Nutzer zu steigern.",
     "keyContributions": [
-      "TailwindCSS für schnelles, konsistentes Styling und Responsive Design",
-      "Seitennavigation mit React Router",
+      "Nutzerforschung und Erstellung von Personas zur Unterstützung der Designentscheidungen",
+      "Wireframes und High-Fidelity-Prototypen in Figma",
+      "Responsives und barrierefreies UI-Design für alle Geräte",
+      "Klare Informationsarchitektur und intuitiver Navigationsfluss",
+      "Usability-Tests und iterative Verbesserungen",
       "Internationalisierung mit react-i18next",
-      "Icons und Flaggen mit react-icons und react-flagkit",
-      "Kontaktformular mit Formspree integriert",
-      "Weiches Scrollen mit react-scroll",
-      "Google Ads Integration zur Traffic-Analyse",
-      "WebP-Bilder und Lazy Loading für bessere Ladezeiten",
-      "Komponentenstruktur mit CSS Modules",
-      "SEO Best Practices: Meta-Tags, semantisches HTML, schnelle Ladezeiten"
+      "Ansprechende visuelle Elemente mit Iconify und Flaggen-Assets",
+      "Kontaktformular-Integration über Formspree",
+      "Medienoptimierung mit WebP und Lazy Loading",
+      "SEO-Best Practices: semantisches HTML, schnelle Ladezeiten"
     ],
-    "outcome": "Das Projekt führte zu einer skalierbaren Webplattform, die auf die Anforderungen der Kunden zugeschnitten ist, mit Fokus auf Leistung und Benutzererfahrung.",
+    "outcome": "Das Projekt lieferte eine skalierbare, nutzerzentrierte Plattform, die die Ziele des Kunden erfüllte und gleichzeitig ein nahtloses und angenehmes Nutzererlebnis gewährleistete.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "Zu GitHub",
     "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
-    "linkUX": "Fallstudie ansehen",
-    "imageAlt": "Screenshots vom CSWeb-Projekt"
+    "linkUX": "Case Study ansehen",
+    "imageAlt": "Screenshots aus dem CSWeb UX-Projekt"
   }
 }

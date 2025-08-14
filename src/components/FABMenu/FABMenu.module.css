@@ -1,3 +1,4 @@
+
 .fabContainer {
   position: relative;
   display: flex;
@@ -36,6 +37,19 @@
   transform: translateY(0);
 }
 
+/* 🔹 Stilizare pentru iconurile din Iconify */
+.fabMenu .iconify {
+  font-size: 1.8rem;
+  color: #3747d6;
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.fabMenu .iconify:hover {
+  color: #ffb347;
+  transform: scale(1.2);
+}
+
 @media (min-width: 768px) {
   .fabMenu {
     position: fixed;
@@ -53,27 +67,6 @@
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease;
   }
 }
-
-/* @media only screen 
-  and (min-device-width: 820px) 
-  and (max-device-width: 1180px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait)
-  and (aspect-ratio: 3/4) {
-  .fabMenu {
-    position: relative; 
-    bottom: initial;
-    right: initial; 
-    max-height: 0; 
-    overflow: hidden; 
-    transition: max-height 0.5s ease-in-out;
-    top: 1rem;
-  }
-
-  .fabMenu.show {
-    max-height: 300px;
-  }
-} */
 
 @media (max-width: 768px) {
   .fabMenu {

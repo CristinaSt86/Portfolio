@@ -1,12 +1,53 @@
-.languageDropdown {
-  border: 0.5px solid #374957;
-  outline: none;
-  padding: 0.2rem;
-  border-radius: 50%;
-  aspect-ratio: 1 / 1;
-  color: #374957;
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.option {
-  font-size: 1.1rem;
+.iconButton {
+  background: none; /* fără fundal */
+  border: none; /* fără contur */
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.langIcon {
+  font-size: 1.8rem;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iconButton:hover .langIcon {
+  transform: scale(1.2);
+  color: #ffb347 !important;
+}
+
+.dropdownMenu {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0;
+  margin-top: 0.3rem; /* spațiu sub buton */
+  z-index: 1;
+}
+
+.dropdownMenu button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #3747d6;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.dropdownMenu button:hover {
+  background: rgba(55, 71, 214, 0.1);
 }

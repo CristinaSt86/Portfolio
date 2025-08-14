@@ -226,25 +226,25 @@
   },
 
   "cswebPage": {
-    "pageTitle": "CSWeb – Soluții Web Personalizate",
-    "description": "Am dezvoltat o platformă web profesională și scalabilă pentru un furnizor de servicii digitale, folosind tehnologii moderne de frontend. Proiectul a inclus design UI/UX, arhitectură modulară, optimizare SEO și layout complet responsive. Am implementat suport multilingv și am integrat instrumente externe pentru performanță și interacțiune eficientă.",
+    "pageTitle": "CSWeb – Platformă Digitală Centrată pe UX",
+    "description": "Am conceput și dezvoltat o platformă web profesională și scalabilă pentru un furnizor de servicii digitale, punând un accent puternic pe principiile UX. Procesul a inclus cercetarea utilizatorilor, realizarea de wireframe-uri, prototipuri, testarea gradului de utilizare și implementarea unei interfețe responsive și accesibile. Am asigurat o navigare intuitivă, o ierarhie vizuală clară și interacțiuni fluide pentru a crește satisfacția și implicarea utilizatorilor.",
     "keyContributions": [
-      "TailwindCSS pentru stilizare rapidă și design responsive",
-      "Navigare cu React Router",
+      "Cercetarea utilizatorilor și definirea personajelor pentru ghidarea deciziilor de design",
+      "Wireframe-uri și prototipuri high-fidelity în Figma",
+      "Design UI responsive și accesibil pentru toate dispozitivele",
+      "Arhitectură informațională clară și flux de navigare intuitiv",
+      "Testare a gradului de utilizare și îmbunătățiri iterative",
       "Internaționalizare cu react-i18next",
-      "Pictograme și steaguri cu react-icons și react-flagkit",
-      "Formular de contact funcțional cu Formspree",
-      "Navigare lină între secțiuni cu react-scroll",
-      "Integrare Google Ads pentru urmărirea traficului",
-      "Imagini WebP și lazy loading pentru viteze mari de încărcare",
-      "Arhitectură pe componente și CSS Modules",
-      "Practici SEO: meta taguri, HTML semantic, timp de încărcare optim"
+      "Elemente vizuale atractive cu Iconify și pachete de steaguri",
+      "Integrarea formularului de contact prin Formspree",
+      "Optimizarea imaginilor cu WebP și încărcare întârziată",
+      "Cele mai bune practici SEO: HTML semantic, timp de încărcare rapid"
     ],
-    "outcome": "Proiectul a dus la o platformă web scalabilă, adaptată cerințelor clienților, cu accent pe performanță și experiență utilizator.",
+    "outcome": "Proiectul a oferit o platformă scalabilă, centrată pe utilizator, creată pentru a răspunde obiectivelor clientului și pentru a asigura o experiență plăcută și fluidă.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "Către GitHub",
     "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
     "linkUX": "Vezi studiul de caz",
-    "imageAlt": "Capturi de ecran din proiectul CSWeb"
+    "imageAlt": "Capturi de ecran din proiectul CSWeb UX"
   }
 }

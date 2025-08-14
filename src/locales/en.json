@@ -228,25 +228,25 @@
   },
 
   "cswebPage": {
-    "pageTitle": "CSWeb – Custom Web Solutions",
-    "description": "I developed a professional, scalable web platform for a digital service provider using modern frontend technologies. The project included UI/UX design, modular architecture, SEO optimization, and full responsive layout. I also implemented multilingual support and integrated third-party tools to enhance performance and user engagement.",
+    "pageTitle": "CSWeb – UX-Driven Digital Platform",
+    "description": "I designed and developed a professional, scalable web platform for a digital service provider with a strong focus on UX principles. The process included user research, wireframing, prototyping, usability testing, and implementing a responsive, accessible interface. I ensured intuitive navigation, clear visual hierarchy, and smooth interactions to enhance user satisfaction and engagement.",
     "keyContributions": [
-      "TailwindCSS for fast, consistent styling and responsiveness",
-      "Page navigation with React Router",
+      "User research and persona development to guide design decisions",
+      "Wireframing and high-fidelity prototyping in Figma",
+      "Responsive and accessible UI design for all devices",
+      "Clear information architecture and navigation flow",
+      "Usability testing and iterative improvements",
       "Internationalization using react-i18next",
-      "Icons and flags with react-icons and react-flagkit",
+      "Engaging visuals with Iconify icons and flag assets",
       "Contact form integration via Formspree",
-      "Smooth scrolling with react-scroll",
-      "Google Ads integration for traffic tracking",
-      "WebP images and lazy loading for better performance",
-      "Component-based structure and CSS Modules",
-      "SEO best practices: meta tags, semantic HTML, fast loading"
+      "Optimized media with WebP and lazy loading",
+      "SEO best practices: semantic HTML, fast load times"
     ],
-    "outcome": "The project resulted in a scalable web platform tailored to client requirements, focusing on performance and user experience.",
+    "outcome": "The project delivered a scalable, user-centered platform designed to meet client goals while ensuring a seamless and enjoyable user experience.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "To GitHub",
     "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
     "linkUX": "View Case Study",
-    "imageAlt": "Screenshots from the CSWeb project"
+    "imageAlt": "Screenshots from the CSWeb UX project"
   }
 }
