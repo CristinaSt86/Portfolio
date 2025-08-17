@@ -15,15 +15,18 @@ const AdviceSlip = () => {
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
           <h1 className={css.titlu}>{t("advicePage.pageTitle")}</h1>
-          <Separator/>
-          <ParagraphNight>
-            <p>{t("advicePage.adviceDescription")}</p>
-          </ParagraphNight>
+          <Separator />
+          <div className={css.textBtnContainer}>
+            <ParagraphNight>
+              <p>{t("advicePage.adviceDescription")}</p>
+            </ParagraphNight>
+            <GoToGithub
+              to={t("advicePage.githubLink")}
+              text={t("advicePage.linkText")}
+            />
+          </div>
         </section>
-        <GoToGithub
-          to={t("advicePage.githubLink")}
-          text={t("advicePage.linkText")}
-        />
+
         <section>
           <Image
             src={AdvicePic}

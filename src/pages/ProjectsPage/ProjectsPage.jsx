@@ -196,7 +196,9 @@ const ProjectsPage = () => {
         </div> */}
       </div>
 
-      {/* Proiectele pentru scroll */}
+      <section id="csweb-project">
+        <Csweb />
+      </section>
       <section id="topalx-project">
         <Topalx />
       </section>
@@ -214,9 +216,6 @@ const ProjectsPage = () => {
       </section>
       <section id="jogga-inter-project">
         <JoggaInter />
-      </section>
-      <section id="csweb-project">
-        <Csweb />
       </section>
     </>
   );

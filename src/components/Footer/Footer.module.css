@@ -6,6 +6,7 @@
   color: #627580;
   font-size: 0.8rem;
   margin-top: auto;
+  transform: translateY(-10px);
 }
 
 .left {
@@ -31,8 +32,14 @@
 
 .socialIcon {
   font-size: 1.8rem;
-  color: #ffb347;
   transition: color 0.3s ease, transform 0.2s ease;
+}
+.darkIcon {
+  color: #f5f7fa;
+}
+
+.lightIcon {
+  color: #333333;
 }
 
 .iconLink:hover .socialIcon {

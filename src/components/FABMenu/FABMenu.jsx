@@ -100,8 +100,11 @@ const FABMenu = ({ onToggleExpand }) => {
   return (
     <div className={css.fabContainer} ref={fabRef}>
       {/* Buton principal FAB */}
-      <GoToGithub onClick={handleFabToggle}>
-        <Icon icon="mdi:plus" width="20" height="20" /> {/* 🔹 Plus Icon */}
+      <GoToGithub
+        onClick={handleFabToggle}
+        additionalClasses={css.paddingSmall}
+      >
+        <Icon icon="mdi:plus" width="16" height="16" /> {/* 🔹 Plus Icon */}
       </GoToGithub>
       <div className={`${css.fabMenu} ${isExpanded ? css.show : ""}`}>
         <div className={`${css.fabItem} ${isExpanded ? css.show : ""}`}>

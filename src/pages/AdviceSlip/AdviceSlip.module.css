@@ -1,6 +1,6 @@
 .mainContainer {
-  margin: 4rem 0; 
-  padding: 2rem 1.5rem; 
+  margin: 4rem 0;
+  padding: 2rem 1.5rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -25,12 +25,19 @@
   max-width: 100%;
 }
 
+.textBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1.5rem;
+}
+
 @media only screen and (max-width: 800px) {
   .mainContainer {
     flex-direction: column;
-    margin: 2rem 0; 
-    padding: 0.5rem 0.5rem; 
-
+    margin: 2rem 0;
+    padding: 0.5rem 0.5rem;
   }
 
   .placeholder {
@@ -46,7 +53,7 @@
     height: auto;
   }
 
-  .titlu{
-    text-align:center;
+  .titlu {
+    text-align: center;
   }
 }

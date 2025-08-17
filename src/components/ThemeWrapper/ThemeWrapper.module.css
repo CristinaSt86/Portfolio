@@ -25,12 +25,11 @@ h1{
   font-weight: 600;
 }
 
-.darkTheme {
+/* .darkTheme {
   background-color: var(--bg-night-mode);
   color: var(--text-night-mode);
   width: 100%;
   min-height: 100vh;
-  /* display: flex; */
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
@@ -39,17 +38,39 @@ h1{
 }
 
 .lightTheme {
-  background-color: var(--bg-day-mode); /* Alb fix */
+  background-color: var(--bg-day-mode); 
   color: var(--text-day-mode);
   width: 100%;
   min-height: 100vh;
-  /* display: flex; */
   flex-direction: column;
   box-sizing: border-box;
   background-attachment: fixed;
   padding: 0 0.5rem;
   overflow-x: hidden;
+} */
+
+.darkTheme,
+.lightTheme {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;               /* activează layout flex */
+  flex-direction: column;      /* elementele (header, main, footer) pe coloană */
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+  overflow-x: hidden;
 }
+
+.darkTheme {
+  background-color: var(--bg-night-mode);
+  color: var(--text-night-mode);
+}
+
+.lightTheme {
+  background-color: var(--bg-day-mode);
+  color: var(--text-day-mode);
+}
+
+
 
 @media (max-width: 767px) {
   body {

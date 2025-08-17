@@ -18,7 +18,9 @@ const App = () => {
           <Suspense fallback={<Loader />}>
             <ThemeWrapper>
               <Header />
-              <RoutesConfig />
+              <main style={{ flex: 1 }}>
+                <RoutesConfig />
+              </main>
               <BackToTop />
               <Footer />
             </ThemeWrapper>

@@ -17,15 +17,17 @@ const JokeTeller = () => {
       <div className={css.mainContainer}>
         <section className={css.aboutApp}>
           <h1 className={css.titlu}>{t("jokeTellerPage.pageTitle")}</h1>
-          <Separator/>
-          <ParagraphNight>
-            <p>{t("jokeTellerPage.jokeDescription")}</p>
-          </ParagraphNight>
+          <Separator />
+          <div className={css.textBtnContainer}>
+            <ParagraphNight>
+              <p>{t("jokeTellerPage.jokeDescription")}</p>
+            </ParagraphNight>
+            <GoToGithub
+              to={t("jokeTellerPage.githubLink")}
+              text={t("jokeTellerPage.linkText")}
+            />
+          </div>
         </section>
-        <GoToGithub
-          to={t("jokeTellerPage.githubLink")}
-          text={t("jokeTellerPage.linkText")}
-        />
         <section>
           <RobotApp />
           {/* <Image
