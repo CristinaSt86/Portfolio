@@ -11,7 +11,6 @@ const ThemeToggler = () => {
       icon="mdi:weather-night"
       width="24"
       height="24"
-      classname={css.toggleBtn}
       alt="dayNightSwitch"
       className={css.toggleBtn}
       onClick={toggleTheme}

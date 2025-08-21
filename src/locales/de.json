@@ -60,6 +60,12 @@
         "imageKey": "cs1"
       },
       {
+        "name": "Tauschen, Teilen, Tragen",
+        "path": "/teilen",
+        "id": "teilen",
+        "imageKey": "ttt1"
+      },
+      {
         "name": "Fahrschule",
         "path": "/topalx",
         "id": "topalx-project",
@@ -244,5 +250,27 @@
     "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
     "linkUX": "Case Study ansehen",
     "imageAlt": "Screenshots aus dem CSWeb UX-Projekt"
+  },
+  "tttPage": {
+    "pageTitle": "Tauschen, Teilen, Tragen – Lokale Second-Hand App",
+    "description": "Ich habe eine nutzerzentrierte App für die Nachbarschaft in Weilheim an der Teck entworfen und entwickelt, mit Fokus auf Nachhaltigkeit, Gemeinschaft und einfache Bedienung. Der Prozess umfasste Nutzerinterviews, Wireframes, Prototypen in Figma und Usability-Tests, um ein klares und zugängliches Erlebnis zu schaffen.",
+    "keyContributions": [
+      "Nutzerforschung und Erstellung von Personas für lokale Bedürfnisse",
+      "Wireframes und High-Fidelity-Prototypen in Figma",
+      "Einfache und klare Benutzeroberfläche für alle Altersgruppen",
+      "Schnelle Produktfilterung und intuitive Navigation",
+      "Usability-Tests mit Nachbarn und iterative Verbesserungen",
+      "Community-Funktionen wie Nachrichten und Empfehlungen",
+      "Responsive Gestaltung für mobile Nutzung",
+      "Integration einer sicheren Nachrichtenfunktion",
+      "Medienoptimierung mit WebP und Lazy Loading",
+      "Lokale Ausrichtung für höhere Vertrauenswürdigkeit"
+    ],
+    "outcome": "Das Projekt lieferte eine benutzerfreundliche, nachhaltige und gemeinschaftsorientierte Plattform, die Nachbarinnen beim Tauschen, Teilen und Tragen von Kleidung unterstützt.",
+    "githubLink": "https://github.com/CristinaSt86/ttt-app",
+    "linkText": "Zu GitHub",
+    "caseStudyLink": "https://docs.google.com/presentation/d/1iFCmCkgB-8FA--2sdD78IbsaJ0maZYKFc4twU114esY/edit?usp=sharing",
+    "linkUX": "Case Study ansehen",
+    "imageAlt": "Screenshots aus dem UX-Projekt Tauschen, Teilen, Tragen"
   }
 }

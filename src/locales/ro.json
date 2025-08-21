@@ -60,6 +60,12 @@
         "imageKey": "cs1"
       },
       {
+        "name": "Schimbă, Împarte, Poartă",
+        "path": "/teilen",
+        "id": "teilen",
+        "imageKey": "ttt1"
+      },
+      {
         "name": "Școala de șoferi",
         "path": "/topalx",
         "id": "topalx-project",
@@ -154,7 +160,7 @@
   },
   "figoRestPage": {
     "pageTitle": "Restaurant Figo",
-    "description": "Website modern și responsiv pentru un restaurant, cu un meniu interactiv, galerie, testimoniale și secțiune de știri. Navigare intuitivă și design atractiv, optimizat pentru toate dispozitivele.",
+    "description": "Un website modern și responsiv pentru un restaurant, realizat cu HTML și CSS, cu accent pe design UX și UI curat. Site-ul include un meniu interactiv, galerie, testimoniale și o secțiune de noutăți, toate structurate printr-o navigare intuitivă și o abordare mobile-first. Designul se bazează pe o paletă de culori fresh, tipografie clară și carduri vizuale care fac meniul ușor de parcurs și atractiv. Am ținut cont de accesibilitate prin contrast, texte alternative pentru imagini și navigare simplă, iar site-ul se adaptează fluid pe orice dispozitiv. Acest proiect m-a ajutat să practic crearea unei interfețe plăcute vizual, aplicând principii esențiale de UX.",
     "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
     "imageAlt": "Imagine din galeria Restaurantului Figo",
     "linkText": "Către GitHub"
@@ -246,5 +252,27 @@
     "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
     "linkUX": "Vezi studiul de caz",
     "imageAlt": "Capturi de ecran din proiectul CSWeb UX"
+  },
+  "tttPage": {
+    "pageTitle": "Tauschen, Teilen, Tragen – Aplicație locală de second-hand",
+    "description": "Am conceput și dezvoltat o aplicație centrată pe utilizator pentru comunitatea din Weilheim an der Teck, care facilitează schimbul, împărțirea și purtarea sustenabilă a hainelor. Procesul a inclus interviuri cu utilizatori, wireframe-uri, prototipuri în Figma și teste de uzabilitate pentru o experiență clară și accesibilă.",
+    "keyContributions": [
+      "Cercetare utilizatori și definirea de personae pentru nevoi locale",
+      "Wireframe-uri și prototipuri high-fidelity în Figma",
+      "UI responsiv și accesibil pentru toate dispozitivele",
+      "Arhitectură informațională clară și flux de navigare intuitiv",
+      "Testare de uzabilitate și îmbunătățiri iterative",
+      "Funcții de comunitate: mesaje și recomandări între vecini",
+      "Filtrare rapidă a produselor și căutare simplă",
+      "Optimizare media cu WebP și Lazy Loading",
+      "Măsuri de încredere și siguranță (profiluri/vecinătate)",
+      "Orientare locală pentru creșterea relevanței și încrederii"
+    ],
+    "outcome": "Proiectul a livrat o platformă prietenoasă, sustenabilă și orientată pe comunitate, care sprijină vecinele să schimbe, să împartă și să poarte haine cu ușurință.",
+    "githubLink": "https://github.com/CristinaSt86/ttt-app",
+    "linkText": "Vezi pe GitHub",
+    "caseStudyLink": "https://docs.google.com/presentation/d/PLACEHOLDER-ID/edit?usp=sharing",
+    "linkUX": "Vezi Case Study",
+    "imageAlt": "Capturi de ecran din studiul UX „Tauschen, Teilen, Tragen”"
   }
 }

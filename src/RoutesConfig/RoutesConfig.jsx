@@ -25,6 +25,7 @@ const ServicesPage = lazy(() =>
 );
 const Topalx = lazy(() => import("../../src/pages/Topalx/Topalx"));
 const Csweb = lazy(() => import("../../src/pages/Csweb/Csweb"));
+const Teilen = lazy(() => import("../../src/pages/TeilenApp/Teilen"));
 
 const RoutesConfig = () => {
   const location = useLocation();
@@ -57,6 +58,7 @@ const RoutesConfig = () => {
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/topalx" element={<Topalx />} />
       <Route path="/csweb" element={<Csweb />} />
+      <Route path="/teilen" element={<Teilen />} />
     </Routes>
   );
 };

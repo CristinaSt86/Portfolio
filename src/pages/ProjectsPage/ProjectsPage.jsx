@@ -116,6 +116,7 @@ import Todo from "../ToDo/ToDo";
 import FigoRest from "../FigoRest/FigoRest";
 import JoggaInter from "../JoggaInter/JoggaInter";
 import Csweb from "../Csweb/Csweb";
+import Teilen from "../TeilenApp/Teilen";
 
 // Importuri imagini
 import cs1 from "../../images/cs1.webp";
@@ -125,10 +126,11 @@ import AdvicePic from "../../images/AdvicePic.webp";
 import miniRobotPic from "../../images/miniRobotPic.webp";
 import Todo1 from "../../images/Todo1.webp";
 import figoPic1 from "../../images/figoPic1.webp";
+import ttt1 from "../../images/ttt1.webp";
 
-// Mapare cheie -> imagine
 const imageMap = {
   cs1,
+  ttt1,
   Top1,
   i1,
   AdvicePic,
@@ -198,6 +200,9 @@ const ProjectsPage = () => {
 
       <section id="csweb-project">
         <Csweb />
+      </section>
+      <section id="teilen">
+        <Teilen />
       </section>
       <section id="topalx-project">
         <Topalx />

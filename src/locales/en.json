@@ -90,6 +90,12 @@
         "imageKey": "cs1"
       },
       {
+        "name": "Swap, Share, Wear",
+        "path": "/teilen",
+        "id": "teilen",
+        "imageKey": "ttt1"
+      },
+      {
         "name": "Driving School",
         "path": "/topalx",
         "id": "topalx-project",
@@ -156,7 +162,7 @@
   },
   "figoRestPage": {
     "pageTitle": "Figo Restaurant",
-    "description": "A modern, responsive restaurant website featuring an interactive menu, gallery, testimonials, and news section. Intuitive navigation and an appealing design, optimized for all devices.",
+    "description": "A modern, responsive restaurant website created with HTML and CSS, focusing on clean UX and UI design. The site features an interactive menu, gallery, testimonials, and a news section, all structured with intuitive navigation and a mobile-first approach. The design highlights a fresh color palette, clear typography, and card-based layouts to make the menu easy to scan and visually engaging. Accessibility was considered through contrast, alt text for images, and simple navigation, while responsiveness ensures the site adapts smoothly to any device. This project helped me practice building a visually appealing interface while applying core UX principles.",
     "githubLink": "https://github.com/CristinaSt86/Figo-Restaurant",
     "imageAlt": "Gallery image of Figo Restaurant",
     "linkText": "To GitHub"
@@ -248,5 +254,27 @@
     "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
     "linkUX": "View Case Study",
     "imageAlt": "Screenshots from the CSWeb UX project"
+  },
+  "tttPage": {
+    "pageTitle": "Tauschen, Teilen, Tragen – Local Second-hand App",
+    "description": "I designed and developed a user-centered app for the Weilheim an der Teck community to help neighbors swap, share, and wear clothes sustainably. The process included user interviews, wireframes, Figma prototypes, and usability tests to ensure a clear and accessible experience.",
+    "keyContributions": [
+      "User research and personas tailored to local needs",
+      "Wireframes and high-fidelity prototypes in Figma",
+      "Responsive, accessible UI across devices",
+      "Clear information architecture and intuitive navigation",
+      "Usability testing and iterative improvements",
+      "Community features: messaging and neighbor recommendations",
+      "Fast product filtering and simple search",
+      "Media optimization with WebP and lazy loading",
+      "Trust & safety measures (profiles/neighborhood focus)",
+      "Local focus to increase relevance and trust"
+    ],
+    "outcome": "The project delivered a friendly, sustainable, community-oriented platform that helps neighbors easily swap, share, and wear clothing.",
+    "githubLink": "https://github.com/CristinaSt86/ttt-app",
+    "linkText": "View on GitHub",
+    "caseStudyLink": "https://docs.google.com/presentation/d/PLACEHOLDER-ID/edit?usp=sharing",
+    "linkUX": "View Case Study",
+    "imageAlt": "Screenshots from the UX case study “Tauschen, Teilen, Tragen”"
   }
 }
