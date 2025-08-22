@@ -1,0 +1,41 @@
+.wrapper { width: 100%; }
+.title { text-align: center; font-size: 1.25rem; font-weight: 700; margin: .25rem 0; }
+.subtitle { text-align: center; opacity: .7; margin: 0 0 .5rem; }
+
+/* fiecare slide are lățime fixă, ca în mock */
+.slide { width: 180px !important; }
+
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.12);
+  padding: .75rem;
+  overflow: hidden;
+  transform: translateZ(0);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.image { width: 100%; height: 140px; object-fit: cover; border-radius: 10px; }
+.info { margin-top: .5rem; display: grid; gap: .25rem; }
+.name { font-size: .95rem; font-weight: 600; line-height: 1.2; }
+.price { font-weight: 700; }
+
+.badge {
+  position: absolute; top: .4rem; left: .4rem;
+  background: #ffeded; color: #c2410c; border: 1px solid #fca5a5;
+  font-size: .7rem; font-weight: 700; padding: .15rem .35rem; border-radius: 999px;
+}
+
+/* slide activ puțin mai mare, ca în screenshot */
+:global(.swiper-slide-active) .card { transform: scale(1.06); box-shadow: 0 12px 30px rgba(0,0,0,.16); }
+
+/* pagination dots */
+:global(.swiper-pagination-bullets) { bottom: -2px; }
+:global(.swiper-pagination-bullet) { width: 6px; height: 6px; }
+:global(.swiper-pagination-bullet-active) { background: #334155; }
+
+/* responsive */
+@media (max-width: 480px) {
+  .slide { width: 160px !important; }
+  .image { height: 120px; }
+}

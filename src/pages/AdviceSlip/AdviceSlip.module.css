@@ -19,6 +19,8 @@
   height: 18rem;
   object-fit: cover;
   border-radius: 0.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .aboutApp {
@@ -26,11 +28,11 @@
 }
 
 .textBtnContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 1.5rem;
 }
 
 @media only screen and (max-width: 800px) {

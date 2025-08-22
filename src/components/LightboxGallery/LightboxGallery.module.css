@@ -1,64 +1,3 @@
-/* 
-.image-gallery-content .image-gallery-slide .image-gallery-image {
-  border-radius: 0.5rem;
-}
-
-.galleryWrapper {
-  width: 100%;
-}
-
-.image-gallery-left-nav .image-gallery-svg,
-.image-gallery-right-nav .image-gallery-svg {
-  height: 4rem;
-  width: 3rem;
-}
-
-
-.imagine {
-  width: 6.25rem;
-  height: 6.25rem;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-
-@media only screen and (max-width: 767px) {
-
-}
-
-.galleryContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content:center;
-
-}
-
-.thumbnail {
-  width: 100px; 
-  height: 100px; 
-  object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  border-radius:0.5rem;
-}
-
-.thumbnail:hover {
-  transform: scale(1.05);
-}
-
-.imgFit {
-  max-width: 100vw;
-  max-height: 100vh;
-  object-fit: contain;
-}
-.fullscreenWrapper {
-  width: 100%;
-  height: 100%;
-} */
-
-
 /* Container grilă — se întinde pe lățimea disponibilă */
 .galleryContainer {
   width: 100%;
@@ -70,14 +9,14 @@
 /* Forțează 2 coloane pe desktop, chiar dacă wrapperul tinde să se “strângă” */
 @media (min-width: 900px) {
   .galleryContainer {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 /* Thumbnail-urile cu umbră și hover */
 .thumbnail {
   width: 100%;
-  height: 240px;            /* ajustează după layout */
+  height: 140px;        
   object-fit: cover;
   border-radius: 0.5rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
