@@ -37,7 +37,7 @@
     "languages": [
       { "language": "Română", "level": "nativ" },
       { "language": "Engleză", "level": "C1" },
-      { "language": "Greacă", "level": "B2" },
+      { "language": "Greacă", "level": "B1" },
       { "language": "Germană", "level": "B1" }
     ],
     "certificationsHeader": "Certificări",
@@ -249,7 +249,7 @@
     "outcome": "Proiectul a oferit o platformă scalabilă, centrată pe utilizator, creată pentru a răspunde obiectivelor clientului și pentru a asigura o experiență plăcută și fluidă.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "Către GitHub",
-    "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
+    "caseStudyLink": "https://docs.google.com/presentation/d/1PDFSKRpc86CJBS5TWO7WKamXfqFqYHOb/view",
     "linkUX": "Vezi studiul de caz",
     "imageAlt": "Capturi de ecran din proiectul CSWeb UX"
   },
@@ -271,7 +271,7 @@
     "outcome": "Proiectul a livrat o platformă prietenoasă, sustenabilă și orientată pe comunitate, care sprijină vecinele să schimbe, să împartă și să poarte haine cu ușurință.",
     "githubLink": "https://github.com/CristinaSt86/ttt-app",
     "linkText": "Vezi pe GitHub",
-    "caseStudyLink": "https://docs.google.com/presentation/d/PLACEHOLDER-ID/edit?usp=sharing",
+    "caseStudyLink": "https://docs.google.com/presentation/d/1iFCmCkgB-8FA--2sdD78IbsaJ0maZYKFc4twU114esY/view",
     "linkUX": "Vezi Case Study",
     "imageAlt": "Capturi de ecran din studiul UX „Tauschen, Teilen, Tragen”"
   }

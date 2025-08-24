@@ -2,31 +2,31 @@
 .galleryContainer {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
 /* Forțează 2 coloane pe desktop, chiar dacă wrapperul tinde să se “strângă” */
 @media (min-width: 900px) {
   .galleryContainer {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 /* Thumbnail-urile cu umbră și hover */
 .thumbnail {
   width: 100%;
-  height: 140px;        
+  height: 140px;
   object-fit: cover;
   border-radius: 0.5rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  transition: transform .3s ease, box-shadow .3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .thumbnail:hover {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.30);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
 /* Wrapper pentru fullscreen/modal */
@@ -50,4 +50,3 @@
 :global(.image-gallery-bullets) {
   bottom: 12px;
 }
-

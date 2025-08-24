@@ -38,7 +38,7 @@
     "languages": [
       { "language": "Romanian", "level": "native" },
       { "language": "English", "level": "C1" },
-      { "language": "Greek", "level": "B2" },
+      { "language": "Greek", "level": "B1" },
       { "language": "German", "level": "B1" }
     ],
     "certificationsHeader": "Certifications",
@@ -251,7 +251,7 @@
     "outcome": "The project delivered a scalable, user-centered platform designed to meet client goals while ensuring a seamless and enjoyable user experience.",
     "githubLink": "https://github.com/CristinaSt86/csweb",
     "linkText": "To GitHub",
-    "caseStudyLink": "https://docs.google.com/presentation/d/13VzqrzDbHJBwQJclc6XbCKNGH-Qm_Ep9s1_C3SbJ5vs/edit?usp=sharing",
+    "caseStudyLink": "https://docs.google.com/presentation/d/1PDFSKRpc86CJBS5TWO7WKamXfqFqYHOb/view",
     "linkUX": "View Case Study",
     "imageAlt": "Screenshots from the CSWeb UX project"
   },
@@ -273,7 +273,7 @@
     "outcome": "The project delivered a friendly, sustainable, community-oriented platform that helps neighbors easily swap, share, and wear clothing.",
     "githubLink": "https://github.com/CristinaSt86/ttt-app",
     "linkText": "View on GitHub",
-    "caseStudyLink": "https://docs.google.com/presentation/d/PLACEHOLDER-ID/edit?usp=sharing",
+    "caseStudyLink": "https://docs.google.com/presentation/d/1iFCmCkgB-8FA--2sdD78IbsaJ0maZYKFc4twU114esY/view",
     "linkUX": "View Case Study",
     "imageAlt": "Screenshots from the UX case study “Tauschen, Teilen, Tragen”"
   }
