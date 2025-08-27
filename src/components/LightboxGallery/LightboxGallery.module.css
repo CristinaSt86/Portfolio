@@ -9,7 +9,7 @@
 /* Forțează 2 coloane pe desktop, chiar dacă wrapperul tinde să se “strângă” */
 @media (min-width: 900px) {
   .galleryContainer {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
