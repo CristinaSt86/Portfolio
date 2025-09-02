@@ -8,17 +8,16 @@
   transition: transform 0.3s ease, background-color 0.3s ease,
     box-shadow 0.3s ease, color 0.3s ease;
   background-color: #3747d6;
+  box-shadow: 0 4px 8px rgba(55, 71, 214, 0.12);
   color: #fff;
-  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
   text-align: center;
 
   /* position: relative; */
 }
 
 .Link:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
-
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(55, 71, 214, 0.12);
   border-color: #3747d6;
 }
 

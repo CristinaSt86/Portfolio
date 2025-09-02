@@ -37,12 +37,13 @@ const Csweb = () => {
         </section>
         <div className={css.btns}>
           <GoToGithub
-            to={t("cswebPage.githubLink")}
-            text={t("cswebPage.linkText")}
-          />
-          <GoToGithub
             to={t("cswebPage.caseStudyLink")}
             text={t("cswebPage.linkUX")}
+          />
+          <GoToGithub
+            to={t("cswebPage.githubLink")}
+            text={t("cswebPage.linkText")}
+            additionalClasses={css.secondaryButton}
           />
         </div>
         <section>

@@ -89,20 +89,25 @@ const ContactPage = () => {
         <Form />
       </div>
       <div className={css.contactContainer}>
-        <h2>
-          {/* {t("contactPage.mobileLabel")}{" "} */}
-          <a
-            href={`tel:${t("contactPage.mobileNumber")}`}
-            className={css.mobile}
-          >
-            <Icon icon="mdi:cellphone" className={css.icon} />
-            {t("contactPage.mobileNumber")}
-          </a>
-        </h2>
-
-        <a href={`mailto:${emailAddress}`} className={css.msgHireMe}>
+        <a href={`mailto:${emailAddress}`} className={css.primaryButton}>
           <Icon icon="mdi:email" className={css.icon} />
           {t("contactPage.hireMe")}
+        </a>
+        <a
+          href={`tel:${t("contactPage.mobileNumber")}`}
+          className={css.secondaryButton}
+        >
+          <Icon icon="mdi:cellphone" className={css.icon} />
+          {t("contactPage.mobileNumber")}
+        </a>
+        <a
+          href="/CristinaStoianCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={css.secondaryButton}
+        >
+          <Icon icon="mdi:file-account" className={css.icon} />
+          {t("contactPage.cvButton")}
         </a>
       </div>
     </>

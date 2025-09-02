@@ -81,6 +81,12 @@ const HomePage = () => {
       aboutSection.scrollIntoView({ behavior: "smooth" }); // Smooth scroll
     }
   };
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <Helmet>
@@ -117,12 +123,20 @@ const HomePage = () => {
               <h1 className={css.titlu}>{t("homePage.greeting")}</h1>
 
               <h2 className={css.subtitlu}> {t("homePage.introduction")}</h2>
-              <GoToGithub
-                onClick={scrollToAbout}
-                text={t("homePage.readMore")}
-                target="_self"
-                additionalClasses={css.homeBTN}
-              />
+              <div className={css.btnCont}>
+                <GoToGithub
+                  onClick={scrollToAbout}
+                  text={t("homePage.readMore")}
+                  target="_self"
+                  additionalClasses={css.homeBTN}
+                />
+                <GoToGithub
+                  onClick={scrollToProjects}
+                  text={t("homePage.directToProjects")}
+                  target="_self"
+                  additionalClasses={css.secondaryButton}
+                />
+              </div>
             </div>
           </div>
         </div>

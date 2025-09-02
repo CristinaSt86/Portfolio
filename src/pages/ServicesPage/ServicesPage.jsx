@@ -2,16 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import css from "./ServicesPage.module.css";
 import { useTranslation } from "react-i18next";
 import FlippCard from "../../components/FlippCard/FlippCard";
-import code from "../../images/code.svg";
-import edit from "../../images/editTool.svg";
-import gitBranch from "../../images/gitBranch.svg";
-import network from "../../images/network.svg";
-import nodes from "../../images/nodes.svg";
-import rocket from "../../images/rocket.svg";
-import support from "../../images/support.svg";
-import website from "../../images/website.svg";
-import wrench from "../../images/wrench.svg";
-import flipIcon from "../../images/flip.svg";
+import { Icon } from "@iconify/react"; // ⬅️ Iconify
 import Separator from "../../components/Separator/Separator";
 
 const Services = () => {
@@ -26,7 +17,7 @@ const Services = () => {
         cardRefs.current[flippedCard] &&
         !cardRefs.current[flippedCard].contains(event.target)
       ) {
-        setFlippedCard(null); 
+        setFlippedCard(null);
       }
     };
 
@@ -45,64 +36,57 @@ const Services = () => {
       key: "customWebDev",
       title: t("customWebDevTitle"),
       description: t("customWebDevDescription"),
-      icon: code,
-      flipIcon: flipIcon,
+      iconName: "mdi:account-group-outline",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "uiUxDesign",
       title: t("uiUxDesignTitle"),
       description: t("uiUxDesignDescription"),
-      icon: edit,
-      flipIcon: flipIcon,
+      iconName: "mdi:draw-pen",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "spa",
       title: t("spaTitle"),
       description: t("spaDescription"),
-      icon: nodes,
-      flipIcon: flipIcon,
+      iconName: "mdi:cursor-default-click-outline",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "apiIntegration",
       title: t("apiIntegrationTitle"),
       description: t("apiIntegrationDescription"),
-      icon: network,
-      flipIcon: flipIcon,
+      iconName: "material-symbols:accessibility-new-rounded",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "formHandling",
       title: t("formHandlingTitle"),
       description: t("formHandlingDescription"),
-      icon: website,
-      flipIcon: flipIcon,
+      iconName: "mdi:code-tags",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "performanceOpt",
       title: t("performanceOptTitle"),
       description: t("performanceOptDescription"),
-      icon: rocket,
-      flipIcon: flipIcon,
+      iconName: "mdi:application-outline",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "versionControl",
       title: t("versionControlTitle"),
       description: t("versionControlDescription"),
-      icon: gitBranch,
-      flipIcon: flipIcon,
+      iconName: "mdi:api",
+      flipIconName: "mdi:autorenew",
     },
     {
       key: "thirdPartyIntegration",
       title: t("thirdPartyIntegrationTitle"),
       description: t("thirdPartyIntegrationDescription"),
-      icon: support,
-      flipIcon: flipIcon,
-    },
-    {
-      key: "maintenance",
-      title: t("maintenanceTitle"),
-      description: t("maintenanceDescription"),
-      icon: wrench,
-      flipIcon: flipIcon,
+      iconName: "mdi:rocket-launch-outline",
+      flipIconName: "mdi:autorenew",
     },
   ];
 
@@ -111,7 +95,7 @@ const Services = () => {
       <div id="services" className={css.placeholder}></div>
       <div className={css.services}>
         <h1 className={css.servicesTitle}>{t("servicesTitle")}</h1>
-        <Separator/>
+        <Separator />
         <div className={css.mainContainer}>
           {services.map((service) => (
             <div
@@ -122,8 +106,10 @@ const Services = () => {
                 cardKey={service.key}
                 title={service.title}
                 description={service.description}
-                icon={service.icon}
-                flipIcon={service.flipIcon}
+                icon={<Icon icon={service.iconName} width="40" height="40" />}
+                flipIcon={
+                  <Icon icon={service.flipIconName} width="22" height="22" />
+                }
                 isFlipped={flippedCard === service.key}
                 onFlip={handleCardFlip}
               />
