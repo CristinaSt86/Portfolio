@@ -9,6 +9,7 @@
 
 .links {
   background: none;
+  white-space: nowrap;
   border: none;
   padding: 0.5rem;
   text-decoration: none;

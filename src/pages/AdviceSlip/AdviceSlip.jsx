@@ -2,7 +2,7 @@ import React from "react";
 import css from "./AdviceSlip.module.css";
 import Image from "../../components/Image/Image";
 import AdvicePic from "../../images/AdvicePic.webp";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
 import Separator from "../../components/Separator/Separator";
@@ -20,7 +20,7 @@ const AdviceSlip = () => {
             <ParagraphNight>
               <p>{t("advicePage.adviceDescription")}</p>
             </ParagraphNight>
-            <GoToGithub
+            <PrimaryButton
               to={t("advicePage.githubLink")}
               text={t("advicePage.linkText")}
             />

@@ -8,7 +8,7 @@ import Top4 from "../../images/Top4.webp";
 import Top5 from "../../images/Top5.webp";
 import Top6 from "../../images/Top6.webp";
 import Top7 from "../../images/Top7.webp";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
 import Separator from "../../components/Separator/Separator";
@@ -46,7 +46,7 @@ const Topalx = () => {
           </div>
 
         </section>
-        <GoToGithub
+        <PrimaryButton
           to={t("drivingSchoolWebsite.githubLink")}
           text={t("drivingSchoolWebsite.linkText")}
         />

@@ -76,18 +76,18 @@
   font-size: 1rem;
   transition: transform 0.3s ease, background-color 0.3s ease,
     box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(55, 71, 214, 0.15);
   background-color: #3747d6;
   color: #fff;
-  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  border:2px solid #3747d6;
+  border: 2px solid #3747d6;
 }
 
 .primaryButton:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
+  box-shadow: 0 8px 16px rgba(55, 71, 214, 0.3);
   border-color: #3747d6;
 }
 
@@ -106,6 +106,7 @@
   font-size: 1rem;
   transition: transform 0.3s ease, background-color 0.3s ease,
     box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(55, 71, 214, 0.15);
   border: 2px solid #3747d6; /* albastru */
   color: #3747d6;
   background-color: transparent;
@@ -117,7 +118,7 @@
 
 .secondaryButton:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
+  box-shadow: 0 8px 16px rgba(55, 71, 214, 0.3);
   background-color: #3747d6;
   color: #fff;
 }
@@ -129,7 +130,6 @@
   justify-content: center;
   box-sizing: border-box;
 }
-
 
 @media (max-width: 768px) {
   .display {

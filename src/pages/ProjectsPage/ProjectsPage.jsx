@@ -4,7 +4,7 @@
 // import { useTranslation } from "react-i18next";
 // import TinyTips from "../../components/TinyTips/TinyTips";
 // import { Helmet } from "react-helmet-async";
-// import GoToGithub from "../../components/GoToGithub/GoToGithub";
+// import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 // import Topalx from "../Topalx/Topalx";
 // import AdviceSlip from "../AdviceSlip/AdviceSlip";
 // import JokeTeller from "../JokeTeller/JokeTeller";
@@ -102,7 +102,7 @@
 import React from "react";
 // import WeatherMini from "../../components/WeatherMini/WeatherMini";
 // import TinyTips from "../../components/TinyTips/TinyTips";
-// import GoToGithub from "../../components/GoToGithub/GoToGithub";
+// import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import css from "./ProjectsPage.module.css";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";

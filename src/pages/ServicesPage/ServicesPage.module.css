@@ -19,8 +19,9 @@
 }
 
 .servicesTitle {
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1.5rem;
   padding-top: 1rem;
+  font-size: 1.8rem;
   text-align: center;
   font-size: 2rem;
 }
@@ -28,8 +29,8 @@
 @media (max-width: 767px) {
   .mainContainer {
     flex-direction: column;
-    margin: 1rem 0; 
-    padding: 0.5rem 0.5rem; 
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem;
   }
 
   .placeholder {

@@ -1,10 +1,10 @@
+
 import React from "react";
-//import { Link } from "react-router-dom";
-import css from "./GoToGithub.module.css";
+import css from "./SecondaryButton.module.css";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 
-const GoToGithub = ({
+const SecondaryButton= ({
   to,
   text,
   onClick,
@@ -38,7 +38,7 @@ const GoToGithub = ({
         href={to} // For external URLs
         target={target}
         rel={rel} // Security for external URLs
-        className={`${css.Link} ${gtgNightMode()} ${additionalClasses}`}
+        className={`${css.secondaryButton} ${gtgNightMode()} ${additionalClasses}`}
         {...rest}
       >
         {children || text}{" "}
@@ -50,7 +50,7 @@ const GoToGithub = ({
     return (
       <button
         onClick={handleClick}
-        className={`${css.Link} ${gtgNightMode()} ${additionalClasses}`}
+        className={`${css.secondaryButton} ${gtgNightMode()} ${additionalClasses}`}
         {...rest}
       >
         {children || text}{" "}
@@ -61,4 +61,4 @@ const GoToGithub = ({
   }
 };
 
-export default GoToGithub;
+export default SecondaryButton;

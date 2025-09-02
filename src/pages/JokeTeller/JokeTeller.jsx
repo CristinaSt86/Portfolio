@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./JokeTeller.module.css";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 // import Image from "../components/Image/Image";
 // import miniRobotPic from "../images/miniRobotPic.jpg";
 // import jokeDescription from "./jokeDescription.json";
@@ -22,7 +22,7 @@ const JokeTeller = () => {
             <ParagraphNight>
               <p>{t("jokeTellerPage.jokeDescription")}</p>
             </ParagraphNight>
-            <GoToGithub
+            <PrimaryButton
               to={t("jokeTellerPage.githubLink")}
               text={t("jokeTellerPage.linkText")}
             />

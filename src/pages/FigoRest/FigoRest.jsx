@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./FigoRest.module.css";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
 import figoPic1 from "../../images/figoPic1.webp";
 import figoPic2 from "../../images/figoPic2.webp";
@@ -41,7 +41,7 @@ const FigoRest = () => {
             <p>{t("figoRestPage.description")}</p>
           </ParagraphNight>
         </section>
-        <GoToGithub
+        <PrimaryButton
           to={t("figoRestPage.githubLink")}
           text={t("figoRestPage.linkText")}
         />

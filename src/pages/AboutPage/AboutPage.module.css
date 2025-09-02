@@ -9,6 +9,13 @@
   overflow: auto;
 }
 
+.main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* opțional */
+  gap: 4rem; /* sau ce valoare vrei */
+}
+
 .aboutBackground {
   width: 100%;
   background: rgba(255, 255, 255, 0.2);
@@ -23,11 +30,77 @@
 .aside {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  border: 2px solid #ffb347;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.groupTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+}
+
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Chip/pill */
+.chip {
+  display: inline-flex;
   align-items: center;
-  gap: 2rem;
-  border: 2px solid #3747d6;
-  border-radius: 0.5rem;
-  padding: 1rem;
+  gap: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--chipBorder, #e6e8ef);
+  border-radius: 999px;
+  background: var(--chipBg, #ffffffcc);
+  color: var(--chipText, #1f2a37);
+  font: 500 0.95rem "Poppins", sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.chip:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+  border-color: var(--chipBorderHover, #cfd6e4);
+}
+
+.chip img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: var(--iconFilter, none);
+}
+
+/* Ușor accent pentru UX (opțional) */
+.chipUX {
+  border-color: var(--uxBorder, #ffd9a8);
+  background: var(--uxBg, #fff7ec);
+}
+
+/* Grup bloc (titlu + chips) */
+.skillsHeader {
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .aside {
+    width: 100%;
+    padding: 0.75rem 1rem;
+  }
+  .chip {
+    font-size: 0.9rem;
+  }
 }
 
 .skillsGrid {
@@ -74,7 +147,7 @@
   margin-bottom: 1.5rem;
 }
 
-.subSkillsTitleNight{
+.subSkillsTitleNight {
   color: var(--text-night-mode);
 }
 
@@ -106,7 +179,7 @@
 
 .skillLink:hover {
   transform: scale(1.05);
-  background-color:  #4d5ee3ff;
+  background-color: #4d5ee3ff;
 }
 
 .skillLink img {
@@ -114,37 +187,10 @@
   height: 3rem;
 }
 
-/* .spokenLan {
-  list-style-type: none;
-  font-size: 1.5rem;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4rem;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .foreignList {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-} */
-
-/* .boldLang {
-  font-weight: 600;
-} */
 
 .lanTitle {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  
-
 }
 
 .languageGrid {
@@ -152,15 +198,15 @@
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
-  padding:1rem;
+  padding: 1rem;
 }
 
 .languageCard {
-  background: #f7f9fc;
+  background: #fff7ec;
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
   border: 2px solid #ffb347;
 }
@@ -183,20 +229,18 @@
   color: #5a6a7b;
 }
 
-
-
-
-
-.certTitle{
-     font-family: "Poppins", sans-serif;
+.certTitle {
+  font-family: "Poppins", sans-serif;
 }
 
 .skills,
 .hey,
-.paragraf, {
+.paragraf {
   width: auto;
+  text-align: center;
   padding: 0.5rem;
   margin: 0.4rem;
+   font-size: 1.8rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -209,7 +253,6 @@
 }
 
 .certificationsContainer {
-  margin-top: 3rem;
   padding: 1rem;
   background: #ffffff33;
   border-radius: 0.5rem;
@@ -244,32 +287,16 @@
     padding: 0.5rem;
   }
 
-  .main2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-  }
-
-  .aside {
-    margin-top: 3rem;
-  }
-
-  .certificationsContainer {
+  .certificationsContainer, .aside {
     margin-top: 3rem;
     width: 100%;
-    padding: 0.3rem;
-  }
+    padding: 0.8rem 0.3rem;
 
-  /* .spokenLan {
-    gap: 3rem;
-  } */
+  }
 
   .lanTitle {
-  padding: 6rem 0 0 0;
-
-}
+    padding: 6rem 0 0 0;
+  }
 
   .aboutBackground {
     justify-content: center;

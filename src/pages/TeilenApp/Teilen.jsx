@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Teilen.module.css";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
 import ttt1 from "../../images/ttt1.webp";
 import ttt2 from "../../images/ttt2.webp";
@@ -41,7 +41,7 @@ const Teilen = () => {
         </section>
 
         <div className={css.btns}>
-          <GoToGithub
+          <PrimaryButton
             to={t("tttPage.caseStudyLink")}
             text={t("tttPage.linkUX")}
           />

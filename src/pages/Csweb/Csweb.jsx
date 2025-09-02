@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Csweb.module.css";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
+import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
 import cs1 from "../../images/cs1.webp";
 import cs2 from "../../images/cs2.webp";
@@ -36,11 +37,11 @@ const Csweb = () => {
           </ParagraphNight>
         </section>
         <div className={css.btns}>
-          <GoToGithub
+          <PrimaryButton
             to={t("cswebPage.caseStudyLink")}
             text={t("cswebPage.linkUX")}
           />
-          <GoToGithub
+          <SecondaryButton
             to={t("cswebPage.githubLink")}
             text={t("cswebPage.linkText")}
             additionalClasses={css.secondaryButton}

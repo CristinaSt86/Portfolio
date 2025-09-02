@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./JoggaInter.module.css";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
 import i1 from "../../images/i1.webp";
 import i2 from "../../images/i2.webp";
@@ -35,7 +35,7 @@ const JoggaInter = () => {
             <p>{t("joggaPage.outcome")}</p>
           </ParagraphNight>
         </section>
-        <GoToGithub
+        <PrimaryButton
           to={t("joggaPage.githubLink")}
           text={t("joggaPage.linkText")}
         />

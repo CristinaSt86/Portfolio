@@ -4,12 +4,13 @@ import Image from "../../components/Image/Image";
 import Cris from "../../images/Cris.webp";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { Helmet } from "react-helmet-async";
 import AboutPage from "../AboutPage/AboutPage";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import Services from "../ServicesPage/ServicesPage";
 import ContactPage from "../ContactPage/ContactPage";
+import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 
 const HomePage = () => {
   const { theme } = useTheme();
@@ -124,13 +125,12 @@ const HomePage = () => {
 
               <h2 className={css.subtitlu}> {t("homePage.introduction")}</h2>
               <div className={css.btnCont}>
-                <GoToGithub
+                <PrimaryButton
                   onClick={scrollToAbout}
                   text={t("homePage.readMore")}
                   target="_self"
-                  additionalClasses={css.homeBTN}
                 />
-                <GoToGithub
+                <SecondaryButton
                   onClick={scrollToProjects}
                   text={t("homePage.directToProjects")}
                   target="_self"

@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./ToDo.module.css";
-import GoToGithub from "../../components/GoToGithub/GoToGithub";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { LightboxGallery } from "../../components/LightboxGallery/LightboxGallery";
 import Todo1 from "../../images/Todo1.webp";
 import Todo2 from "../../images/Todo2.webp";
@@ -25,7 +25,7 @@ const ToDo = () => {
             <p>{t("todoPage.todoDescription")}</p>
           </ParagraphNight>
         </section>
-        <GoToGithub
+        <PrimaryButton
           to={t("todoPage.githubLink")}
           text={t("todoPage.linkText")}
         />

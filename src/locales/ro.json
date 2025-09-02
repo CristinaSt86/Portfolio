@@ -42,7 +42,7 @@
       { "language": "Germană", "level": "B1" }
     ],
     "certificationsHeader": "Certificări",
-    "hello": "Cine este Cristina?",
+    "hello": "Mai mult decât un CV",
     "introText": [
       "Pentru mine, UX designul nu este doar un proces, ci un mod de a privi lumea. Îmi place să mă întreb: „Cum ar putea fi mai simplu? Mai intuitiv? Mai prietenos?”, fie că e vorba de o aplicație, un site sau chiar o experiență de zi cu zi.",
       "Cred că un design bun este ca o poveste bine spusă: ușor de urmărit, logic și captivant. Prin research, wireframes și prototipuri încerc să dau formă unor experiențe digitale care nu doar funcționează, ci chiar fac oamenii să zâmbească.",
@@ -273,7 +273,7 @@
     "githubLink": "https://github.com/CristinaSt86/ttt-app",
     "linkText": "Vezi pe GitHub",
     "caseStudyLink": "https://docs.google.com/presentation/d/1iFCmCkgB-8FA--2sdD78IbsaJ0maZYKFc4twU114esY/view",
-    "linkUX": "Vezi Case Study",
+    "linkUX": "Vezi studiul de caz",
     "imageAlt": "Capturi de ecran din studiul UX „Tauschen, Teilen, Tragen”"
   }
 }

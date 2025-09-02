@@ -39,7 +39,7 @@
   cursor: pointer;
   width: 100%;
   min-width: 0;
-  border: 2px dashed transparent;
+  border: 2px solid transparent;
   aspect-ratio: 4 / 3;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
@@ -53,6 +53,7 @@
 
 .proTitle {
   text-align: center;
+  font-size: 1.8rem;
 }
 
 .cardImage {
