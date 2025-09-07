@@ -11,6 +11,7 @@ import c15 from "../../images/c15.webp";
 import c16 from "../../images/c16.webp";
 import c17 from "../../images/c17.webp";
 import c18 from "../../images/c18.webp";
+import c19 from "../../images/c19.webp";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
@@ -113,7 +114,7 @@ const AboutPage = () => {
     },
   ];
 
-  const certifications = [c11, c12, c13, c14, c15, c16, c17, c18];
+  const certifications = [c11, c12, c13, c14, c15, c16, c17, c18, c19];
 
   const scrollToProjects = () => {
     const projectsSection = document.getElementById("projects");
