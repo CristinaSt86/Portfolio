@@ -8,7 +8,6 @@ import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { Helmet } from "react-helmet-async";
 import AboutPage from "../AboutPage/AboutPage";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
-import Services from "../ServicesPage/ServicesPage";
 import ContactPage from "../ContactPage/ContactPage";
 import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 
@@ -142,7 +141,6 @@ const HomePage = () => {
         </div>
         <AboutPage />
         <ProjectsPage />
-        <Services />
         <ContactPage />
       </div>
     </>

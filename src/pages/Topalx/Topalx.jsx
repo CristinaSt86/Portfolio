@@ -8,6 +8,7 @@ import Top4 from "../../images/Top4.webp";
 import Top5 from "../../images/Top5.webp";
 import Top6 from "../../images/Top6.webp";
 import Top7 from "../../images/Top7.webp";
+import Top8 from "../../images/Top8.webp";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import ParagraphNight from "../../components/ParagraphNight/ParagraphNight";
 import { useTranslation } from "react-i18next";
@@ -15,7 +16,7 @@ import Separator from "../../components/Separator/Separator";
 
 const Topalx = () => {
   const { t } = useTranslation();
-  const images = [Top1, Top2, Top3, Top4, Top5, Top6, Top7];
+  const images = [Top1, Top2, Top3, Top4, Top5, Top6, Top7, Top8];
 
   return (
     <>

@@ -3,37 +3,41 @@
     "home": "Startseite",
     "about": "Über mich",
     "projects": "Projekte",
-    "services": "Expertise",
     "contact": "Kontakt"
   },
   "homePage": {
     "greeting": "Hallo! Ich bin Cristina,",
     "introduction": "Ich glaube an Einfachheit und an Designs, die jeder verstehen kann, von meiner 5 jährigen Tochter bis zu meiner 72 jährigen Mutter. Für mich bedeutet Design Verbindung, Klarheit und die Freude, Erlebnisse für alle zugänglich zu machen.",
     "readMore": "Entdecke meine Geschichte",
-    "directToProjects":"Direkt zu den Projekten",
+    "directToProjects": "Direkt zu den Projekten",
     "imageAlt": "Cristina Stoian | UX Entwicklerin"
   },
   "aboutPage": {
     "skillsHeader": "Fähigkeiten:",
     "skills": [
       {
-        "name": "HTML5",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        "name": "HTML5"
       },
       {
-        "name": "CSS3",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        "name": "CSS3"
       },
       {
-        "name": "JavaScript",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        "name": "JavaScript"
       },
-      { "name": "React.js", "url": "https://reactjs.org/" },
-      { "name": "TailwindCSS", "url": "https://tailwindcss.com/" },
-      { "name": "Typescript", "url": "https://www.typescriptlang.org/" },
-      { "name": "Git und GitHub", "url": "https://github.com/" },
-      { "name": "Next.js", "url": "https://nextjs.org/" }
+      { "name": "React.js" },
+      { "name": "TailwindCSS" },
+      { "name": "Typescript" },
+      { "name": "Git și GitHub" },
+      { "name": "Next.js" }
     ],
+    "ai": {
+      "title": "KI & Innovation",
+      "skills": [
+        { "name": "KI-unterstützte UX Research" },
+        { "name": "Prompt Engineering" },
+        { "name": "Generative KI" }
+      ]
+    },
     "languagesHeader": "Wir können kommunizieren auf:",
     "languages": [
       { "language": "Rumänisch", "level": "Muttersprache" },
@@ -108,7 +112,7 @@
     "contactMe": "Lass uns verbinden",
     "mobile": "Handy: +49 15738171996",
     "hireMe": "Lass uns gestalten!",
-    "cvButton":"Mein Lebenslauf",
+    "cvButton": "Mein Lebenslauf",
     "email": "cristina.stoian@yahoo.com",
     "linkedInAlt": "LinkedIn-Link",
     "githubAlt": "GitHub-Link",
@@ -183,25 +187,6 @@
   },
   "loadingMessage": "Cristinas Portfolio wird geladen, viel Spaß dabei!",
   "footerText": "© 2025 Cristina Stoian.",
-  "servicesTitle": "Meine Expertise",
-  "customWebDevTitle": "User Research & Personas",
-  "customWebDevDescription": "Verstehen der Nutzerbedürfnisse durch Interviews, Umfragen und Empathy Maps.",
-  "uiUxDesignTitle": "Wireframes & Prototypen",
-  "uiUxDesignDescription": "Von Low-Fidelity-Skizzen bis zu interaktiven Prototypen, die Ideen zum Leben erwecken.",
-  "spaTitle": "Usability-Tests",
-  "spaDescription": "Iteratives Testen, um eine intuitive Navigation und nahtlose Erlebnisse sicherzustellen.",
-  "apiIntegrationTitle": "Barrierefreies & inklusives Design",
-  "apiIntegrationDescription": "Erstellung von Interfaces, die für alle verständlich und angenehm nutzbar sind.",
-  "formHandlingTitle": "UI-Implementierung",
-  "formHandlingDescription": "Umsetzung von Designsystemen in sauberen, responsiven Code.",
-  "performanceOptTitle": "Single Page Applications (SPA)",
-  "performanceOptDescription": "Entwicklung moderner, dynamischer Webanwendungen mit React.",
-  "versionControlTitle": "API-Integration & Validierung",
-  "versionControlDescription": "Datenanbindung und Sicherstellung reibungsloser Interaktionen.",
-  "thirdPartyIntegrationTitle": "Performance-Optimierung",
-  "thirdPartyIntegrationDescription": "Schnelle, skalierbare und zuverlässige Weblösungen.",
-  "maintenanceTitle": "Wartung und Unterstützung",
-  "maintenanceDescription": "Angebot von fortlaufender Wartung und Aktualisierungen der Webseite. Fehlerbehebung und Bugfixing.",
 
   "tinyTips": {
     "TinyTipsTitle": "RAT #",
@@ -254,7 +239,7 @@
   },
   "tttPage": {
     "pageTitle": "Tauschen, Teilen, Tragen – Lokale Second-Hand App",
-    "description": "Ich habe eine nutzerzentrierte App für die Nachbarschaft in Weilheim an der Teck entworfen und entwickelt, mit Fokus auf Nachhaltigkeit, Gemeinschaft und einfache Bedienung. Der Prozess umfasste Nutzerinterviews, Wireframes, Prototypen in Figma und Usability-Tests, um ein klares und zugängliches Erlebnis zu schaffen.",
+    "description": "Ich habe eine nutzerzentrierte App für die Nachbarschaft in Weilheim an der Teck entworfen, mit Fokus auf Nachhaltigkeit, Gemeinschaft und einfache Bedienung. Der Prozess umfasste Nutzerinterviews, Wireframes, Prototypen in Figma und Usability-Tests, um ein klares und zugängliches Erlebnis zu schaffen.",
     "keyContributions": [
       "Nutzerforschung und Erstellung von Personas für lokale Bedürfnisse",
       "Wireframes und High-Fidelity-Prototypen in Figma",
@@ -262,9 +247,7 @@
       "Schnelle Produktfilterung und intuitive Navigation",
       "Usability-Tests mit Nachbarn und iterative Verbesserungen",
       "Community-Funktionen wie Nachrichten und Empfehlungen",
-      "Responsive Gestaltung für mobile Nutzung",
       "Integration einer sicheren Nachrichtenfunktion",
-      "Medienoptimierung mit WebP und Lazy Loading",
       "Lokale Ausrichtung für höhere Vertrauenswürdigkeit"
     ],
     "outcome": "Das Projekt lieferte eine benutzerfreundliche, nachhaltige und gemeinschaftsorientierte Plattform, die Nachbarinnen beim Tauschen, Teilen und Tragen von Kleidung unterstützt.",

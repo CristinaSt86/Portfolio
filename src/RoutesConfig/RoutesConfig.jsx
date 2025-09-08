@@ -20,9 +20,6 @@ const JokeTellerPage = lazy(() =>
 const ToDoPage = lazy(() => import("../../src/pages/ToDo/ToDo"));
 const FigoRestPage = lazy(() => import("../../src/pages/FigoRest/FigoRest"));
 const JoggaInter = lazy(() => import("../../src/pages/JoggaInter/JoggaInter"));
-const ServicesPage = lazy(() =>
-  import("../../src/pages/ServicesPage/ServicesPage")
-);
 const Topalx = lazy(() => import("../../src/pages/Topalx/Topalx"));
 const Csweb = lazy(() => import("../../src/pages/Csweb/Csweb"));
 const Teilen = lazy(() => import("../../src/pages/TeilenApp/Teilen"));
@@ -55,7 +52,6 @@ const RoutesConfig = () => {
       <Route path="/to-do" element={<ToDoPage />} />
       <Route path="/figo-restaurant" element={<FigoRestPage />} />
       <Route path="/jogga-inter" element={<JoggaInter />} />
-      <Route path="/services" element={<ServicesPage />} />
       <Route path="/topalx" element={<Topalx />} />
       <Route path="/csweb" element={<Csweb />} />
       <Route path="/teilen" element={<Teilen />} />

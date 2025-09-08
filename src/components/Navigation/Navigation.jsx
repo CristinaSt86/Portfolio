@@ -49,7 +49,6 @@ const Navigation = () => {
     { name: t("header.home"), sectionId: "home" },
     { name: t("header.about"), sectionId: "about" },
     { name: t("header.projects"), sectionId: "projects" },
-    { name: t("header.services"), sectionId: "services" },
     { name: t("header.contact"), sectionId: "contact" },
   ];
 
@@ -67,9 +66,6 @@ const Navigation = () => {
 
   return (
     <nav ref={navRef}>
-      {/* <div className={css.hamburger} onClick={toggleMenu}>
-        <img src={hamburgerMenu} alt="mobile-menu" />
-      </div> */}
       <div className={css.hamburger} onClick={toggleMenu}>
         <div className={css.hamburgerIcon}>
           <span

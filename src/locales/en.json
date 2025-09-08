@@ -3,14 +3,13 @@
     "home": "Home",
     "about": "About me",
     "projects": "Projects",
-    "services": "Expertise",
     "contact": "Contact"
   },
   "homePage": {
     "greeting": "Hello! I'm Cristina,",
     "introduction": "I believe in simplicity and in creating designs that everyone can understand, from my 5 year old daughter to my 72 year old mother. For me, design is about connection, clarity, and making experiences accessible to all.",
     "readMore": "Discover my story",
-    "directToProjects":"Straight to projects",
+    "directToProjects": "Straight to projects",
     "imageAlt": "Cristina Stoian | UX Developer"
   },
 
@@ -18,23 +17,28 @@
     "skillsHeader": "Languages:",
     "skills": [
       {
-        "name": "HTML5",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        "name": "HTML5"
       },
       {
-        "name": "CSS3",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        "name": "CSS3"
       },
       {
-        "name": "JavaScript",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        "name": "JavaScript"
       },
-      { "name": "React.js", "url": "https://reactjs.org/" },
-      { "name": "TailwindCSS", "url": "https://tailwindcss.com/" },
-      { "name": "Typescript", "url": "https://www.typescriptlang.org/" },
-      { "name": "Git and GitHub", "url": "https://github.com/" },
-      { "name": "Next.js", "url": "https://nextjs.org/" }
+      { "name": "React.js" },
+      { "name": "TailwindCSS" },
+      { "name": "Typescript" },
+      { "name": "Git și GitHub" },
+      { "name": "Next.js" }
     ],
+    "ai": {
+      "title": "AI & Innovation",
+      "skills": [
+        { "name": "AI-assisted UX Research" },
+        { "name": "Prompt Engineering" },
+        { "name": "Generative AI" }
+      ]
+    },
     "languagesHeader": "We can communicate in:",
     "languages": [
       { "language": "Romanian", "level": "native" },
@@ -57,7 +61,7 @@
     "mobileLabel": "Mobile:",
     "mobileNumber": "+4915738171996",
     "hireMe": "Let’s create!",
-    "cvButton":"View My CV",
+    "cvButton": "View My CV",
     "email": "cristina.stoian@yahoo.com",
     "linkedInAlt": "LinkedIn link",
     "githubAlt": "GitHub link",
@@ -187,25 +191,6 @@
   "loadingMessage": "Cristina's portfolio is loading, enjoy it!",
   "footerText": "© 2025 Cristina Stoian.",
   "footerText2": "  All rights reserved. ",
-  "servicesTitle": "My Expertise",
-  "customWebDevTitle": "User Research & Personas",
-  "customWebDevDescription": "Understanding user needs through interviews, surveys, and empathy mapping.",
-  "uiUxDesignTitle": "Wireframes & Prototyping",
-  "uiUxDesignDescription": "From low-fidelity sketches to interactive prototypes that bring ideas to life.",
-  "spaTitle": "Usability Testing",
-  "spaDescription": "Iterative testing to ensure intuitive navigation and seamless experiences.",
-  "apiIntegrationTitle": "Accessible & Inclusive Design",
-  "apiIntegrationDescription": "Creating interfaces that are usable and enjoyable for everyone.",
-  "formHandlingTitle": "UI Implementation",
-  "formHandlingDescription": "Translating design systems into clean, responsive code.",
-  "performanceOptTitle": "Single Page Applications (SPA)",
-  "performanceOptDescription": "Building modern, dynamic web apps with React.",
-  "versionControlTitle": "API Integration & Validation",
-  "versionControlDescription": "Connecting data and ensuring smooth interactions.",
-  "thirdPartyIntegrationTitle": "Performance Optimization",
-  "thirdPartyIntegrationDescription": "Fast, scalable, and reliable web solutions.",
-  "maintenanceTitle": "Maintenance and Support",
-  "maintenanceDescription": "Offering ongoing website maintenance and updates. Troubleshooting and fixing bugs.",
 
   "tinyTips": {
     "TinyTipsTitle": "ADVICE #",
@@ -258,16 +243,14 @@
   },
   "tttPage": {
     "pageTitle": "Tauschen, Teilen, Tragen – Local Second-hand App",
-    "description": "I designed and developed a user-centered app for the Weilheim an der Teck community to help neighbors swap, share, and wear clothes sustainably. The process included user interviews, wireframes, Figma prototypes, and usability tests to ensure a clear and accessible experience.",
+    "description": "I designed a user-centered app for the Weilheim an der Teck community to help neighbors swap, share, and wear clothes sustainably. The process included user interviews, wireframes, Figma prototypes, and usability tests to ensure a clear and accessible experience.",
     "keyContributions": [
       "User research and personas tailored to local needs",
       "Wireframes and high-fidelity prototypes in Figma",
-      "Responsive, accessible UI across devices",
       "Clear information architecture and intuitive navigation",
       "Usability testing and iterative improvements",
       "Community features: messaging and neighbor recommendations",
       "Fast product filtering and simple search",
-      "Media optimization with WebP and lazy loading",
       "Trust & safety measures (profiles/neighborhood focus)",
       "Local focus to increase relevance and trust"
     ],

@@ -44,7 +44,6 @@
   margin: 0 0 0.75rem 0;
 }
 
-
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -54,7 +53,6 @@
   list-style: none;
 }
 
-/* Chip/pill */
 .chip {
   display: inline-flex;
   align-items: center;
@@ -88,10 +86,10 @@
   background: var(--uxBg, #fff7ec);
 }
 
-/* Grup bloc (titlu + chips) */
-.skillsHeader {
+.chipAI {
+  background-color: #e0e4fa;
+  border: 1px solid #b7c0f5; 
 }
-
 /* Responsive */
 @media (max-width: 800px) {
   .aside {
@@ -147,7 +145,6 @@
   margin-bottom: 1.5rem;
 }
 
-
 .subSkillsTitleNight {
   color: var(--text-night-mode);
 }
@@ -187,7 +184,6 @@
   width: 3rem;
   height: 3rem;
 }
-
 
 .lanTitle {
   text-align: center;
@@ -241,7 +237,7 @@
   text-align: center;
   padding: 0.5rem;
   margin: 0.4rem;
-   font-size: 1.8rem;
+  font-size: 1.8rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -288,11 +284,11 @@
     padding: 0.5rem;
   }
 
-  .certificationsContainer, .aside {
+  .certificationsContainer,
+  .aside {
     margin-top: 3rem;
     width: 100%;
     padding: 0.8rem 0.3rem;
-
   }
 
   .lanTitle {

@@ -3,37 +3,41 @@
     "home": "Acasă",
     "about": "Despre mine",
     "projects": "Proiecte",
-    "services": "Expertiză",
     "contact": "Contact"
   },
   "homePage": {
     "greeting": "Salut! Sunt Cristina,",
     "introduction": "Cred în simplitate și în designuri care să fie înțelese de toată lumea, de la fiica mea de 5 ani, până la mama mea de 72 de ani. Pentru mine, designul înseamnă conexiune, claritate și bucuria de a face lucrurile accesibile tuturor.",
     "readMore": "Descoperă povestea mea",
-    "directToProjects":"Direct la proiecte",
+    "directToProjects": "Direct la proiecte",
     "imageAlt": "Cristina Stoian | Dezvoltatoare UX"
   },
   "aboutPage": {
     "skillsHeader": "Limbaje de programare:",
     "skills": [
       {
-        "name": "HTML5",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        "name": "HTML5"
       },
       {
-        "name": "CSS3",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        "name": "CSS3"
       },
       {
-        "name": "JavaScript",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        "name": "JavaScript"
       },
-      { "name": "React.js", "url": "https://reactjs.org/" },
-      { "name": "TailwindCSS", "url": "https://tailwindcss.com/" },
-      { "name": "Typescript", "url": "https://www.typescriptlang.org/" },
-      { "name": "Git și GitHub", "url": "https://github.com/" },
-      { "name": "Next.js", "url": "https://nextjs.org/" }
+      { "name": "React.js" },
+      { "name": "TailwindCSS" },
+      { "name": "Typescript" },
+      { "name": "Git și GitHub" },
+      { "name": "Next.js" }
     ],
+    "ai": {
+      "title": "IA & Inovație",
+      "skills": [
+        { "name": "Cercetare UX asistată de IA" },
+        { "name": "Prompt Engineering" },
+        { "name": "IA Generativă" }
+      ]
+    },
     "languagesHeader": "Putem comunica în:",
     "languages": [
       { "language": "Română", "level": "nativ" },
@@ -184,25 +188,6 @@
   "loadingMessage": "Portofoliul Cristinei este în curs de încărcare. Vă invităm să-l explorați!",
   "footerText": "© 2025 Cristina Stoian.",
   "footerText2": "  Toate drepturile rezervate. ",
-  "servicesTitle": "Expertiza mea",
-  "customWebDevTitle": "Cercetare utilizatori & Personas",
-  "customWebDevDescription": "Înțelegerea nevoilor utilizatorilor prin interviuri, chestionare și hărți de empatie.",
-  "uiUxDesignTitle": "Wireframes & Prototipuri",
-  "uiUxDesignDescription": "De la schițe low-fidelity la prototipuri interactive care dau viață ideilor.",
-  "spaTitle": "Testare de utilizabilitate",
-  "spaDescription": "Testare iterativă pentru a asigura o navigare intuitivă și experiențe fără fricțiuni.",
-  "apiIntegrationTitle": "Design accesibil & incluziv",
-  "apiIntegrationDescription": "Crearea de interfețe ușor de utilizat și plăcute pentru toată lumea.",
-  "formHandlingTitle": "Implementare UI",
-  "formHandlingDescription": "Transformarea sistemelor de design în cod curat și responsive.",
-  "performanceOptTitle": "Aplicații Single Page (SPA)",
-  "performanceOptDescription": "Construirea de aplicații web moderne și dinamice cu React.",
-  "versionControlTitle": "Integrare & validare API",
-  "versionControlDescription": "Conectarea datelor și asigurarea unor interacțiuni fluide.",
-  "thirdPartyIntegrationTitle": "Optimizare performanță",
-  "thirdPartyIntegrationDescription": "Soluții web rapide, scalabile și de încredere.",
-  "maintenanceTitle": "Mentenanță și suport",
-  "maintenanceDescription": "Oferirea de mentenanță și actualizări continue ale site-ului web. Depanarea și remedierea erorilor.",
 
   "tinyTips": {
     "TinyTipsTitle": "Sfat #",
@@ -256,16 +241,14 @@
   },
   "tttPage": {
     "pageTitle": "Tauschen, Teilen, Tragen – Aplicație locală de second-hand",
-    "description": "Am conceput și dezvoltat o aplicație centrată pe utilizator pentru comunitatea din Weilheim an der Teck, care facilitează schimbul, împărțirea și purtarea sustenabilă a hainelor. Procesul a inclus interviuri cu utilizatori, wireframe-uri, prototipuri în Figma și teste de uzabilitate pentru o experiență clară și accesibilă.",
+    "description": "Am conceput o aplicație centrată pe utilizator pentru comunitatea din Weilheim an der Teck, care facilitează schimbul, împărțirea și purtarea sustenabilă a hainelor. Procesul a inclus interviuri cu utilizatori, wireframe-uri, prototipuri în Figma și teste de uzabilitate pentru o experiență clară și accesibilă.",
     "keyContributions": [
       "Cercetare utilizatori și definirea de personae pentru nevoi locale",
       "Wireframe-uri și prototipuri high-fidelity în Figma",
-      "UI responsiv și accesibil pentru toate dispozitivele",
       "Arhitectură informațională clară și flux de navigare intuitiv",
       "Testare de uzabilitate și îmbunătățiri iterative",
       "Funcții de comunitate: mesaje și recomandări între vecini",
       "Filtrare rapidă a produselor și căutare simplă",
-      "Optimizare media cu WebP și Lazy Loading",
       "Măsuri de încredere și siguranță (profiluri/vecinătate)",
       "Orientare locală pentru creșterea relevanței și încrederii"
     ],

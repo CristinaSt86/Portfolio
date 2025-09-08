@@ -31,69 +31,66 @@ const AboutPage = () => {
   const skills = [
     {
       name: t("aboutPage.skills.3.name"),
-      url: "https://reactjs.org/",
       icon: "logos:react",
     },
     {
       name: t("aboutPage.skills.2.name"),
-      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       icon: "logos:javascript",
     },
     {
       name: t("aboutPage.skills.5.name"),
-      url: "https://www.typescriptlang.org/",
       icon: "logos:typescript-icon",
     },
     {
       name: t("aboutPage.skills.4.name"),
-      url: "https://tailwindcss.com/",
       icon: "logos:tailwindcss-icon",
     },
     {
       name: t("aboutPage.skills.7.name"),
-      url: "https://nextjs.org/",
       icon: "logos:nextjs-icon",
     },
     {
       name: t("aboutPage.skills.0.name"),
-      url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
       icon: "logos:html-5",
     },
     {
       name: t("aboutPage.skills.1.name"),
-      url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       icon: "logos:css-3",
     },
     {
       name: t("aboutPage.skills.6.name"),
-      url: "https://github.com/",
       icon: "logos:git-icon",
     },
   ];
 
   const uxSkills = [
-    { name: "Figma", url: "https://www.figma.com", icon: "logos:figma" },
+    { name: "Figma", icon: "logos:figma" },
     {
       name: "User Research",
-      url: "https://userresearch.google.com",
       icon: "mdi:account-search-outline",
     },
     {
       name: "Wireframes & Prototypes",
-      url: "https://designsprintkit.withgoogle.com/methodology/phase4-prototype",
       icon: "mdi:vector-square",
     },
     {
       name: "Usability Testing",
-      url: "https://www.nngroup.com/articles/usability-testing-101/",
       icon: "mdi:checkbox-marked-circle-outline",
     },
     {
       name: "Design Thinking",
-      url: " https://design.google/library/",
       icon: "mdi:lightbulb-on-outline",
     },
   ];
+
+  // const aiSkills = [
+  //   { name: "AI-assisted UX Research", icon: "mdi:robot" },
+  //   { name: "Prompt Engineering", icon: "mdi:keyboard-outline" },
+  //   {
+  //     name: "Generative AI",
+  //     icon: "mdi:palette",
+  //   },
+  // ];
 
   const languages = [
     {
@@ -114,7 +111,7 @@ const AboutPage = () => {
     },
   ];
 
-  const certifications = [c11, c12, c13, c14, c15, c16, c17, c18, c19];
+  const certifications = [c19, c11, c12, c13, c14, c15, c16, c17, c18];
 
   const scrollToProjects = () => {
     const projectsSection = document.getElementById("projects");
@@ -164,10 +161,34 @@ const AboutPage = () => {
               <ul className={css.chips}>
                 {uxSkills.map((s, i) => (
                   <li key={`ux-${i}`} className={`${css.chip} ${css.chipUX}`}>
-                    <Icon icon={s.icon} width="20" height="20" aria-hidden="true" />
+                    <Icon
+                      icon={s.icon}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
                     <span>{s.name}</span>
                   </li>
                 ))}
+              </ul>
+            </div>
+
+            <div className={css.skillsHeader}>
+              <h3 className={css.groupTitle}>{t("aboutPage.ai.title")}</h3>
+              <ul className={css.chips}>
+                {t("aboutPage.ai.skills", { returnObjects: true }).map(
+                  (s, i) => (
+                    <li key={`ai-${i}`} className={`${css.chip} ${css.chipAI}`}>
+                      <Icon
+                        icon={s.icon}
+                        width="20"
+                        height="20"
+                        aria-hidden="true"
+                      />
+                      <span>{s.name}</span>
+                    </li>
+                  )
+                )}
               </ul>
             </div>
 
@@ -176,7 +197,12 @@ const AboutPage = () => {
               <ul className={css.chips}>
                 {skills.map((s, i) => (
                   <li key={i} className={css.chip}>
-                    <Icon icon={s.icon} width="20" height="20" aria-hidden="true" />
+                    <Icon
+                      icon={s.icon}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
                     <span>{s.name}</span>
                   </li>
                 ))}
