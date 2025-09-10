@@ -101,7 +101,7 @@ const ContactPage = () => {
           {t("contactPage.mobileNumber")}
         </a>
         <a
-          href="/CristinaStoianCV.pdf"
+          href="/CristinaStoianCV11.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={css.secondaryButton}

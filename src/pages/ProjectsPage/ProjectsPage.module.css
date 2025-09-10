@@ -1,9 +1,15 @@
-.mainContainer {
+/* .mainContainer {
   margin: 4rem 0;
   padding: 2rem 1.5rem;
+} */
+
+.mainContainer {
+  margin: 4rem auto; /* centrează secțiunea */
+  padding: 2rem 1.5rem;
+  max-width: 1200px; /* limită de lățime pe container, nu pe grilă */
 }
 
-.projectGrid {
+/* .projectGrid {
   list-style: none;
   margin: 0;
   padding: 1rem;
@@ -12,11 +18,18 @@
   gap: 2rem;
   width: 100%;
   max-width: 1200px;
-
-  /* 📱 mobil: 2 coloane */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
+} */
 
+.projectGrid {
+  list-style: none;
+  margin: 0 auto; /* centrează grila în container */
+  padding: 0; /* scoate paddingul care împingea conținutul */
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: stretch;
+}
 /* 💻 >= 768px: 3 coloane */
 @media (min-width: 768px) {
   .projectGrid {
@@ -104,11 +117,6 @@
   }
   .placeholder {
     height: 4rem;
-  }
-  hr {
-    display: block;
-    border-top: 2px solid #3747d6;
-    width: 8rem;
   }
 }
 

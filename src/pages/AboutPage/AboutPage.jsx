@@ -50,16 +50,21 @@ const AboutPage = () => {
       icon: "logos:nextjs-icon",
     },
     {
-      name: t("aboutPage.skills.0.name"),
-      icon: "logos:html-5",
-    },
-    {
       name: t("aboutPage.skills.1.name"),
       icon: "logos:css-3",
     },
     {
-      name: t("aboutPage.skills.6.name"),
-      icon: "logos:git-icon",
+      name: t("aboutPage.skills.0.name"),
+      icon: "logos:html-5",
+    },
+  ];
+
+  const visualContent = [
+    { name: "Canva", icon: "simple-icons:canva" },
+    { name: "Social Media Content", icon: "mdi:instagram" },
+    {
+      name: "Basic Motion (Figma Smart Animate)",
+      icon: "mdi:animation-outline",
     },
   ];
 
@@ -83,14 +88,13 @@ const AboutPage = () => {
     },
   ];
 
-  // const aiSkills = [
-  //   { name: "AI-assisted UX Research", icon: "mdi:robot" },
-  //   { name: "Prompt Engineering", icon: "mdi:keyboard-outline" },
-  //   {
-  //     name: "Generative AI",
-  //     icon: "mdi:palette",
-  //   },
-  // ];
+  const tools = [
+    { name: "FigJam", icon: "simple-icons:figma", color: "#A259FF" },
+    { name: "Adobe XD", icon: "logos:adobe-xd" },
+    { name: "Notion", icon: "logos:notion-icon" },
+    { name: "VS Code", icon: "logos:visual-studio-code" },
+    { name: "GitHub", icon: "mdi:github" },
+  ];
 
   const languages = [
     {
@@ -166,6 +170,41 @@ const AboutPage = () => {
                       width="20"
                       height="20"
                       aria-hidden="true"
+                    />
+                    <span>{s.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className={css.skillsHeader}>
+              <h3 className={css.groupTitle}>Visual & Content Design</h3>
+              <ul className={css.chips}>
+                {visualContent.map((s, i) => (
+                  <li key={`vc-${i}`} className={`${css.chip}`}>
+                    <Icon
+                      icon={s.icon}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
+                    <span>{s.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className={css.skillsHeader}>
+              <h3 className={css.groupTitle}>Tools</h3>
+              <ul className={css.chips}>
+                {tools.map((s, i) => (
+                  <li key={`tool-${i}`}  className={`${css.chip} ${css.chipUX}`}>
+                    <Icon
+                      icon={s.icon}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                      color={s.color}
                     />
                     <span>{s.name}</span>
                   </li>
