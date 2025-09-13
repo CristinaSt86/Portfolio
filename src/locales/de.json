@@ -12,40 +12,13 @@
     "directToProjects": "Direkt zu den Projekten",
     "imageAlt": "Cristina Stoian | UX Entwicklerin"
   },
+
+
+
+
+
+  
   "aboutPage": {
-    "skillsHeader": "Fähigkeiten:",
-    "skills": [
-      {
-        "name": "HTML5"
-      },
-      {
-        "name": "CSS3"
-      },
-      {
-        "name": "JavaScript"
-      },
-      { "name": "React.js" },
-      { "name": "TailwindCSS" },
-      { "name": "Typescript" },
-      { "name": "Git și GitHub" },
-      { "name": "Next.js" }
-    ],
-    "ai": {
-      "title": "KI & Innovation",
-      "skills": [
-        { "name": "KI-unterstützte UX Research" },
-        { "name": "Prompt Engineering" },
-        { "name": "Generative KI" }
-      ]
-    },
-    "languagesHeader": "Wir können kommunizieren auf:",
-    "languages": [
-      { "language": "Rumänisch", "level": "Muttersprache" },
-      { "language": "Englisch", "level": "C1" },
-      { "language": "Griechisch", "level": "B1" },
-      { "language": "Deutsch", "level": "B1" }
-    ],
-    "certificationsHeader": "Zertifikate",
     "hello": "Mehr als nur ein Lebenslauf",
     "introText": [
       "Für mich ist UX-Design nicht nur ein Prozess, sondern eine Art, die Welt zu sehen. Ich frage mich oft: „Wie könnte das einfacher sein? Intuitiver? Menschlicher?“, sei es bei einer App, einer Website oder im Alltag.",
@@ -53,8 +26,86 @@
       "In jedem Projekt suche ich das Gleichgewicht zwischen Ästhetik und Funktionalität. UX-Design bedeutet, für echte Menschen mit echten Bedürfnissen und Emotionen zu gestalten, von der Klarheit eines Buttons bis zur Freude an einer inklusiven und barrierefreien Oberfläche.",
       "Ich bin dankbar für deine Zeit und hoffe, dass meine Projekte dir Inspiration schenken!"
     ],
-    "toProjects": "Ideen in Aktion"
+    "toProjects": "Ideen in Aktion",
+
+    "sectionTitles": {
+      "ux": "UX & Design",
+      "visual": "Visual & Content Design",
+      "tools": "Tools",
+      "ai": "KI & Innovation",
+      "frontend": "Frontend & Tech"
+    },
+
+    "ux": {
+      "skills": [
+        { "name": "Figma", "icon": "logos:figma" },
+        { "name": "User Research", "icon": "mdi:account-search-outline" },
+        { "name": "Wireframes & Prototypes", "icon": "mdi:vector-square" },
+        { "name": "Usability Testing", "icon": "mdi:checkbox-marked-circle-outline" },
+        { "name": "Design Thinking", "icon": "mdi:lightbulb-on-outline" },
+        { "name": "Accessibility (WCAG)", "icon": "material-symbols:accessibility-rounded" }
+      ]
+    },
+
+    "visual": {
+      "skills": [
+        { "name": "Canva", "icon": "simple-icons:canva" },
+        { "name": "Social Media Content", "icon": "mdi:instagram" },
+        { "name": "Basic Motion (Figma Smart Animate)", "icon": "mdi:animation-outline" }
+      ]
+    },
+
+    "tools": {
+      "skills": [
+        { "name": "FigJam", "icon": "simple-icons:figma", "color": "#A259FF" },
+        { "name": "Adobe XD", "icon": "logos:adobe-xd" },
+        { "name": "Notion", "icon": "logos:notion-icon" },
+        { "name": "VS Code", "icon": "logos:visual-studio-code" },
+        { "name": "GitHub", "icon": "mdi:github" }
+      ]
+    },
+
+    "ai": {
+      "skills": [
+        { "name": "KI-unterstützte UX Research", "icon": "mdi:robot" },
+        { "name": "Prompt Engineering", "icon": "mdi:keyboard-outline" },
+        { "name": "Generative KI", "icon": "mdi:sparkles" }
+      ]
+    },
+
+    "frontend": {
+      "skills": [
+        { "name": "React.js", "icon": "logos:react" },
+        { "name": "JavaScript", "icon": "logos:javascript" },
+        { "name": "Typescript", "icon": "logos:typescript-icon" },
+        { "name": "TailwindCSS", "icon": "logos:tailwindcss-icon" },
+        { "name": "Next.js", "icon": "logos:nextjs-icon" },
+        { "name": "CSS3", "icon": "logos:css-3" },
+        { "name": "HTML5", "icon": "logos:html-5" }
+      ]
+    },
+
+    "languagesHeader": "Wir können kommunizieren auf:",
+    "languages": [
+      { "language": "Rumänisch", "level": "Muttersprache" },
+      { "language": "Englisch", "level": "C1" },
+      { "language": "Griechisch", "level": "B1" },
+      { "language": "Deutsch", "level": "B1" }
+    ],
+
+    "certificationsHeader": "Zertifikate"
   },
+
+
+
+
+
+
+
+
+
+
+
   "projectsPage": {
     "title": "Projekte",
     "projects": [
