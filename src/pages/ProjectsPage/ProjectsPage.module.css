@@ -1,25 +1,8 @@
-/* .mainContainer {
-  margin: 4rem 0;
-  padding: 2rem 1.5rem;
-} */
-
 .mainContainer {
   margin: 4rem auto; /* centrează secțiunea */
   padding: 2rem 1.5rem;
   max-width: 1200px; /* limită de lățime pe container, nu pe grilă */
 }
-
-/* .projectGrid {
-  list-style: none;
-  margin: 0;
-  padding: 1rem;
-  padding-top: 4rem;
-  display: grid;
-  gap: 2rem;
-  width: 100%;
-  max-width: 1200px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-} */
 
 .projectGrid {
   list-style: none;

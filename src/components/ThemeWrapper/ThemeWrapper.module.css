@@ -1,7 +1,3 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 :root {
   --text-night-mode: #f5f7fa;
   --bg-night-mode: #000;
@@ -15,39 +11,6 @@ body {
   font-weight: 500;
   font-family: "Arial", sans-serif;
 }
-
-h1,
-h2 {
-  font-family: "Poppins", sans-serif;
-}
-
-h1{
-  font-weight: 600;
-}
-
-/* .darkTheme {
-  background-color: var(--bg-night-mode);
-  color: var(--text-night-mode);
-  width: 100%;
-  min-height: 100vh;
-  flex-direction: column;
-  box-sizing: border-box;
-  background-attachment: fixed;
-  padding: 0 0.5rem;
-  overflow-x: hidden;
-}
-
-.lightTheme {
-  background-color: var(--bg-day-mode); 
-  color: var(--text-day-mode);
-  width: 100%;
-  min-height: 100vh;
-  flex-direction: column;
-  box-sizing: border-box;
-  background-attachment: fixed;
-  padding: 0 0.5rem;
-  overflow-x: hidden;
-} */
 
 .darkTheme,
 .lightTheme {

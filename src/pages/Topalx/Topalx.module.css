@@ -25,12 +25,14 @@
   height: 0.5rem;
 }
 
+
+
 @media only screen and (max-width: 767px) {
   .mainContainer {
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 2rem 0; 
-    padding: 0.5rem 0.5rem; 
+    margin: 2rem 0;
+    padding: 0.5rem 0.5rem;
   }
 
   .placeholder {
@@ -40,7 +42,7 @@
   .aboutApp {
     padding: 0;
   }
-  .titlu{
-    text-align:center;
+  .titlu {
+    text-align: center;
   }
 }

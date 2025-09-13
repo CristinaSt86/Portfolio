@@ -30,6 +30,7 @@
   gap: 1.5rem;
 }
 
+
 @media only screen and (max-width: 767px) {
   .mainContainer {
     flex-direction: column;
