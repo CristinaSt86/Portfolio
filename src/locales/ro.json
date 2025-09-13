@@ -74,9 +74,9 @@
 
     "ai": {
       "skills": [
-        { "name": "Cercetare UX asistată de AI", "icon": "mdi:robot" },
+        { "name": "Cercetare UX asistată de IA", "icon": "mdi:robot" },
         { "name": "Prompt Engineering", "icon": "mdi:keyboard-outline" },
-        { "name": "AI Generativ", "icon": "mdi:sparkles" }
+        { "name": "IA Generativ", "icon": "mdi:sparkles" }
       ]
     },
 
