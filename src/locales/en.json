@@ -61,11 +61,16 @@
 
     "tools": {
       "skills": [
-        { "name": "FigJam", "icon": "simple-icons:figma", "color": "#A259FF" },
-        { "name": "Adobe XD", "icon": "logos:adobe-xd" },
-        { "name": "Notion", "icon": "logos:notion-icon" },
+        {
+          "name": "Webflow",
+          "icon": "simple-icons:webflow",
+          "color": "#146EF5"
+        },
         { "name": "VS Code", "icon": "logos:visual-studio-code" },
-        { "name": "GitHub", "icon": "mdi:github" }
+        { "name": "GitHub", "icon": "mdi:github" },
+        { "name": "Notion", "icon": "logos:notion-icon" },
+        { "name": "FigJam", "icon": "simple-icons:figma", "color": "#A259FF" },
+        { "name": "Adobe XD", "icon": "logos:adobe-xd" }
       ]
     },
 

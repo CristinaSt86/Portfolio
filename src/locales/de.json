@@ -13,11 +13,6 @@
     "imageAlt": "Cristina Stoian | UX Entwicklerin"
   },
 
-
-
-
-
-  
   "aboutPage": {
     "hello": "Mehr als nur ein Lebenslauf",
     "introText": [
@@ -41,9 +36,15 @@
         { "name": "Figma", "icon": "logos:figma" },
         { "name": "User Research", "icon": "mdi:account-search-outline" },
         { "name": "Wireframes & Prototypes", "icon": "mdi:vector-square" },
-        { "name": "Usability Testing", "icon": "mdi:checkbox-marked-circle-outline" },
+        {
+          "name": "Usability Testing",
+          "icon": "mdi:checkbox-marked-circle-outline"
+        },
         { "name": "Design Thinking", "icon": "mdi:lightbulb-on-outline" },
-        { "name": "Accessibility (WCAG)", "icon": "material-symbols:accessibility-rounded" }
+        {
+          "name": "Accessibility (WCAG)",
+          "icon": "material-symbols:accessibility-rounded"
+        }
       ]
     },
 
@@ -51,17 +52,25 @@
       "skills": [
         { "name": "Canva", "icon": "simple-icons:canva" },
         { "name": "Social Media Content", "icon": "mdi:instagram" },
-        { "name": "Basic Motion (Figma Smart Animate)", "icon": "mdi:animation-outline" }
+        {
+          "name": "Basic Motion (Figma Smart Animate)",
+          "icon": "mdi:animation-outline"
+        }
       ]
     },
 
     "tools": {
       "skills": [
-        { "name": "FigJam", "icon": "simple-icons:figma", "color": "#A259FF" },
-        { "name": "Adobe XD", "icon": "logos:adobe-xd" },
-        { "name": "Notion", "icon": "logos:notion-icon" },
+        {
+          "name": "Webflow",
+          "icon": "simple-icons:webflow",
+          "color": "#146EF5"
+        },
         { "name": "VS Code", "icon": "logos:visual-studio-code" },
-        { "name": "GitHub", "icon": "mdi:github" }
+        { "name": "GitHub", "icon": "mdi:github" },
+        { "name": "Notion", "icon": "logos:notion-icon" },
+        { "name": "FigJam", "icon": "simple-icons:figma", "color": "#A259FF" },
+        { "name": "Adobe XD", "icon": "logos:adobe-xd" }
       ]
     },
 
@@ -95,16 +104,6 @@
 
     "certificationsHeader": "Zertifikate"
   },
-
-
-
-
-
-
-
-
-
-
 
   "projectsPage": {
     "title": "Projekte",
