@@ -22,11 +22,6 @@ const AboutPage = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
 
-  const SubTitle =
-    theme === "dark"
-      ? `${css.subSkillsTitle} ${css.subSkillsTitleNight}`
-      : css.subSkillsTitle;
-
   // helper pentru a citi în siguranță array-urile din i18n
   const readArray = (path) => {
     const arr = t(path, { returnObjects: true });
@@ -88,11 +83,18 @@ const AboutPage = () => {
           <div className={css.aside}>
             {/* UX & Design */}
             <div className={css.skillsHeader}>
-              <h3 className={css.groupTitle}>{t("aboutPage.sectionTitles.ux")}</h3>
+              <h3 className={css.groupTitle}>
+                {t("aboutPage.sectionTitles.ux")}
+              </h3>
               <ul className={css.chips}>
                 {uxSkills.map((s, i) => (
                   <li key={`ux-${i}`} className={`${css.chip} ${css.chipUX}`}>
-                    <Icon icon={s.icon || "mdi:checkbox-blank-circle"} width="20" height="20" aria-hidden="true" />
+                    <Icon
+                      icon={s.icon || "mdi:checkbox-blank-circle"}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
                     <span>{s.name}</span>
                   </li>
                 ))}
@@ -101,11 +103,18 @@ const AboutPage = () => {
 
             {/* Visual & Content Design */}
             <div className={css.skillsHeader}>
-              <h3 className={css.groupTitle}>{t("aboutPage.sectionTitles.visual")}</h3>
+              <h3 className={css.groupTitle}>
+                {t("aboutPage.sectionTitles.visual")}
+              </h3>
               <ul className={css.chips}>
                 {visualSkills.map((s, i) => (
                   <li key={`visual-${i}`} className={css.chip}>
-                    <Icon icon={s.icon || "mdi:image-outline"} width="20" height="20" aria-hidden="true" />
+                    <Icon
+                      icon={s.icon || "mdi:image-outline"}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
                     <span>{s.name}</span>
                   </li>
                 ))}
@@ -114,7 +123,9 @@ const AboutPage = () => {
 
             {/* Tools */}
             <div className={css.skillsHeader}>
-              <h3 className={css.groupTitle}>{t("aboutPage.sectionTitles.tools")}</h3>
+              <h3 className={css.groupTitle}>
+                {t("aboutPage.sectionTitles.tools")}
+              </h3>
               <ul className={css.chips}>
                 {toolSkills.map((s, i) => (
                   <li key={`tool-${i}`} className={`${css.chip} ${css.chipUX}`}>
@@ -123,7 +134,7 @@ const AboutPage = () => {
                       width="20"
                       height="20"
                       aria-hidden="true"
-                      color={s.color || undefined}  // recolorează doar simple-icons/mdi
+                      color={s.color || undefined} // recolorează doar simple-icons/mdi
                     />
                     <span>{s.name}</span>
                   </li>
@@ -133,11 +144,18 @@ const AboutPage = () => {
 
             {/* AI & Innovation */}
             <div className={css.skillsHeader}>
-              <h3 className={css.groupTitle}>{t("aboutPage.sectionTitles.ai")}</h3>
+              <h3 className={css.groupTitle}>
+                {t("aboutPage.sectionTitles.ai")}
+              </h3>
               <ul className={css.chips}>
                 {aiSkills.map((s, i) => (
                   <li key={`ai-${i}`} className={`${css.chip} ${css.chipAI}`}>
-                    <Icon icon={s.icon || "mdi:robot"} width="20" height="20" aria-hidden="true" />
+                    <Icon
+                      icon={s.icon || "mdi:robot"}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
                     <span>{s.name}</span>
                   </li>
                 ))}
@@ -146,11 +164,18 @@ const AboutPage = () => {
 
             {/* Frontend & Tech */}
             <div className={css.skillsHeader}>
-              <h3 className={css.groupTitle}>{t("aboutPage.sectionTitles.frontend")}</h3>
+              <h3 className={css.groupTitle}>
+                {t("aboutPage.sectionTitles.frontend")}
+              </h3>
               <ul className={css.chips}>
                 {feSkills.map((s, i) => (
                   <li key={`fe-${i}`} className={css.chip}>
-                    <Icon icon={s.icon || "mdi:code-tags"} width="20" height="20" aria-hidden="true" />
+                    <Icon
+                      icon={s.icon || "mdi:code-tags"}
+                      width="20"
+                      height="20"
+                      aria-hidden="true"
+                    />
                     <span>{s.name}</span>
                   </li>
                 ))}
@@ -160,10 +185,12 @@ const AboutPage = () => {
 
           {/* Certifications */}
           <div className={css.certificationsContainer}>
-            <h2 className={css.certTitle}>{t("aboutPage.certificationsHeader")}</h2>
+            <h2 className={css.certTitle}>
+              {t("aboutPage.certificationsHeader")}
+            </h2>
             <Separator />
             <section className={css.lightbox}>
-              <LightboxGallery images={[c19, c11, c12, c13, c14, c15, c16, c17, c18]} />
+              <LightboxGallery images={certifications} />
             </section>
           </div>
         </main>

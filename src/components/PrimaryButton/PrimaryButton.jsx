@@ -1,63 +1,54 @@
 import React from "react";
 import css from "./PrimaryButton.module.css";
 import { useTheme } from "../../ThemeContext";
-import { useTranslation } from "react-i18next";
 
-const PrimaryButton= ({
+const PrimaryButton = ({
   to,
   text,
   onClick,
   target = "_blank",
-  additionalClasses = "", // CSS classes that can be added
+  additionalClasses = "",
   children,
-  rel = "noopener noreferrer", // Security for external links
+  rel = "noopener noreferrer",
   ...rest
 }) => {
-  const { theme } = useTheme(); // Assuming this returns either 'light' or 'dark'
-  const {t} = useTranslation();
+  const { theme } = useTheme();
 
-  // Function to get the appropriate theme class
-  const gtgNightMode = () => {
-    return theme === "dark" ? css.darkTheme : css.lightTheme;
-  };
+  // Same logic, just simplified
+  const themeClass = theme === "dark" ? css.darkTheme : css.lightTheme;
 
-  // Handle click logic based on the presence of a URL or just a scroll action
   const handleClick = (e) => {
-    // If `onClick` is provided, use it to handle actions like scrolling
     if (onClick) {
-      e.preventDefault(); // Prevent default behavior
-      onClick(); // Perform the custom action
+      e.preventDefault();
+      onClick();
     }
   };
 
-  // Check if 'to' is provided, this determines if it's a link or a button-like behavior
+  const content = children || text;
+
   if (to) {
     return (
       <a
-        href={to} // For external URLs
+        href={to}
         target={target}
-        rel={rel} // Security for external URLs
-        className={`${css.primaryButton} ${gtgNightMode()} ${additionalClasses}`}
+        rel={rel}
+        className={`${css.primaryButton} ${themeClass} ${additionalClasses}`}
         {...rest}
       >
-        {children || text}{" "}
-        {/* If children exist, render them, otherwise use text */}
+        {content}
       </a>
     );
-  } else {
-    // Button-like behavior (e.g., for scroll or toggle actions)
-    return (
-      <button
-        onClick={handleClick}
-        className={`${css.primaryButton} ${gtgNightMode()} ${additionalClasses}`}
-        {...rest}
-      >
-        {children || text}{" "}
-        {/* If children exist, render them, otherwise use text */}
-        
-      </button>
-    );
   }
+
+  return (
+    <button
+      onClick={handleClick}
+      className={`${css.primaryButton} ${themeClass} ${additionalClasses}`}
+      {...rest}
+    >
+      {content}
+    </button>
+  );
 };
 
 export default PrimaryButton;
