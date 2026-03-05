@@ -5,7 +5,7 @@ import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import Form from "../../components/Form/Form";
 import css from "./ContactPage.module.css";
-import pc from "../../images/contactPicEd.webp";
+import pc from "../../images/Cris4.webp";
 import { Helmet } from "react-helmet-async";
 import Separator from "../../components/Separator/Separator";
 import { Icon } from "@iconify/react";
