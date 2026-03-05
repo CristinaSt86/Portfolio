@@ -15,12 +15,12 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import Separator from "../../components/Separator/Separator";
-import { useTheme } from "../../ThemeContext";
+//import { useTheme } from "../../ThemeContext";
 import { Icon } from "@iconify/react";
 
 const AboutPage = () => {
   const { t } = useTranslation();
-  const { theme } = useTheme();
+  //const { theme } = useTheme();
 
   // helper pentru a citi în siguranță array-urile din i18n
   const readArray = (path) => {
