@@ -1,23 +1,30 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import css from "./HomePage.module.css";
 import Image from "../../components/Image/Image";
-import Cris from "../../images/Cris.webp";
+import Cris from "../../images/Cris4.webp";
 import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
+import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 import { Helmet } from "react-helmet-async";
 import AboutPage from "../AboutPage/AboutPage";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import ContactPage from "../ContactPage/ContactPage";
-import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 
 const HomePage = () => {
   const { theme } = useTheme();
   const { t } = useTranslation();
-  const imagineDark =
-    theme === "dark" ? `${css.imagine} ${css.imagineNight} ` : css.imagine;
-
   const [isMounted, setIsMounted] = useState(false);
+
+  const imagineClass =
+    theme === "dark"
+      ? `${css.imagine} ${css.imagineNight}`
+      : css.imagine;
+
+  const heroClass =
+    theme === "dark"
+      ? `${css.mainContainer} ${css.mainContainerNight}`
+      : css.mainContainer;
 
   useEffect(() => {
     setIsMounted(true);
@@ -75,62 +82,76 @@ const HomePage = () => {
     },
   };
 
-  const scrollToAbout = () => {
-    const aboutSection = document.getElementById("about");
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: "smooth" }); // Smooth scroll
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
     }
   };
-  const scrollToProjects = () => {
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
   return (
     <>
       <Helmet>
         <title>
           Home Page | Cristina Stoian | Frontend Developer Portfolio
         </title>
+
         <meta
           name="description"
           content="Welcome to the homepage of my portfolio, showcasing my projects and skills."
         />
+
         <meta
           name="keywords"
           content="portfolio, frontend developer, web development, projects"
         />
+
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbData)}
         </script>
+
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
       <div className={css.mainMaxWidth}>
-        <div id="home" className={css.flexHome}>
+        <section id="home" className={css.flexHome}>
           <div
-            className={`${css.mainContainer} ${isMounted ? css.animate : ""}`}
+            className={`${heroClass} ${
+              isMounted ? css.animate : ""
+            }`}
           >
-            <Image
-              src={Cris}
-              alt={t("homePage.imageAlt")}
-              className={`${imagineDark} ${css.imageAnimate}`}
-            />
+            <div className={`${css.imageWrapper} ${css.imageAnimate}`}>
+              <Image
+                src={Cris}
+                alt={t("homePage.imageAlt")}
+                className={imagineClass}
+              />
+            </div>
 
             <div className={`${css.introMore} ${css.textAnimate}`}>
-              <h1 className={css.titlu}>{t("homePage.greeting")}</h1>
+              <h1 className={css.titlu}>
+                {t("homePage.greeting")}
+              </h1>
 
-              <h2 className={css.subtitlu}> {t("homePage.introduction")}</h2>
+              <h2 className={css.subtitlu}>
+                {t("homePage.introduction")}
+              </h2>
+
               <div className={css.btnCont}>
                 <PrimaryButton
-                  onClick={scrollToAbout}
+                  onClick={() => scrollToSection("about")}
                   text={t("homePage.readMore")}
                   target="_self"
                 />
+
                 <SecondaryButton
-                  onClick={scrollToProjects}
+                  onClick={() => scrollToSection("projects")}
                   text={t("homePage.directToProjects")}
                   target="_self"
                   additionalClasses={css.secondaryButton}
@@ -138,7 +159,8 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
         <AboutPage />
         <ProjectsPage />
         <ContactPage />

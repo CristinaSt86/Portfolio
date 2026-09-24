@@ -1,23 +1,13 @@
-import React from "react";
-//import { Link } from "react-router-dom";
-import Image from "../../components/Image/Image";
-import { useTheme } from "../../ThemeContext";
 import { useTranslation } from "react-i18next";
 import Form from "../../components/Form/Form";
 import css from "./ContactPage.module.css";
-import pc from "../../images/Cris4.webp";
 import { Helmet } from "react-helmet-async";
 import Separator from "../../components/Separator/Separator";
 import { Icon } from "@iconify/react";
 
 const ContactPage = () => {
-  const { theme } = useTheme();
   const { t } = useTranslation();
   const emailAddress = "cristina.stoian@yahoo.com";
-  const contactBgDarkMode =
-    theme === "dark"
-      ? `${css.contactBackground} ${css.contactBackgroundNight}`
-      : css.contactBackground;
 
   const breadcrumbData = {
     "@context": "https://schema.org",
@@ -57,42 +47,45 @@ const ContactPage = () => {
     <>
       <Helmet>
         <title>Contact | Cristina Stoian | Frontend Developer Portfolio</title>
+
         <meta
           name="description"
           content="Get in touch with me for collaborations or job opportunities in frontend development."
         />
+
         <meta
           name="keywords"
           content="contact, frontend developer, collaboration, hire a developer"
         />
+
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbData)}
         </script>
+
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
       <h1 id="contact" className={css.contactMe}>
         {t("contactPage.contactMe")}
       </h1>
+
       <Separator />
+
       <div className={css.display}>
-        <div className={contactBgDarkMode}>
-          <div className={css.imageContainer}>
-            <Image
-              src={pc}
-              alt={t("contactPage.imageAlt")}
-              className={css.imagine}
-            />
-          </div>
-        </div>
         <Form />
       </div>
+
       <div className={css.contactContainer}>
-        <a href={`mailto:${emailAddress}`} className={css.primaryButton}>
+        <a
+          href={`mailto:${emailAddress}`}
+          className={css.primaryButton}
+        >
           <Icon icon="mdi:email" className={css.icon} />
           {t("contactPage.hireMe")}
         </a>
+
         <a
           href={`tel:${t("contactPage.mobileNumber")}`}
           className={css.secondaryButton}
@@ -100,8 +93,9 @@ const ContactPage = () => {
           <Icon icon="mdi:cellphone" className={css.icon} />
           {t("contactPage.mobileNumber")}
         </a>
+
         <a
-          href="/CristinaStoianLebenslauf.pdf"
+          href="/CristinaStoianDE.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={css.secondaryButton}

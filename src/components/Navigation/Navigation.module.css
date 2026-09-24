@@ -31,7 +31,7 @@
 .links:hover,
 .linksNight:hover {
   text-decoration: underline;
-  color: #3747d6;
+  color: #FFB347;
   transform: translateY(-3px);
   /* transform: scale(1.1); */
 }
@@ -141,7 +141,7 @@
     display: inline;
     /* border-bottom-left-radius: 1rem; */
     /* border-bottom: 2px solid #3747d6; */
-     border-left: 2px solid #3747d6;
+     border-left: 2px solid #FFB347;
   }
 
   .links:hover {
@@ -149,6 +149,6 @@
     border-radius: 0;
     text-decoration: none;
     /* border-bottom-left-radius: 1rem; */
-    border-bottom: 2px solid #3747d6;
+    border-bottom: 2px solid #FFB347;
   }
 }

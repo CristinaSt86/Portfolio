@@ -1,162 +1,265 @@
 @keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
+  from {
+    transform: translateX(-45px);
     opacity: 0;
   }
-  100% {
+
+  to {
     transform: translateX(0);
     opacity: 1;
   }
 }
 
 @keyframes slideInRight {
-  0% {
-    transform: translateX(100%);
+  from {
+    transform: translateX(45px);
     opacity: 0;
   }
-  100% {
+
+  to {
     transform: translateX(0);
     opacity: 1;
   }
 }
 
-.animate .imageAnimate {
-  animation: slideInLeft 1.5s ease-in-out forwards;
-}
-
-.animate .textAnimate {
-  animation: slideInRight 1.5s ease-in-out forwards;
-}
-
-.mainContainer {
-  margin: 4rem 0;
-  padding: 2rem 1.5rem;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  gap: 3rem;
-}
-
 .mainMaxWidth {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .flexHome {
   display: flex;
-  width: 100%;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  padding: 3rem 1.5rem;
+  box-sizing: border-box;
 }
 
-.titlu {
-  text-align: center;
-  z-index: 1001;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  margin-bottom:1rem;
+.mainContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.85fr) minmax(380px, 1.15fr);
+  align-items: center;
+  gap: clamp(3rem, 7vw, 6rem);
+  width: 100%;
+  padding: clamp(2rem, 5vw, 4rem);
+  overflow: hidden;
+  border: 1px solid rgba(55, 71, 214, 0.12);
+  border-radius: 2rem;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(55, 71, 214, 0.14),
+      transparent 38%
+    ),
+    rgba(255, 255, 255, 0.55);
+  box-shadow: 0 1.5rem 4rem rgba(27, 39, 94, 0.1);
 }
 
-.subtitlu {
-  font-weight: 400;
-  text-align: center;
-  margin: 0 0 3rem 0;
-  font-family: "Arial", sans serif;
-  word-spacing: 0.2rem;
+.mainContainerNight {
+  border-color: rgba(255, 255, 255, 0.12);
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(95, 111, 255, 0.18),
+      transparent 38%
+    ),
+    rgba(255, 255, 255, 0.035);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+}
+
+.imageWrapper {
+  width: 100%;
+  max-width: 390px;
+  justify-self: end;
 }
 
 .imagine {
-  height: 22rem;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
   object-fit: cover;
-  border-bottom: 2px solid #445561;
+  object-position: center;
+  border: 1px solid rgba(68, 85, 97, 0.2);
+  border-radius: 2rem 0.5rem 2rem 0.5rem;
+  box-shadow: 0 1.25rem 2.5rem rgba(25, 36, 68, 0.18);
 }
 
 .imagineNight {
-  border-bottom: 2px solid white;
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.35);
 }
 
 .introMore {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  min-width: 0;
+}
+
+.titlu {
+  margin: 0 0 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.15;
+  text-align: left;
+}
+
+.subtitlu {
+  max-width: 650px;
+  margin: 0 0 2.5rem;
+  font-family: "Arial", sans-serif;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-weight: 400;
+  line-height: 1.7;
+  word-spacing: 0.1rem;
+  text-align: left;
+}
+
+.btnCont {
+  display: flex;
+  flex-flow: row wrap;
   align-items: center;
+  gap: 1rem;
 }
-
-.homeBTN {
-  padding: 1rem; 
-}
-
 
 .secondaryButton {
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0.5rem 2rem;
-  border-radius: 0.5rem;
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 1rem;
-  transition: transform 0.3s ease, background-color 0.3s ease,
-    box-shadow 0.3s ease, color 0.3s ease;
-  border: 2px solid #3747d6; /* albastru */
-  color: #3747d6;
-  background-color: transparent;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
-  transition: all 0.3s ease;
+  min-height: 48px;
+  padding: 0.5rem 2rem;
+  border: 2px solid #3747d6;
+  border-radius: 0.65rem;
+  background-color: transparent;
+  color: #3747d6;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    color 0.3s ease;
 }
 
 .secondaryButton:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
   background-color: #3747d6;
-  color: #fff;
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(55, 71, 214, 0.3);
 }
 
-
-.btnCont{
-  display:flex;
-  gap:4rem;
+.secondaryButton:focus-visible {
+  outline: 3px solid rgba(55, 71, 214, 0.35);
+  outline-offset: 3px;
 }
-@media only screen and (max-width: 767px) {
+
+.animate .imageAnimate {
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+.animate .textAnimate {
+  animation: slideInRight 1s ease-out 0.1s both;
+}
+
+/* Tablet */
+@media only screen and (max-width: 900px) {
+  .flexHome {
+    min-height: auto;
+    padding: 2.5rem 1.25rem;
+  }
+
   .mainContainer {
-    flex-direction: column;
-    align.items: center;
-    margin: 2rem 0;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .imageWrapper {
+    width: min(100%, 350px);
+    justify-self: center;
+  }
+
+  .introMore {
+    align-items: center;
+  }
+
+  .titlu,
+  .subtitlu {
+    text-align: center;
+  }
+
+  .btnCont {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .flexHome {
+    padding: 1.5rem 1rem 2.5rem;
+  }
+
+  .mainContainer {
+    gap: 2.25rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .imageWrapper {
+    width: min(65%, 190px);
   }
 
   .imagine {
-    height: 19rem;
+    border-radius: 1.5rem 0.4rem 1.5rem 0.4rem;
   }
+
   .titlu {
     font-size: 2rem;
   }
+
   .subtitlu {
-    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.6;
   }
-  .btnCont{
-  display:flex;
-  flex-direction:column;
-  gap:2rem;
-}
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1368px) {
-  .mainContainer {
+  .btnCont {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+    width: 100%;
+    gap: 1rem;
   }
 
-  .imagine {
-    margin-bottom: 1rem;
+  .btnCont > * {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .secondaryButton {
+    width: 100%;
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .mainContainer {
-    align-items: center;
+@media (prefers-reduced-motion: reduce) {
+  .animate .imageAnimate,
+  .animate .textAnimate {
+    animation: none;
+  }
+
+  .secondaryButton {
+    transition: none;
+  }
+
+  .secondaryButton:hover {
+    transform: none;
   }
 }
